@@ -1,0 +1,172 @@
+import { useMemo, useState, useEffect, useRef } from "react";
+import ProductCard from "@/components/site/ProductCard";
+import SortDropdown, { SortOption } from "@/components/site/SortDropdown";
+import type { Product } from "@shared/api";
+import { products as catalogProducts } from "@/data/catalog";
+import { Link, useLocation } from "react-router-dom";
+
+const SUBCATS = [
+  { key: "all", label: "All Festival Gifts" },
+  { key: "diwali-gifts", label: "Diwali Gifts" },
+  { key: "holi-hampers", label: "Holi Hampers" },
+  { key: "raksha-bandhan-hampers", label: "Raksha Bandhan Hampers" },
+  { key: "eid-gifts", label: "Eid Gifts" },
+  { key: "christmas-gifts", label: "Christmas Gifts" },
+  { key: "new-year-gifts", label: "New Year Gifts" },
+  { key: "navratri-gifts", label: "Navratri Gifts" },
+  { key: "thanksgiving-gifts", label: "Thanksgiving Gifts" },
+  { key: "valentines-day-gifts", label: "Valentine’s Day Gifts" },
+  { key: "easter-hampers", label: "Easter Hampers" },
+  { key: "lohri-hampers", label: "Lohri Hampers" },
+  { key: "onam-hampers", label: "Onam Hampers" },
+];
+
+export default function FestivalGifts() {
+  const [active, setActive] = useState("all");
+  const [sortOption, setSortOption] = useState<SortOption>("none");
+  const scrollRef = useRef<HTMLDivElement | null>(null);
+  const location = useLocation();
+
+  function scrollByOffset(offset: number) {
+    const el = scrollRef.current;
+    if (!el) return;
+    el.scrollBy({ left: offset, behavior: "smooth" });
+  }
+
+  let filtered = useMemo(() => {
+    if (active === "all") {
+      return catalogProducts.filter((p) => p.category === "festival-gifts");
+    }
+    return catalogProducts.filter(
+      (p) => p.subCategory === active && p.category === "festival-gifts"
+    );
+  }, [active]);
+
+  // Apply sorting based on selected option
+  if (sortOption !== "none") {
+    filtered = [...filtered];
+    switch (sortOption) {
+      case "price-asc":
+        filtered.sort((a, b) => a.price - b.price);
+        break;
+      case "price-desc":
+        filtered.sort((a, b) => b.price - a.price);
+        break;
+      case "name-asc":
+        filtered.sort((a, b) => a.name.localeCompare(b.name));
+        break;
+      case "name-desc":
+        filtered.sort((a, b) => b.name.localeCompare(a.name));
+        break;
+    }
+  }
+
+  const [page, setPage] = useState(1);
+  const perPage = 8;
+  const totalPages = Math.max(1, Math.ceil(filtered.length / perPage));
+  const pageItems = filtered.slice((page - 1) * perPage, page * perPage);
+
+  useEffect(() => {
+    setPage(1);
+  }, [active]);
+
+  // sync active subcategory from URL ?sub=
+  useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const sub = params.get("sub") || "all";
+    const valid = SUBCATS.map((s) => s.key);
+    if (valid.includes(sub)) setActive(sub);
+    else setActive("all");
+  }, [location.search]);
+
+  return (
+    <div className="container mx-auto py-10 px-4">
+      <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-4 mb-6">
+        <h1 className="font-serif text-3xl">Festival Gifts</h1>
+        <div className="flex flex-col md:flex-row items-start md:items-center gap-4 w-full md:w-auto">
+          <SortDropdown value={sortOption} onChange={setSortOption} />
+          <Link to="/contact" className="text-sm text-primary underline whitespace-nowrap">
+            Request a quote
+          </Link>
+        </div>
+      </div>
+
+      {/* single-line horizontal slider for subcategory strip with nav buttons */}
+      <div className="mb-6 relative">
+        <div className="overflow-x-auto no-scrollbar pl-10 pr-10" ref={(el) => (scrollRef.current = el)}>
+          <div className="inline-flex gap-3 py-2 px-1">
+            {SUBCATS.map((s) => (
+              <button
+                key={s.key}
+                onClick={() => setActive(s.key)}
+                className={`flex-shrink-0 px-4 py-2 rounded-md text-sm font-medium ${
+                  active === s.key ? 'bg-primary text-primary-foreground' : 'bg-accent hover:bg-accent/80'
+                }`}
+              >
+                {s.label}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        {/* left / right controls */}
+        <button
+          aria-label="Scroll left"
+          onClick={() => scrollByOffset(-300)}
+          className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8 rounded-full bg-white border shadow flex items-center justify-center z-10"
+        >
+          ‹
+        </button>
+        <button
+          aria-label="Scroll right"
+          onClick={() => scrollByOffset(300)}
+          className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8 rounded-full bg-white border shadow flex items-center justify-center z-10"
+        >
+          ›
+        </button>
+      </div>
+
+      {filtered.length === 0 ? (
+        <div className="rounded-lg border border-dashed p-8 text-center text-muted-foreground">
+          No products found for "{SUBCATS.find((s) => s.key === active)?.label}".
+        </div>
+      ) : (
+        <>
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            {pageItems.map((p) => (
+              <ProductCard key={p.id} product={p} />
+            ))}
+          </div>
+
+          <div className="mt-6 flex items-center justify-center gap-3">
+            <button
+              onClick={() => setPage(Math.max(1, page - 1))}
+              disabled={page === 1}
+              className="px-3 py-1 rounded border disabled:opacity-50"
+            >
+              Prev
+            </button>
+
+            {Array.from({ length: totalPages }).map((_, idx) => (
+              <button
+                key={idx}
+                onClick={() => setPage(idx + 1)}
+                className={`px-3 py-1 rounded ${page === idx + 1 ? "bg-primary text-primary-foreground" : "border"}`}
+              >
+                {idx + 1}
+              </button>
+            ))}
+
+            <button
+              onClick={() => setPage(Math.min(totalPages, page + 1))}
+              disabled={page === totalPages}
+              className="px-3 py-1 rounded border disabled:opacity-50"
+            >
+              Next
+            </button>
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
