@@ -625,128 +625,621 @@ Vegetarian`,
  
 
   // PROMO - subCategory: premium
-  {
-    id: "promo-premium-1",
-    name: "Premium Luxury Hamper - A",
-    image: "https://picsum.photos/seed/promo-premium-1/600/400",
-    images: [],
-    price: 2999,
-    originalPrice: 3499,
-    category: "corporates",
-    subCategory: "premium",
-    description: "High-end premium hamper for executive gifting.",
-  },
+
   
   {
-    id: "corp-onboarding-1",
-    name: "Employee Onboarding Kit - Starter",
-    image: "https://picsum.photos/seed/corp-onboarding-1/600/400",
-    images: [],
-    price: 849,
+    id: "Elite Onboarding Welcome Kit",
+    name: "Elite Onboarding Welcome Kit",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763373992/Elite_Onboarding_Welcome_Kit_ufozst.png",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763373992/Elite_Onboarding_Welcome_Kit_ufozst.png"],
+    price: 1599,
     category: "corporates",
     subCategory: "onboarding",
-    description: "Welcome kit for new employees: notebook, pen, and mug.",
+    description: `ake every new beginning memorable with our Elite Onboarding Welcome Kit, thoughtfully curated to offer the perfect blend of professionalism, utility, and sophistication. Designed in a sleek black presentation box, this kit provides all the essentials a new team member needs to feel valued, prepared, and inspired from day one.
+
+This premium welcome kit includes:
+✔️ Executive Notebook – For ideas, planning, and daily notes
+✔️ Insulated Bottle – To keep beverages hot or cold throughout the workday
+✔️ Ceramic Mug – For a warm, comforting coffee or tea break
+✔️ Signature Pen – Smooth writing for everyday tasks
+✔️ Keychain – Stylish and functional
+✔️ Office ID Holder – For easy access and a professional look
+✔️ USB/Multifunction Tool (if included) – For convenient tech use
+
+Perfect for corporate onboarding, employee welcome gifts, client gifting, HR kits, and premium corporate events, this set reflects appreciation while strengthening your company’s professional identity.
+
+Stylish, practical, and impactful—our Elite Onboarding Welcome Kit helps every new employee start their journey on the right note.`,
   },
   {
-    id: "corp-onboarding-2",
-    name: "Employee Onboarding Kit - Pro",
-    image: "https://picsum.photos/seed/corp-onboarding-2/600/400",
-    images: [],
+    id: "Executive Starter Welcome Kit",
+    name: "Executive Starter Welcome Kit",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374333/Executive_Starter_Welcome_Kit_zcmktx.png",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374333/Executive_Starter_Welcome_Kit_zcmktx.png"],
     price: 1299,
     category: "corporates",
     subCategory: "onboarding",
-    description: "Premium onboarding kit with branded apparel and stationery.",
+    description: `Make a powerful first impression with our Executive Starter Welcome Kit, a premium onboarding box crafted to reflect sophistication, practicality, and a warm corporate welcome. Designed in a sleek matte-black presentation box, it includes essential office tools that set the tone for productivity and success.
+
+Inside the kit:
+✔️ Premium Leather Notebook – Perfect for jotting down ideas, meetings, and daily tasks
+✔️ Metallic Executive Pen – Smooth writing with a touch of class
+✔️ Matte Black Insulated Bottle – Keeps beverages hot or cold throughout long workdays
+
+Minimalistic yet impactful, this kit is ideal for new employee onboarding, client gifting, corporate events, induction programs, and HR welcome packages. With its elegant design and functional essentials, it helps every new joiner feel valued and ready to begin their professional journey with confidence.
+
+Stylish, thoughtful, and truly executive—this welcome kit is the perfect way to say “Welcome to the team.”`,
   },
+  {
+    id: "Essential Welcome Box for New Joiners",
+    name: "Essential Welcome Box for New Joiners",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374491/Essential_Welcome_Box_for_New_Joiners_erdban.png",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374491/Essential_Welcome_Box_for_New_Joiners_erdban.png"],
+    price: 1999,
+    category: "corporates",
+    subCategory: "onboarding",
+    description: `Give your new team members a warm, stylish, and thoughtful start with our Essential Welcome Box for New Joiners. Curated to combine practicality with brand-friendly elegance, this kit includes must-have items that support a productive and comfortable beginning in the workplace.
+
+Inside the kit:
+✔️ Premium Polo T-shirt – Smart, comfortable, and perfect for representing the company with pride
+✔️ Matte Black Insulated Bottle – Keeps beverages hot or cold through long workdays
+✔️ Classic Ceramic Mug – For refreshing coffee or tea breaks
+✔️ Executive Pen – Sleek, reliable, and ideal for everyday office use
+
+Packaged in a vibrant, premium gift box, this onboarding kit reflects appreciation, professionalism, and a welcoming corporate culture. Perfect for HR onboarding programs, employee induction, corporate events, and client welcome gifting, it sets a positive tone from day one.
+
+Thoughtful, functional, and brand-ready—this kit is designed to make every new joiner feel valued and prepared.`,
+  },
+  {
+    id: "Premium Corporate Welcome Kit",
+    name: "Premium Corporate Welcome Kit",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374700/Premium_Corporate_Welcome_Kit1_uxzcfe.png",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374700/Premium_Corporate_Welcome_Kit1_uxzcfe.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374701/Premium_Corporate_Welcome_Kit_natkmn.png"
+    ],
+    price: 1699,
+    category: "corporates",
+    subCategory: "onboarding",
+    description: `Welcome your new team members with style and warmth through our Premium Corporate Welcome Kit, a thoughtfully curated collection of office essentials designed to inspire productivity from day one. Packed in a sleek matte-black gift box, this kit blends elegance, functionality, and corporate professionalism.
+
+Inside the kit:
+✔️ Executive Notebook – Ideal for daily tasks, planning, and creative thinking
+✔️ Classic Ceramic Mug – Perfect for energising coffee or tea breaks
+✔️ Metallic Executive Pen – Smooth, reliable writing for everyday use
+✔️ Insulated Black Bottle – Keeps beverages hot or cold throughout the day
+✔️ Premium Packaging Box – Stylish and presentation-ready for onboarding events
+
+Ideal for new employee onboarding, HR welcome programs, client gifting, conferences, and corporate milestone events, this kit ensures every recipient feels valued, prepared, and excited to begin their journey.
+
+Sleek, thoughtful, and truly premium—your brand’s first impression starts here.`,
+  },
+
+  {
+    id: "Signature Welcome Essentials Kit",
+    name: "Signature Welcome Essentials Kit",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374935/Signature_Welcome_Essentials_Kit_mzetlt.png",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374935/Signature_Welcome_Essentials_Kit_mzetlt.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374938/Signature_Welcome_Essentials_Kit1_h8zvfa.png"
+    ],
+    price: 1599,
+    category: "corporates",
+    subCategory: "onboarding",
+    description: `Make every new joiner feel valued and truly part of the team with our Signature Welcome Essentials Kit, a sleek and modern onboarding box crafted to represent professionalism, unity, and your brand’s premium identity. Perfectly coordinated in classic black, this kit includes all the must-have essentials for a confident start in the workplace.
+
+Inside the kit:
+✔️ Premium Polo T-shirt – Smart, comfortable, and ideal for a unified team look
+✔️ Executive Notebook – Perfect for notes, planning, and daily productivity
+✔️ Matte Black Signature Pen – Elegant, smooth-writing, and office-ready
+✔️ Luxury Black Gift Box – A stylish presentation that makes a lasting first impression
+
+Designed for corporate onboarding, HR welcome programs, employee induction, team-building events, and client gifting, this kit blends practicality with a polished aesthetic to ensure new employees feel motivated and appreciated from day one.
+
+Minimal, classy, and meaningful—your brand’s first welcome starts here.`,
+  },
+
+  {
+    id: "The Luxe Wellness Welcome Kit",
+    name: "The Luxe Wellness Welcome Kit",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375119/The_Luxe_Wellness_Welcome_Kit_q2hx4a.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375119/The_Luxe_Wellness_Welcome_Kit_q2hx4a.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375118/The_Luxe_Wellness_Welcome_Kit1_lkrgr2.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375118/The_Luxe_Wellness_Welcome_Kit2_qziqp0.webp"
+    ],
+    price: 1799,
+    category: "corporates",
+    subCategory: "onboarding",
+    description: `Give your team, clients, or loved ones a thoughtful and refreshing start with our Luxe Wellness Welcome Kit, a beautifully curated box designed to inspire calm, productivity, and positivity. Wrapped in a stunning black box with a golden ribbon and complete logo customization, this kit elevates every unboxing moment.
+
+Inside the kit:
+✔️ 2024 Wellness Planner – To organize goals, habits, and mindful living
+✔️ Affirmation Flip Cards – Daily reminders of positivity and self-growth
+✔️ Vanilla Scented Candle – For moments of calm and relaxation
+✔️ Premium White Mug with Lid – Perfect for tea or coffee on-the-go
+✔️ Logo-Branded Badge – Ideal for workspaces or bags
+✔️ Personalized Message Card – Add your welcome note or branding
+
+Perfect for new employee onboarding, festive gifting, corporate retreats, team appreciation, self-care packages, and client gifting, this kit blends elegance with meaningful utility.
+
+Elegant, personal, and inspiring—The Luxe Wellness Welcome Kit is the perfect way to say “Welcome, we’re glad you’re here.”`,
+  },
+
+
+
 
   // CORPORATE - subCategory: anniversary
   {
-    id: "corp-anniversary-1",
-    name: "Work Anniversary Gift - Classic",
-    image: "https://picsum.photos/seed/corp-anniversary-1/600/400",
-    images: [],
-    price: 999,
+    id: "Milestone Work Anniversary Gift Box",
+    name: "Milestone Work Anniversary Gift Box",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375405/Milestone_Work_Anniversary_Gift_Box_qay5pj.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375405/Milestone_Work_Anniversary_Gift_Box_qay5pj.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375402/Milestone_Work_Anniversary_Gift_Box1_wfp4xy.webp"
+    ],
+    price: 799,
     category: "corporates",
     subCategory: "anniversary",
-    description: "Elegant anniversary hamper with sweets and a greeting card.",
+    description: `Celebrate dedication, loyalty, and years of valuable service with our Premium Work Anniversary Gift Box.
+Thoughtfully curated for corporate milestones, this hamper includes a custom-framed certificate, delicious treats, a relaxing scented candle, and a preserved rose symbolizing gratitude and respect.
+Packaged in a luxury box featuring your company logo, it’s the perfect way to recognize employees on their work anniversaries and make them feel truly appreciated.
+Ideal for 1-year, 5-year, or any milestone celebrations—this gift box adds a personal and elegant touch to your employee recognition program.`,
   },
   {
-    id: "corp-anniversary-2",
-    name: "Work Anniversary Gift - Premium",
-    image: "https://picsum.photos/seed/corp-anniversary-2/600/400",
-    images: [],
-    price: 1799,
+    id: "Adventure Awaits Farewell Box",
+    name: "Adventure Awaits Farewell Box",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375781/Adventure_Awaits_Farewell_Box_hucbfe.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375781/Adventure_Awaits_Farewell_Box_hucbfe.webp"],
+    price: 699,
     category: "corporates",
     subCategory: "anniversary",
     description:
-      "Premium dry-fruit and chocolate hamper for milestone anniversaries.",
+      `Make farewells memorable with our New Beginnings Farewell Gift Box, created to appreciate the journey and celebrate a fresh start.
+This beautifully curated hamper features:
+✔ A stylish travel tumbler for new adventures
+✔ Easy-pour specialty coffee to energize the next chapter
+✔ A mini desk plant symbolizing growth and positivity
+✔ A vibrant dreamcatcher for good vibes and good luck
+✔ A farewell message card to express heartfelt wishes
+
+All items come packed in an elegant, logo-branded black box with a premium ribbon finish.
+A perfect farewell present for employees, coworkers, team members, or friends embarking on a new journey—because goodbyes deserve to be special.`,
   },
 
-  // CORPORATE - subCategory: festival
-  {
-    id: "corp-festival-1",
-    name: "Festival Hamper - A",
-    image: "https://picsum.photos/seed/corp-festival-1/600/400",
-    images: [],
-    price: 1499,
+   {
+    id: "Elegant Appreciation Gift Box",
+    name: "Elegant Appreciation Gift Box",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375910/Elegant_Appreciation_Gift_Box_dgmi9v.png",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375910/Elegant_Appreciation_Gift_Box_dgmi9v.png"],
+    price: 899,
     category: "corporates",
-    subCategory: "festival",
+    subCategory: "anniversary",
     description:
-      "Festive hamper suitable for corporate gifting during festivals.",
+      `Show genuine appreciation with our Luxury Achievement Gift Hamper, crafted to make every moment of recognition truly special.
+This premium set includes:
+
+✔ A professionally framed certificate of appreciation
+✔ A stylish matte black insulated bottle, tied with a charming ribbon
+✔ A beautifully wrapped gourmet treat
+✔ Decorative fillers and an elegant pastel gift box with subtle gold detailing
+
+Perfect for employee awards, corporate events, yearly achievements, team recognitions, or client gifting, this hamper conveys gratitude in the most refined way.
+Thoughtful, classy, and memorable—an ideal choice to honor someone who truly deserves it.`,
   },
+
   {
-    id: "corp-festival-2",
-    name: "Festival Hamper - B",
-    image: "https://picsum.photos/seed/corp-festival-2/600/400",
-    images: [],
-    price: 2199,
+    id: "Happy Workiversary Candle",
+    name: "Happy Workiversary Candle",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763376225/Happy_Workiversary_Candle_cw9sfy.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763376225/Happy_Workiversary_Candle_cw9sfy.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763376225/Happy_Workiversary_Candle2_gzbwxm.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763376224/Happy_Workiversary_Candle3_kpyqye.webp"
+    ],
+    price: 1099,
+    category: "corporates",
+    subCategory: "anniversary",
+    description:
+      `Honor years of commitment with our Work Anniversary Appreciation Candle, a warm and heartfelt way to say “Thank You.”
+Hand-poured using premium soy wax, this clean-burning, vegan candle brings a touch of comfort and joy to any workspace or home.
+Featuring a charming “Happy Workiversary” label and the option to include a custom personal message on the back, it becomes a truly special keepsake.
+Ideal for celebrating employee milestones, work anniversaries, or team achievements—this candle makes appreciation feel personal, warm, and unforgettable.`,
+  },
+
+
+  {
+    id: "The Luxury Family Feast Hamper(Corporate)",
+    name: "The Luxury Family Feast Hamper (Corporate)",
+    image: "https://i.ibb.co/0psvzhyJ/The-Family-Feast-Collections.png",
+    price: 3599,
+    originalPrice: 3999,
     category: "corporates",
     subCategory: "festival",
-    description: "Deluxe festival hamper with assorted sweets and decor.",
+    description: `• Top & Bottom Super Luxury Box
+• One Jar of Besan Laddu
+• One Jar of Dryfruits Laddu
+• Three Jars of Dried Fruits
+• Two Jars of Potato Wafers
+• One Box of Chocolate
+• Lord Ganesha and Lakshmi Idol (Brass/Metal)
+• Decorative Diya - 2 pcs
+• Sweets Design Candle (Optional)
+• Copper Water Bottle
+• Premium Greeting Card
+• Lotus Wall Hangings - 2 pcs`
   },
+  {
+    id: "The Jute Blessing(Corporate)",
+    name: "The Jute Blessing (Corporate)",
+    image: "https://i.ibb.co/LhZjYccG/The-Jute-Blessing.png",
+    price: 1599,
+    originalPrice: 1867,
+    category: "corporates",
+    subCategory: "festival",
+    description: `• Woven Basket
+• Decorative Diyas-5pcs
+• Cracker DEsign Chocolates-10pcs
+• Homemaid Chips-200gms
+• Decorative Flower Glass jar
+• One Box of Chocolate
+• Lotus Flower Wall Hanging
+• Custom Note card
+• Poutpuri
+• Besan Laddu-250gms`
+  },
+  {
+    id: "The Harmony(Corporate)",
+    name: "The Harmony(Corporate)",
+    image: "https://i.ibb.co/Wb8ySyn/image.png",
+    price: 1299,
+    originalPrice: 1499,
+    category: "corporates",
+    subCategory: "festival",
+    description: `• Top & Bottom Luxury Box
+• Decorative Diyas-1pcs
+• Assorted Chocolates-10pcs
+• Jar of Crunchy Nuts
+• Rich Cookies
+• Lotus Flower Wall Hanging-2pcs
+• Custom Note card`
+  },
+  {
+    id: "The Excelare(Corporate)",
+    name: "The Excelare (Corporate)",
+    image: "https://i.ibb.co/KjXRLG5v/The-Excelcare.png",
+    price: 1499,
+    originalPrice: 1699,
+    category: "corporates",
+    subCategory: "festival",
+    description: `• Top & Bottom Luxury Box
+• Brass Diyas-2pcs
+• Assorted Chocolates
+• Poutpuri
+• Besan Laddu & Chocolates-250gms
+• Custom Note card`
+  },
+  {
+    id: "The Festival of Flavours Box(Corporate)",
+    name: "The Festival of Flavours Box (Corporate)",
+    image: "https://i.ibb.co/jk5g0MQf/The-Festival-of-flovour-Box.png",
+    price: 1199,
+    originalPrice: 1399,
+    category: "corporates",
+    subCategory: "festival",
+    description: `• Top & Bottom Luxury Box
+• Golden Candle Holder
+• Assorted Chocolates
+• Poutpuri
+• cashews with jute pouch
+• Almonds with jute pouch
+• Custom Note card
+• Lotus Flower Wall hanging`
+  },
+  {
+    id: "The Tyohaar Treat(Corporate)",
+    name: "The Tyohaar Treat (Corporate)",
+    image: "https://i.ibb.co/twwrChs6/The-Tyohaar-Treet.png",
+    price: 1299,
+    originalPrice: 1499,
+    category: "corporates",
+    subCategory: "festival",
+    description: `• Top & Bottom Luxury Box
+• Golden Candle Holder
+• Assorted Chocolates
+• Choco Chips-8pcs
+• Nuts with jute pouch
+• Glass Bottle with jute pouch
+• Custom Note card
+• Lotus Flower Wall hanging`
+  },
+
+  
 
   // CORPORATE - subCategory: funfriday
   {
-    id: "corp-funfriday-1",
-    name: "Fun-Friday Hamper - Snacks",
-    image: "https://picsum.photos/seed/corp-funfriday-1/600/400",
-    images: [],
+    id: "Fun Friday Nostalgia Box",
+    name: "Fun Friday Nostalgia Box",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377041/Fun_Friday_Nostalgia_Box_q8nma7.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377041/Fun_Friday_Nostalgia_Box_q8nma7.webp"],
     price: 599,
     category: "corporates",
     subCategory: "funfriday",
-    description: "Lightweight snack pack for office Fun-Friday activities.",
+    description: `Turn your Fun Friday into a full-on nostalgia celebration with the Fun Friday Bachpan Blast Box!
+Packed with iconic childhood treats such as Magic Pops, Phantom Cigarettes, Coffee Bite, vintage toys, Tinkle Digest, and the classic Brick Game, this box guarantees smiles, giggles, and sweet memories.
+
+Whether you're planning an office Fun Friday activity, surprising your team, or simply treating yourself, this box recreates the charm of those carefree school days.
+Bring your team together, spark conversations, and relive the magic of being a kid—all on a Fun Friday!`,
   },
   {
-    id: "corp-funfriday-2",
-    name: "Fun-Friday Hamper - Games",
-    image: "https://picsum.photos/seed/corp-funfriday-2/600/400",
-    images: [],
-    price: 899,
+    id: "Fun Friday 90s Nostalgia Box",
+    name: "Fun Friday 90s Nostalgia Box",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377202/Fun_Friday_90s_Nostalgia_Box_pk7toi.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377202/Fun_Friday_90s_Nostalgia_Box_pk7toi.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377201/Fun_Friday_90s_Nostalgia_Box1_t6kdeh.avif",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377200/Fun_Friday_90s_Nostalgia_Box2_sl578s.webp"
+    ],
+    price: 799,
     category: "corporates",
     subCategory: "funfriday",
-    description: "Small games & treats bundle to boost team morale.",
+    description: `Bring your office Fun Friday to life with the Fun Friday 90s Kid Forever Box, a nostalgia-loaded hamper designed to spark childhood memories and fun conversations.
+
+Inside this memory-packed box, you'll find:
+✔ Phantom Sweet Cigarettes
+✔ Brick Game (9999 in 1)
+✔ Magic Pops
+✔ Fatafat
+✔ Vintage toys (pencil helicopter, slinky, spinning top, etc.)
+✔ Retro treats and candies
+
+Perfect for team engagement, Fun Friday activities, birthdays, or surprising coworkers with something unexpected and playful.
+This box turns any Friday into a trip back to school days—where we played Brick Game all day, traded candies, and lived life tension-free!`,
+  },
+
+  {
+    id: "Fun Friday Time-Travel Box",
+    name: "Fun Friday Time-Travel Box",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377495/Fun_Friday_Time-Travel_Box_uzfeux.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377495/Fun_Friday_Time-Travel_Box_uzfeux.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377494/Fun_Friday_Time-Travel_Box2_tt7nzm.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377493/Fun_Friday_Time-Travel_Box3_epeahm.webp"
+    ],
+    price: 349,
+    category: "corporates",
+    subCategory: "funfriday",
+    description: `Make Fun Friday truly FUN with the Fun Friday Childhood Throwback Kit, an epic nostalgia-packed hamper celebrating everything we loved as 90s kids.
+
+Inside the box, you’ll find:
+✔ Magic Pops
+✔ Fatafat
+✔ Phantom Sweet Cigarettes
+✔ Brick Game (9999 in 1)
+✔ Archie & Friends Double Digest
+✔ Paper boat toy
+✔ Classic slinky spring
+✔ Retro candies & mini toys
+
+This kit is perfect for office Fun Friday celebrations, creativity breaks, team bonding, or gifting coworkers a joyful walk down memory lane.
+Let your team relive those carefree school days—where Magic Pops cracked in the mouth, Brick Game was life, and Archie Comics ruled!`,
+  },
+
+  {
+    id: "Fun Friday Nostalgia Reloaded Hamper",
+    name: "Fun Friday Nostalgia Reloaded Hamper",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377834/Fun_Friday_Nostalgia_Reloaded_Hamper_wsroaw.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377834/Fun_Friday_Nostalgia_Reloaded_Hamper_wsroaw.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377833/Fun_Friday_Nostalgia_Reloaded_Hamper1_emu1u9.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377832/Fun_Friday_Nostalgia_Reloaded_Hamper2_ljr0e7.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377831/Fun_Friday_Nostalgia_Reloaded_Hamper3_fral6t.webp"
+    ],
+    price: 549,
+    category: "corporates",
+    subCategory: "funfriday",
+    description: `Turn your Fun Friday into a full-on nostalgia festival with the Fun Friday Back-to-Bachpan Box!
+Curated with the most iconic 90s childhood treasures, this box brings back memories of school lunch breaks, neighborhood competitions, and simple joys.
+
+Inside the box, you’ll find:
+✔ Goti Master marbles – for the OG street champions
+✔ Lucky Spinner game – test your luck like old times
+✔ Water-ring mobile game – the legendary arcade in your pocket
+✔ Phantom Sweet Cigarettes – the classic candy we all proudly “smoked”
+✔ Magic Pops – crackling popping candy
+✔ Fatafat – the timeless black digestive
+✔ Lollipops, toffees & little surprise toys
+✔ Retro packaging that screams 90s Kid Forever!
+
+This kit adds energy, laughter, conversations, and cheerful chaos to any Fun Friday celebration.
+Perfect for:
+
+Office teams
+
+Startup culture vibes
+
+Employee engagement
+
+Throwback parties
+
+Gifting coworkers or friends
+
+Bring back the fun, the madness, and the magic—because every Friday deserves a little Bachpan! 🎉`,
+  },
+
+  {
+    id: "Superhero Water Ring Challenge",
+    name: "Superhero Water Ring Challenge",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378209/Superhero_Water_Ring_Challenge_ckzmb6.jpg",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378209/Superhero_Water_Ring_Challenge_ckzmb6.jpg",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378208/Superhero_Water_Ring_Challenge1_u1biem.jpg",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378207/Superhero_Water_Ring_Challenge2_dqewci.jpg",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378205/Superhero_Water_Ring_Challenge3_goqksv.jpg"
+    ],
+    price: 249,
+    category: "corporates",
+    subCategory: "funfriday",
+    description: `Turn your Fun Friday into a full-on nostalgia festival with the Fun Friday Back-to-Bachpan Box!
+Curated with the moExperience nostalgic fun with our Avengers Water Ring Game, a perfect blend of retro gaming and superhero excitement.
+This handheld water toy features vibrant Marvel character prints including Iron Man, Captain America, Hulk, Black Widow, and others.
+Press the soft push button to launch the rings and challenge yourself to land them on the pegs—simple, engaging, and incredibly satisfying!
+
+✔ Avengers-themed graphics
+✔ Lightweight, portable & safe for kids
+✔ Stress-relief toy for adults
+✔ Ideal for birthday return gifts, party favors & Fun Friday hampers
+✔ Size: approx. 13.5 cm
+
+A perfect pick for 90s nostalgia boxes, superhero gift hampers, and everyday fun!`,
+  },
+  {
+    id: "Classic Handheld Brick Game",
+    name: "Classic Handheld Brick Game",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378482/Classic_Handheld_Brick_Game_dfk8ae.jpg",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378482/Classic_Handheld_Brick_Game_dfk8ae.jpg",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378480/Classic_Handheld_Brick_Game2_c5vjru.jpg",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378479/Classic_Handheld_Brick_Game3_gr0i2j.jpg"
+    ],
+    price: 1100,
+    category: "corporates",
+    subCategory: "funfriday",
+    description: `Step back in time with the legendary Vintage 90s Brick Game (9999 in 1)—a must-have for every 90s kid!
+This handheld console features a bright display, responsive buttons, and multiple retro games including Brick, Tank, Racing, Snake, and more.
+Whether you’re building a nostalgia gift box or gifting someone a piece of their childhood, this console brings instant joy.
+
+✔ 9999 in 1 retro brick game
+✔ Lightweight & travel-friendly
+✔ Bright sound options and reset controls
+✔ Classic 90s design in vibrant colors
+✔ Perfect for nostalgia kits, Fun Friday hampers, birthday gifts & office games
+
+This is not just a toy—it's a memory revived!`,
   },
 
   // CORPORATE - subCategory: premium
   {
-    id: "corp-premium-1",
-    name: "Premium Thank-you Hamper - A",
-    image: "https://picsum.photos/seed/corp-premium-1/600/400",
-    images: [],
-    price: 2999,
-    category: "corporates",
-    subCategory: "premium",
-    description: "Luxury thank-you hamper for VIP clients and executives.",
-  },
-  {
-    id: "corp-premium-2",
-    name: "Premium Thank-you Hamper - B",
-    image: "https://picsum.photos/seed/corp-premium-2/600/400",
-    images: [],
+    id: "Nature’s Harmony Gift Set",
+    name: "Nature’s Harmony Gift Set",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380685/Nature_s_Harmony_Gift_Set_eofr5w.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380685/Nature_s_Harmony_Gift_Set_eofr5w.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380685/Nature_s_Harmony_Gift_Set2_ezdy0f.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380684/Nature_s_Harmony_Gift_Set4_urqplv.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380684/Nature_s_Harmony_Gift_Set3_iyp3ic.webp"
+    ],
     price: 3999,
     category: "corporates",
     subCategory: "premium",
+    description: `Celebrate meaningful moments with the Blossom Delight Luxury Gift Box, a beautifully curated hamper designed to spread joy, positivity, and love.
+This premium gift set includes:
+
+✔ Floral Ceramic Mug – vibrant, elegant, and perfect for everyday use
+✔ Designer Wiro Notepad – with scenic artwork for creative thoughts
+✔ Inspirational Desk Art Frame – uplifting visual for any workspace
+✔ Premium Dry Fruit Tin – beautifully designed lotus tin
+✔ Hand-poured Scented Candle – calming fragrance for relaxation
+✔ Chocolate Bar – delicious indulgence to sweeten the moment
+✔ Round Woven Coaster – earthy and aesthetic
+✔ Greeting Card & Wax-sealed Envelope – to share your heartfelt message
+
+Packed in a pastel pink gift box with a satin ribbon, this hamper is a perfect blend of beauty and utility. Ideal for birthdays, 
+thank-you gifts, festive gifting, clients, teachers, employees, or anyone who deserves something special.`,
+  },
+  {
+    id: "The Ultimate Me-Time Gift Box",
+    name: "The Ultimate Me-Time Gift Box",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380981/The_Ultimate_Me-Time_Gift_Box_cnui0e.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380981/The_Ultimate_Me-Time_Gift_Box_cnui0e.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380979/The_Ultimate_Me-Time_Gift_Box2_jenu5u.jpg",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380978/The_Ultimate_Me-Time_Gift_Box3_dihzq1.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380976/The_Ultimate_Me-Time_Gift_Box4_d85cd9.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380975/The_Ultimate_Me-Time_Gift_Box5_bdm6uq.webp"
+    ],
+    price: 1799,
+    category: "corporates",
+    subCategory: "premium",
     description:
-      "Executive hamper with dry fruits, chocolates and premium packaging.",
+      `Indulge in the ultimate self-care experience with our Relax & Recharge Self-Care Gift Hamper, designed to calm the mind, soothe the senses, and refresh the skin.
+This luxurious box includes:
+
+✔ Pilgrim Squalane Foaming Face Wash – With Kiwi & Vitamin B5 to cleanse, nourish, and hydrate
+✔ The Body Shop Strawberry Shower Gel (250ml) – Soap-free, lather-rich & infused with cold-pressed strawberry seed oil
+✔ Bath Lily Loofah – Enhances lather & gently exfoliates
+✔ Hand-poured Soy Candle – Sweet vanilla fragrance for a peaceful ambience
+✔ Ferrero Rocher Chocolates – A touch of indulgence
+✔ Relax & Recharge Art Frame – Inspiring décor for daily motivation
+✔ Pretty Pink Gift Box – With satin ribbon and shredded fillings`,
+  },
+  {
+    id: "Amore Floral Gift Set",
+    name: "Amore Floral Gift Set",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763381320/Amore_Floral_Gift_Set_msxsi8.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763381320/Amore_Floral_Gift_Set_msxsi8.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763381318/Amore_Floral_Gift_Set1_aqrrji.webp",
+      "hhttps://res.cloudinary.com/dzh2zxbvw/image/upload/v1763381317/Amore_Floral_Gift_Set2_ivpduh.jpg"
+    ],
+    price: 1299,
+    category: "corporates",
+    subCategory: "premium",
+    description:
+      `Celebrate your loved ones with the Bloom Beauty Luxury Gift Hamper, a charming collection designed to delight anyone who appreciates elegance and thoughtful gifting.
+
+This premium box includes:
+
+✔ Ferrero Rocher Chocolates – a touch of golden indulgence
+✔ Floral Multipurpose Pouch – chic design with a smooth golden zipper
+✔ Designer Floral Notebook – hardbound, aesthetic, and perfect for journaling
+✔ Floral Ceramic Mug – vibrant and artistic, ideal for daily use
+✔ Soy Wax Candle – gentle fragrance to calm and refresh
+✔ Floral Scrunchie – soft, comfy, and stylish
+✔ Beautiful Gift Box Packaging – pastel themed and ribbon wrapped
+
+Perfect for birthdays, corporate gifting, bridesmaids hampers, teacher appreciation, farewells, and festive gifting.
+It’s the ideal mix of beauty, sweetness, and practicality.`,
+  },
+  {
+    id: "The Gourmet Delight Box",
+    name: "The Gourmet Delight Box",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763381609/The_Gourmet_Delight_Box_flzl3p.png",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763381609/The_Gourmet_Delight_Box_flzl3p.png"
+    ],
+    price: 1399,
+    category: "corporates",
+    subCategory: "premium",
+    description:
+      `Celebrate good taste with our Luxury Snack & Spread Gourmet Hamper, curated for food lovers who appreciate premium quality and unique flavours.
+
+This box includes a thoughtful mix of:
+
+✔ Epiphany Cranberry Almond Crisps – baked, protein-rich, and fibre-loaded
+✔ Bean to Berries Chocolate-Coated Cranberries – dark chocolate goodness
+✔ Eat Better Co. Snack Mix – wholesome, crunchy, and preservative-free
+✔ Ragi & Sesame Crackers – nutritious snacking with a delicious twist
+✔ Snackible Coffee Cookies – aromatic, crisp, and irresistibly tasty
+✔ Oh Cha Spiced Vanilla Tea – comforting artisanal brew
+✔ The Gourmet Jar Red Pepper Pesto – rich, handcrafted flavour bomb
+
+Beautifully packed in a premium floral box, this hamper makes an exceptional choice for corporate gifting, birthdays, housewarmings, 
+festive celebrations, thank-you hampers, and wellness-focused gifts.`,
+  },
+
+  {
+    id: "The Luxe Floral Gourmet Hamper",
+    name: "The Luxe Floral Gourmet Hamper",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763382046/The_Luxe_Floral_Gourmet_Hamper_zcwyme.png",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763382046/The_Luxe_Floral_Gourmet_Hamper_zcwyme.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763382047/The_Luxe_Floral_Gourmet_Hamper1_q3afnl.png"
+    ],
+    price: 1599,
+    category: "corporates",
+    subCategory: "premium",
+    description:
+      `Indulge the senses with the Blush Blossom Indulgence Box—a luxurious curation of gourmet delicacies and artisanal treats. Designed in a premium floral box with golden satin detailing, this hamper makes a refined and memorable gift for any celebration.
+
+Inside the box, you’ll find:
+
+✔ Premium Herbal Tea Tin – flavourful and soothing
+✔ Artisanal Cookies – perfectly baked, rich, and buttery
+✔ Gourmet Chocolate Bar – crafted with exotic flavours
+✔ Luxury Honey Jar / Spread – indulgent and natural
+✔ Basil Olive Oil Crackers – savoury and crisp
+✔ Pistachio Roca / Brittle – a decadent sweet crunch
+✔ Mini Snack Jar – delightful munchies to enjoy anytime
+✔ Designer Keepsake Tin – crafted for reuse
+
+Whether you’re sending festive wishes, celebrating a milestone, or surprising someone special, this hamper delivers premium taste wrapped in elegance.
+
+Perfect for Diwali gifting, client hampers, weddings, birthdays, anniversaries, or premium corporate orders.`,
   },
 
   // CORPORATE - subCategory: partnership
@@ -2424,114 +2917,314 @@ Perfect as a birthday gift, school starter pack, return gift, or surprise presen
   },
 
 
-  // OCCASIONAL - subCategory: friendship-day
-  {
-    id: "occ-friendship-1",
-    name: "Friendship Day Delight",
-    image: "https://picsum.photos/seed/occ-friendship-1/600/400",
-    images: [],
-    price: 549,
-    category: "occasional-gifts",
-    subCategory: "friendship-day",
-    description: "Small token gifts perfect for Friendship Day exchanges.",
-  },
-  {
-    id: "occ-friendship-2",
-    name: "Friendship Goodie Box",
-    image: "https://picsum.photos/seed/occ-friendship-2/600/400",
-    images: [],
-    price: 799,
-    category: "occasional-gifts",
-    subCategory: "friendship-day",
-    description: "Goodie box with treats and a message card for friends.",
-  },
-
-  // OCCASIONAL - subCategory: achievement
-  {
-    id: "occ-achievement-1",
-    name: "Achievement Celebration Pack",
-    image: "https://picsum.photos/seed/occ-achievement-1/600/400",
-    images: [],
-    price: 1199,
-    category: "occasional-gifts",
-    subCategory: "achievement",
-    description: "Congratulatory hamper for milestone achievements and wins.",
-  },
-  {
-    id: "occ-achievement-2",
-    name: "Achievement Premium Set",
-    image: "https://picsum.photos/seed/occ-achievement-2/600/400",
-    images: [],
-    price: 1599,
-    category: "occasional-gifts",
-    subCategory: "achievement",
-    description: "Premium congratulatory set with keepsakes and treats.",
-  },
-
-  // OCCASIONAL - subCategory: retirement
-  {
-    id: "occ-retirement-1",
-    name: "Retirement Farewell Hamper",
-    image: "https://picsum.photos/seed/occ-retirement-1/600/400",
-    images: [],
-    price: 1899,
-    category: "occasional-gifts",
-    subCategory: "retirement",
-    description: "Tasteful hamper to send off colleagues into retirement.",
-  },
-  {
-    id: "occ-retirement-2",
-    name: "Retirement Keepsake Box",
-    image: "https://picsum.photos/seed/occ-retirement-2/600/400",
-    images: [],
-    price: 2299,
-    category: "occasional-gifts",
-    subCategory: "retirement",
-    description: "A keepsake hamper with personalized items for retirees.",
-  },
+  
+  
 
   // OCCASIONAL - subCategory: farewell
   {
-    id: "occ-farewell-1",
-    name: "Farewell Keepsake Box",
-    image: "https://picsum.photos/seed/occ-farewell-1/600/400",
-    images: [],
+    id: "Golden Elegance Chocolate Gift Box",
+    name: "Golden Elegance Chocolate Gift Box",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763365213/Golden_Elegance_Chocolate_Gift_Box_xnioso.png",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763365213/Golden_Elegance_Chocolate_Gift_Box_xnioso.png"],
+    price: 299,
+    category: "occasional-gifts",
+    subCategory: "farewell",
+    description: `Indulge in the charm of luxury with our Golden Elegance Chocolate Gift Box, a perfect blend of style, sweetness, and sophistication. Presented in a pristine white box adorned with a stunning golden satin bow, this delightful set features beautifully wrapped chocolates showcasing an elegant clover-inspired design.
+
+Perfect for weddings, corporate gifting, festive celebrations, anniversaries, or as a thoughtful gesture, this premium chocolate box adds a touch of refined beauty to every moment.
+
+Whether you're gifting someone special or elevating your own celebration, 
+
+
+
+
+the Golden Elegance Chocolate Gift Box promises to leave a lasting impression with its minimalist charm and irresistible sweetness.`,
+  },
+  {
+    id: "Royal Ruby Blossom Thank You Box",
+    name: "Royal Ruby Blossom Thank You Box (Pack of 5)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763364070/Royal_Ruby_Blossom_Thank_You_Box_zfawix.jpg",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763364070/Royal_Ruby_Blossom_Thank_You_Box_zfawix.jpg"],
+    price: 100,
+    category: "occasional-gifts",
+    subCategory: "farewell",
+    description: `Make your celebrations unforgettable with our Royal Ruby Blossom Thank You Box, crafted in a rich maroon shade with luxurious gold detailing. Each box features exquisite floral-inspired sides, adorned with a delicate pearl and satin ribbon bow, creating a stunning blend of sophistication and charm.
+
+Perfect for weddings, engagements, baby showers, festive gifting, return favors, or corporate events, these premium boxes are designed to hold chocolates, dry fruits, candies, or small souvenirs—making every gesture feel special and heartfelt.
+
+Elegant, classy, and crafted with love, the Royal Ruby Blossom Box is the perfect way to say “Thank You” with grace and style.`,
+  },
+
+
+   {
+    id: "The Golden Retirement Coffee Hamper",
+    name: "The Golden Retirement Coffee Hamper",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763365233/The_Golden_Retirement_Coffee_Hamper_orvgiv.jpg",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763365233/The_Golden_Retirement_Coffee_Hamper_orvgiv.jpg"],
+    price: 599,
+    category: "occasional-gifts",
+    subCategory: "farewell",
+    description: `Celebrate a beautiful new chapter with our Golden Retirement Coffee Hamper, thoughtfully curated to honor years of dedication, hard work, and memories. Designed in an elegant black and gold theme, this hamper reflects dignity, gratitude, and the joy of new beginnings.
+
+Inside this premium box, tied with a shimmering gold ribbon, your recipient will find:
+
+1. A classy black ceramic mug — perfect for peaceful, slow morning coffees
+
+2. A Nescafé Gold Latte sachet — because retirement deserves a rich, comforting brew
+
+3. Ferrero Rocher chocolates — sweet moments for sweet days ahead
+
+4. Elegant golden floral décor — symbolizing growth, wisdom, and timeless contribution
+
+Whether you’re gifting a colleague, senior, mentor, or loved one, this hamper is the perfect way to say:
+“Thank you for your years of service. Enjoy the golden years ahead.”`,
+  },
+
+  {
+    id: "Blossom Delight Dry Fruit Jar",
+    name: "Blossom Delight Dry Fruit Jar (500gram jar`",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763364599/Blossom_Delight_Dry_Fruit_Jar_kerqvu.jpg",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763364599/Blossom_Delight_Dry_Fruit_Jar_kerqvu.jpg"],
+    price: 499,
+    category: "occasional-gifts",
+    subCategory: "farewell",
+    description: `Celebrate warmth, love, and thoughtful gifting with our Blossom Delight Dry Fruit Jar, beautifully crafted to add charm to any occasion. Filled with premium-quality cashews and almonds, this glass jar is elegantly wrapped in soft pink net and adorned with a rustic raffia bow.
+
+A stunning floral arrangement on top adds a touch of sophistication, making it the perfect gifting choice for festivals, weddings, return favors, baby showers, corporate gifting, or special celebrations.
+
+Graceful, wholesome, and beautifully designed—this jar offers both taste and elegance in one thoughtful package.`,
+  },
+  {
+    id: "Silver-Plated Tortoise Decorative Plate Set (farewell gift)",
+      name: "Silver-Plated Tortoise Decorative Plate Set",
+      image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115958/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_8_a2lxb3.webp",
+      images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115958/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_8_a2lxb3.webp",
+      
+    ],
+    price: 1999,
+    category: "occasional-gifts",
+    subCategory: "farewell",
+    description: `This beautifully crafted silver-plated tortoise with an intricately designed plate comes in a luxurious velvet box, symbolizing longevity, prosperity, and good fortune. Ideal for wedding return gifts, housewarmings, and festive gifting, it blends tradition with elegance—making it a meaningful keepsake your guests will truly cherish.`,
+  },
+
+  {
+    id: "Serenity Bamboo & Aroma Candle Gift Set(farewell gift)",
+    name: "Serenity Bamboo & Aroma Candle Gift Set",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188921/51Vhp0luHnL_pxxkf9.jpg",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188921/51Vhp0luHnL_pxxkf9.jpg",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188920/515gnUcgG5L_f3o1m0.jpg",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188920/51-GfVUYOBL_crcjyi.jpg"
+    ],
     price: 799,
     category: "occasional-gifts",
     subCategory: "farewell",
-    description: "A small keepsake and treats box to say goodbye warmly.",
+    description: `Bring positivity, warmth, and tranquility into any space with our Serenity Bamboo & Aroma Candle Gift Set. Thoughtfully curated, this premium duo combines the timeless charm of a Lucky Bamboo plant with the comforting fragrance of a Mimosa & Cardamom scented candle. The lush green bamboo, presented in a modern glass planter, symbolizes good fortune, growth, and harmony—making it a meaningful addition to homes and workspaces alike.
+
+Complementing the plant’s natural freshness is the elegant scented candle, crafted to fill the room with a soothing blend of floral mimosa and warm cardamom notes. Its luxurious design and calming aroma create a serene atmosphere, perfect for relaxation, meditation, or setting a peaceful mood after a long day.
+
+Ideal for gifting on anniversaries, housewarmings, festivals, or corporate events, this set beautifully blends nature and fragrance into one thoughtful package. A perfect gesture of love, positivity, and well-being.`,
   },
+
+
   {
-    id: "occ-farewell-2",
-    name: "Farewell Memories Hamper",
-    image: "https://picsum.photos/seed/occ-farewell-2/600/400",
-    images: [],
-    price: 1199,
+    id: "Royal Peacock Heritage Jar Gift Box",
+    name: "Royal Peacock Heritage Jar Gift Box",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763368742/Royal_Peacock_Heritage_Jar_Gift_Box_l3vi5v.jpg",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763368742/Royal_Peacock_Heritage_Jar_Gift_Box_l3vi5v.jpg",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763368742/Royal_Peacock_Heritage_Jar_Gift_Box2_ld0qce.jpg"
+    ],
+    price: 799,
     category: "occasional-gifts",
     subCategory: "farewell",
-    description: "Memory-filled hamper to send off teams and colleagues.",
+    description: `Celebrate timeless elegance with our Royal Peacock Heritage Jar Gift Box, inspired by the rich artistry of Indian culture. This luxurious box features exquisite hand-painted peacock motifs, blooming lotus designs, and regal golden detailing—making it a true statement piece for any occasion.
+
+Inside, the box opens to reveal two premium jars nestled in a silky golden satin lining, perfect for storing dry fruits, sweets, spices, or artisanal treats. The vibrant artwork continues inside the lid, creating a breathtaking unboxing experience filled with beauty and tradition.
+
+Ideal for weddings, festive gifting, anniversaries, housewarmings, and corporate hampers, 
+this gift box blends heritage craftsmanship with modern luxury—making every gift feel special, meaningful, and royal.`,
+  },
+
+  {
+    id: "Lotus Bloom Dry Fruit Duo Gift Pack",
+    name: "Lotus Bloom Dry Fruit Duo Gift Pack",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763368862/Lotus_Bloom_Dry_Fruit_Duo_Gift_Pack_nvdrrr.jpg",
+      images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763368862/Lotus_Bloom_Dry_Fruit_Duo_Gift_Pack_nvdrrr.jpg"
+      ],
+    price: 339,
+    category: "occasional-gifts",
+    subCategory: "farewell",
+    description: `Elegant, vibrant, and full of heartfelt warmth, our Lotus Bloom Dry Fruit Duo Gift Pack makes the perfect retirement return gift. Designed with exquisite lotus artwork on a soothing mint-green base, this graceful box holds two premium jars filled with the finest cashews and almonds—symbolizing good health, prosperity, and new beginnings.
+
+Accented with a delicate golden ribbon and a luxe rope handle, it offers a touch of sophistication that perfectly matches the significance of the occasion. Whether you’re thanking colleagues, team members, or guests, this gift pack beautifully conveys appreciation and respect.
+
+Thoughtfully curated to delight both the eyes and the taste buds, 
+it stands as a meaningful token of gratitude—celebrating years of service, cherished memories, and the beautiful journey ahead.`,
   },
 
   // OCCASIONAL - subCategory: picnic-hampers
   {
-    id: "occ-picnic-1",
-    name: "Picnic Hamper Essentials",
-    image: "https://picsum.photos/seed/occ-picnic-1/600/400",
-    images: [],
-    price: 1499,
+    id: "Stripes Jute Bag Room Hamper(picnic-hampers)",
+    name: "Stripes Jute Bag Room Hamper (picnic-hampers)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951305/Eco-friendly_Rakhi_delight_bag_for_sister_ta0lou.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951305/Eco-friendly_Rakhi_delight_bag_for_sister_ta0lou.webp"],
+    price: 630,
     category: "occasional-gifts",
     subCategory: "picnic-hampers",
-    description: "A compact picnic hamper with snacks and a picnic blanket.",
+    description: `Choco Parlour Room Hamper includes :
+
+Lays
+Kurkure
+Real Juice
+Coca Cola Can
+Britannia Cake
+Doritos
+Cadbury Cookies
+Paper Boat Aamras
+Stripes Jute Bag`
   },
   {
-    id: "occ-picnic-2",
-    name: "Deluxe Picnic Hamper",
-    image: "https://picsum.photos/seed/occ-picnic-2/600/400",
-    images: [],
-    price: 2199,
+    id: "Wedding Serenity Hamper(picnic-hampers",
+    name: "Wedding Serenity Hamper (picnic-hampers)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951304/IMG_9424_1_srsk9u.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951304/IMG_9424_1_srsk9u.webp"],
+    price: 850,
     category: "occasional-gifts",
     subCategory: "picnic-hampers",
-    description: "Large picnic hamper with gourmet snacks and utensils.",
+    description: `Wedding Room Hamper includes:
+
+Lays Chips
+Kurkure
+Real Juice
+Coca Cola Can
+Cake 
+Doritos
+Cadbury Cookies
+Bhujia
+Metal Jute Basket - 12 x 6 x 6 inches
+Net decoration
+Please mention any name personalisation or customisation requirement while checking out. For any other queries drop us a message on Whatsapp, link can be found on the bottom right corner.
+
+Gifting Recommendation:
+
+Immerse your guests in an atmosphere of opulence with our hotel-themed wedding room hampers. From sumptuous bed linens to carefully curated amenities, each item is selected to enhance the comfort and style of their stay.
+
+Why is Wedding Room Hamper the best wedding gift for your guests?
+
+Transform your wedding venue into a haven of luxury and warmth for your guests with our Wedding Room Hampers. Elevate their experience, make them feel truly cherished, and set the stage for unforgettable moments during your joyous celebration. Because every guest deserves to be a part of a love story as beautiful as yours.`
+  },
+  {
+    id: "Snack Time Bliss Basket hamper (picnic-hampers)",
+    name: "Snack Time Bliss Basket hamper (picnic-hampers)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951302/SnackTimeBlissBaskethamper_oamw7t.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951302/SnackTimeBlissBaskethamper_oamw7t.webp"],
+    price: 780,
+    category: "occasional-gifts",
+    subCategory: "picnic-hampers",
+    description: `Wedding Room Hamper includes:
+
+Lays
+Kurkure
+Real Juice
+Coca Cola Can
+Britannia Cake
+Doritos
+Cadbury Cookies
+Paper Boat Aamras
+Organza Festive Tray`
+  },
+  {
+    id: "The Luxe Picnic Delight Hamper(picnic-hampers)",
+    name: "The Luxe Picnic Delight Hamper (picnic-hampers)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371267/The_Luxe_Picnic_Delight_Hamper_r3af5k.png",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371267/The_Luxe_Picnic_Delight_Hamper_r3af5k.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371266/The_Luxe_Picnic_Delight_Hamper2_uonlnc.webp"
+    ],
+    price: 3999,
+    category: "occasional-gifts",
+    subCategory: "picnic-hampers",
+    description: `Bring the charm of the outdoors to your gatherings with our Luxe Picnic Delight Hamper, a beautifully curated basket designed for joyful, memorable moments under the open sky. Packed in a stylish woven picnic basket with sturdy leather handles, this hamper is filled with a delightful assortment of gourmet treats, crunchy nuts, artisanal snacks, sweets, and refreshing indulgences—everything you need for a perfect day out.
+
+Thoughtfully adorned with floral décor and neatly arranged for easy serving, each item inside adds warmth, flavour, and convenience to your picnic experience. Whether you're planning a family outing, a romantic date, a weekend escape, or a get-together with friends, this hamper is your go-to companion for good times and great taste.
+
+Celebrate sunshine, laughter, and togetherness with the Luxe Picnic Delight Hamper—your perfect partner for outdoor bliss.`,
+  },
+
+  {
+    id: "Wild Picnic Buddies Drawstring Pouch Set",
+    name: "Wild Picnic Buddies Drawstring Pouch Set",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371687/Wild_Picnic_Buddies_Drawstring_Pouch_Set_teeopl.jpg",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371687/Wild_Picnic_Buddies_Drawstring_Pouch_Set_teeopl.jpg"
+    ],
+    price: 499,
+    category: "occasional-gifts",
+    subCategory: "picnic-hampers",
+    description: `Make every outdoor moment crunchy and exciting with our Wild Picnic Munchies Pouch—a cute drawstring bag featuring adorable animal designs like the lion, elephant, monkey, zebra, giraffe, and hippo. Each pouch is filled with a fun assortment of Indian packed snacks such as Kurkure, Lays, Bhujia, Chips, Mini Biscuits, and other kid-friendly munchies, making it the perfect treat for picnics and outings.
+
+Lightweight, reusable, and easy to carry, this soft cotton pouch keeps all snacks neatly packed while adding a playful charm to your picnic setup. The secure drawstring closure ensures your goodies stay safe while the cute animal prints bring joy to everyone around.
+
+Perfect for school picnics, family outings, kids’ birthday return gifts, travel hampers, and fun outdoor events, this munchies pouch adds taste, 
+excitement, and adorable style to every adventure.`,
+  },
+
+
+
+
+
+   {
+    id: "Jungle Picnic Munch Pack",
+    name: "Jungle Picnic Munch Pack",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371956/Jungle_Picnic_Munch_Pack_nhebc1.jpg",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371956/Jungle_Picnic_Munch_Pack_nhebc1.jpg"
+    ],
+    price: 399,
+    category: "occasional-gifts",
+    subCategory: "picnic-hampers",
+    description: `Turn your picnic into a wild adventure with our Jungle Picnic Munch Pack, a fun and exciting snack bag inspired by the cutest safari animals! Each kraft paper bag comes decorated with adorable jungle characters like the monkey, polar bear, and leopard—bringing instant joy to kids and adults alike.
+
+Inside every pack is a delicious mix of Indian snack favourites such as Kurkure, Lays, chips, namkeens, biscuits, and mini treats—perfect for munching during school picnics, outdoor play, family outings, or birthday celebrations.
+
+Lightweight, easy to carry, and full of yummy surprises, these Jungle Picnic Munch Packs make every outdoor moment more delightful and wholesome. A perfect return gift for picnics, kids’ parties, adventure-themed events, and school outings.`,
+  },
+
+
+  {
+    id: "Picnic Backpack Snack Pouch",
+    name: "Picnic Backpack Snack Pouch (pack of 2)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372402/Picnic_Backpack_Snack_Pouch5_em642g.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372402/Picnic_Backpack_Snack_Pouch5_em642g.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372399/Picnic_Backpack_Snack_Pouch2_pbi7og.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372400/Picnic_Backpack_Snack_Pouch_bnvebp.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372399/Picnic_Backpack_Snack_Pouch3_udqe0q.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372399/Picnic_Backpack_Snack_Pouch4_cy9tqi.webp"
+    ],
+    price: 699,
+    category: "occasional-gifts",
+    subCategory: "picnic-hampers",
+    description: `Make snack time extra fun with our Picnic Backpack Snack Pouch, designed in an adorable cartoon-style school bag shape that kids instantly fall in love with! With a clear front window to showcase the treats inside, this pouch adds excitement and surprise to every picnic adventure.
+
+Filled with a delightful mix of Indian packed snacks like Kurkure, Lays, chips, mini biscuits, chocolates, and fruity jellies, it’s the perfect pick for school outings, birthday return gifts, travel hampers, and outdoor fun.
+
+Lightweight, resealable, and super cute, this pouch makes munching easy while keeping snacks fresh and organized. 
+A playful must-have for little explorers who love tasty treats on the go!`,
+  },
+
+
+    {
+    id: "FunPicnic Cartoon Backpack Snack Bag",
+    name: "FunPicnic Cartoon Backpack Snack Bag (pack of 2)",
+    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372801/FunPicnic_Cartoon_Backpack_Snack_Bag_fxodts.webp",
+    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372801/FunPicnic_Cartoon_Backpack_Snack_Bag_fxodts.webp","https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372801/FunPicnic_Cartoon_Backpack_Snack_Bag2_gwo6zq.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372801/FunPicnic_Cartoon_Backpack_Snack_Bag3_bp8tmk.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372801/FunPicnic_Cartoon_Backpack_Snack_Bag4_dpsisf.webp"
+    ],
+    price: 599,
+    category: "occasional-gifts",
+    subCategory: "picnic-hampers",
+    description: `Make every picnic extra joyful with our FunPicnic Cartoon Backpack Snack Bag, the cutest treat pack kids will absolutely love! Designed to look like a colorful cartoon school bag, these pouches come in bright, playful colours and feature a clear window that reveals all the yummy goodies inside.
+
+Each bag is filled with a mix of kid-favourite Indian snacks such as Kurkure, Lays, chips, biscuits, chocolates, jellies, and more—perfect for outdoor fun, school picnics, birthday parties, and adventure-filled days.
+
+Lightweight, resealable, and super stylish, these snack bags keep treats fresh while adding excitement to every moment. Whether it’s for a group picnic, a classroom outing, or a return gift, this backpack-shaped snack pouch is sure to bring big smiles and happy munching!`,
   },
 
   // === OCCASIONAL ITEMS END ===
