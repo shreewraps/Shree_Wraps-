@@ -7,14 +7,10 @@ export default function AboutUs() {
       <section className="bg-gradient-to-r from-primary/90 to-primary text-white py-20 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold">About Us</h1>
         <p className="mt-4 max-w-2xl mx-auto text-lg opacity-90">
-
-          At Shree Wraps, our vision is to bring joy
-          and authenticity to every celebration by
-          combining artful gifting with wholesome,
-          homemade sweetness. We are committed
-          to creating products that are pure,
-          delightful, and memorable for every
-          customer
+          At Shree Wraps, our vision is to bring joy and authenticity to every
+          celebration by combining artful gifting with wholesome, homemade
+          sweetness. We are committed to creating products that are pure,
+          delightful, and memorable for every customer
         </p>
       </section>
 
@@ -26,12 +22,11 @@ export default function AboutUs() {
             <h2 className="text-4xl font-bold mb-6">Our Story</h2>
             <p className="text-lg text-gray-600 leading-relaxed">
               Shree Wraps, a unique blend of creativity, tradition, and
-              celebration. We specialize in premium gift wrapping
-              solutions and delightful sweet making, bringing an extra
-              touch of joy to every occasion. At Shree Wraps, we
-              believe that gifts are not just about what’s inside, but also
-              about how they are presented—with love, elegance, and
-              thoughtfulness.
+              celebration. We specialize in premium gift wrapping solutions and
+              delightful sweet making, bringing an extra touch of joy to every
+              occasion. At Shree Wraps, we believe that gifts are not just about
+              what’s inside, but also about how they are presented—with love,
+              elegance, and thoughtfulness.
               <br />
               <br />
               We believe in innovation, teamwork, and dedication, and our story
@@ -43,13 +38,9 @@ export default function AboutUs() {
           <div className="relative rounded-xl overflow-hidden group shadow-lg max-w-md mx-auto">
             <img
               src="https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763383083/WhatsApp_Image_2025-11-17_at_6.06.41_PM_o3gywd.jpg"
-             
               className="w-[950px] h-[710px] object-cover transform group-hover:scale-110 transition duration-500"
             />
-            <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/80 to-transparent p-6 transition duration-500 group-hover:from-black/90">
-              
-             
-            </div>
+            <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/80 to-transparent p-6 transition duration-500 group-hover:from-black/90"></div>
           </div>
         </div>
       </section>
@@ -94,7 +85,6 @@ export default function AboutUs() {
           </div>
         </div>
       </section>
-
     </div>
   );
 }

@@ -146,11 +146,13 @@ export const products: Product[] = [
   {
     id: "Exclusive Passport Cover - Wanderlust",
     name: "Exclusive Passport Cover - Wanderlust",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762758513/Gemini_Generated_Image_awub9cawub9cawub_onhx8j.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762758513/Gemini_Generated_Image_awub9cawub9cawub_onhx8j.png",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762758513/Gemini_Generated_Image_awub9cawub9cawub_onhx8j.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762758513/Gemini_Generated_Image_awub9cawub9cawub_onhx8j.png",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762758514/Gemini_Generated_Image_8y63vp8y63vp8y63_sceydm.png",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762758513/Gemini_Generated_Image_90fk3s90fk3s90fk_cz2ptg.png",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762758512/personalized-passport-cover-forest-green-the-messy-corner-passport-cover-19463612858524_0ac71628-1e57-4cc2-b3d4-025a661cbd56_1300x_z6j4kn.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762758512/personalized-passport-cover-forest-green-the-messy-corner-passport-cover-19463612858524_0ac71628-1e57-4cc2-b3d4-025a661cbd56_1300x_z6j4kn.webp",
     ],
     price: 449,
     originalPrice: 900,
@@ -161,54 +163,66 @@ export const products: Product[] = [
   {
     id: "Travel Memory Box - souvenir & keepsake box customized",
     name: "Travel Memory Box - souvenir & keepsake box customized",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762771590/Gemini_Generated_Image_xh6l3mxh6l3mxh6l_eigmwy.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762771590/Gemini_Generated_Image_xh6l3mxh6l3mxh6l_eigmwy.png",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762771589/Gemini_Generated_Image_2sne1x2sne1x2sne_z6drjx.png"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762771590/Gemini_Generated_Image_xh6l3mxh6l3mxh6l_eigmwy.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762771590/Gemini_Generated_Image_xh6l3mxh6l3mxh6l_eigmwy.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762771589/Gemini_Generated_Image_2sne1x2sne1x2sne_z6drjx.png",
+    ],
     price: 990,
     originalPrice: 1399,
     category: "promotional-gifts",
     subCategory: "travel",
     description: "Premium travel kit for corporate gifting.",
   },
-   {
+  {
     id: "Customized 6-in-1 Travel Gift Set – Perfect for Business & Travel",
     name: "Customized 6-in-1 Travel Gift Set – Perfect for Business & Travel",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762772027/Gemini_Generated_Image_jkpv94jkpv94jkpv_fbdsn6.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762772027/Gemini_Generated_Image_jkpv94jkpv94jkpv_fbdsn6.png",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762772027/Gemini_Generated_Image_jkpv94jkpv94jkpv_fbdsn6.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762772027/Gemini_Generated_Image_jkpv94jkpv94jkpv_fbdsn6.png",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762772026/Gemini_Generated_Image_an4seoan4seoan4s_o6afgp.png",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762772026/Gemini_Generated_Image_ig3189ig3189ig31_xbbxnq.png"],
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762772026/Gemini_Generated_Image_ig3189ig3189ig31_xbbxnq.png",
+    ],
     price: 1495,
     originalPrice: 2995,
     category: "promotional-gifts",
     subCategory: "travel",
     description: "Premium travel kit for corporate gifting.",
   },
-    {
+  {
     id: "Jet Setter Gift Tote",
     name: "Jet Setter Gift Tote",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762772306/NewProject_3_1476905e-1302-4605-9884-ad9492af6d18_800x800_iwmdi7.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762772306/NewProject_3_1476905e-1302-4605-9884-ad9492af6d18_800x800_iwmdi7.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762772305/NewProject_4_25588915-ad3a-4329-bcae-9c30bf415726_800x800_clvbqi.webp"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762772306/NewProject_3_1476905e-1302-4605-9884-ad9492af6d18_800x800_iwmdi7.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762772306/NewProject_3_1476905e-1302-4605-9884-ad9492af6d18_800x800_iwmdi7.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762772305/NewProject_4_25588915-ad3a-4329-bcae-9c30bf415726_800x800_clvbqi.webp",
+    ],
     price: 7130,
     originalPrice: 7130,
     category: "promotional-gifts",
     subCategory: "travel",
     description: "Premium travel kit for corporate gifting.",
   },
-    {
+  {
     id: "Gold Foiled Pocket Umbrella",
     name: "Gold Foiled Pocket Umbrella",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762772590/DSC09506-min_1800x1800_jurumd.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762772590/DSC09506-min_1800x1800_jurumd.jpg",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762772590/DSC09506-min_1800x1800_jurumd.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762772590/DSC09506-min_1800x1800_jurumd.jpg",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762772589/DSC09520-min_1500x1500_l6eekt.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762772589/DSC09516-min_1800x1800_mbeslu.webp"],
-    price: 800 ,
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762772589/DSC09516-min_1800x1800_mbeslu.webp",
+    ],
+    price: 800,
     originalPrice: 1000,
     category: "promotional-gifts",
     subCategory: "travel",
     description: "Premium travel kit for corporate gifting.",
   },
-   {
+  {
     id: "PERSONALIZED CLEAR ZIPPER POUCH - COD NOT APPLICABLE - travel",
     name: "PERSONALIZED CLEAR ZIPPER POUCH - COD NOT APPLICABLE",
     image:
@@ -224,7 +238,7 @@ export const products: Product[] = [
     subCategory: "travel",
     description: "Value everyday gift with custom branding options.",
   },
-   {
+  {
     id: "PERSONALIZED LARGE CERAMIC COFFEE MUG - COD NOT APPLICABLE - travel",
     name: "PERSONALIZED LARGE CERAMIC COFFEE MUG - COD NOT APPLICABLE",
     image:
@@ -290,14 +304,15 @@ export const products: Product[] = [
     description: "Value everyday gift with custom branding options.",
   },
 
-
   // PROMO - subCategory: lifestyle
   {
     id: "Gorgeous Bride Gift Box",
     name: "Gorgeous Bride Gift Box",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762855490/Gorgeous-Bride-2-768x768_haumcj.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762855490/Gorgeous-Bride-2-768x768_haumcj.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762855489/Gorgeous-Bride--768x782_btjawv.webp"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762855490/Gorgeous-Bride-2-768x768_haumcj.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762855490/Gorgeous-Bride-2-768x768_haumcj.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762855489/Gorgeous-Bride--768x782_btjawv.webp",
     ],
     price: 2175,
     originalPrice: 2500,
@@ -305,13 +320,15 @@ export const products: Product[] = [
     subCategory: "lifestyle",
     description: "Personal care & lifestyle gifts suitable for events.",
   },
-  
+
   {
     id: "Pretty Pink Box for Her",
     name: "Pretty Pink Box for Her",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856397/Pretty-Pink-Gift-Hamper-3_vlqpxo.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856397/Pretty-Pink-Gift-Hamper-3_vlqpxo.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856397/Pretty-Pink-Gift-Hamper-3_vlqpxo.webp"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856397/Pretty-Pink-Gift-Hamper-3_vlqpxo.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856397/Pretty-Pink-Gift-Hamper-3_vlqpxo.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856397/Pretty-Pink-Gift-Hamper-3_vlqpxo.webp",
     ],
     price: 2599,
     originalPrice: 2999,
@@ -322,11 +339,13 @@ export const products: Product[] = [
   {
     id: "Pamper Yourself Gift Hamper",
     name: "Pamper Yourself Gift Hamper",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856972/pamper-yourself-gift-hamper-the-spring-palette-37328289169627_uye89z.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856972/pamper-yourself-gift-hamper-the-spring-palette-37328289169627_uye89z.webp",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856972/pamper-yourself-gift-hamper-the-spring-palette-37328289169627_uye89z.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856972/pamper-yourself-gift-hamper-the-spring-palette-37328289169627_uye89z.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856971/pamper-yourself-gift-hamper-the-spring-palette-37328289661147_ne8zap.jpg",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856970/pamper-yourself-gift-hamper-the-spring-palette-37328304111835_x1ormz.jpg",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856970/pamper-yourself-gift-hamper-the-spring-palette-37328290021595_ayfity.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762856970/pamper-yourself-gift-hamper-the-spring-palette-37328290021595_ayfity.webp",
     ],
     price: 2249,
     originalPrice: 2999,
@@ -334,13 +353,15 @@ export const products: Product[] = [
     subCategory: "lifestyle",
     description: "Personal care & lifestyle gifts suitable for her.",
   },
-   {
+  {
     id: "Sweet Birthday Celebration Basket",
     name: "Sweet Birthday Celebration Basket",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857495/Gemini_Generated_Image_t1ek01t1ek01t1ek_himzxy.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857495/Gemini_Generated_Image_t1ek01t1ek01t1ek_himzxy.png",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857495/Gemini_Generated_Image_t1ek01t1ek01t1ek_himzxy.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857495/Gemini_Generated_Image_t1ek01t1ek01t1ek_himzxy.png",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857495/Gemini_Generated_Image_rhk2uirhk2uirhk2_ggcl3w.png",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857496/Gemini_Generated_Image_kahar6kahar6kaha_az8oef.png"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857496/Gemini_Generated_Image_kahar6kahar6kaha_az8oef.png",
     ],
     price: 1575,
     originalPrice: 1800,
@@ -353,11 +374,13 @@ export const products: Product[] = [
   {
     id: "Thenga Evergreen Eco-Friendly Gift Hampers",
     name: "Thenga Evergreen Eco-Friendly Gift Hampers",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857931/Evergreen3_1080x_phrevh.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857931/Evergreen3_1080x_phrevh.webp",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857931/Evergreen3_1080x_phrevh.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857931/Evergreen3_1080x_phrevh.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857930/285_1080x_aqruoi.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857929/Evergreen2_1080x_rfmhnv.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857928/284_180x_pccbcg.avif"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762857928/284_180x_pccbcg.avif",
     ],
     price: 1499,
     originalPrice: 1799,
@@ -367,120 +390,127 @@ export const products: Product[] = [
   },
   // PROMO - subCategory: eco
   {
-  id: "Eco - Essentials",
-  name: "Eco - Essentials",
-  image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858534/eco-friendly-gift_cbg5tt.webp",
-  images: [
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858534/eco-friendly-gift_cbg5tt.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858532/corporate-eco-friendly-gifts_ztazcl.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858530/eco-friendly-gift-hamper_vfnz6q.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858529/Mug_2_y7afv3.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858528/CoconutCandle_vsffkq.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858527/multipurpose-eco-friendly-canvas-pouch_sdfzhc.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858526/StrawP4_iby4fu.webp"
-  ],
-  price: 2650,
-  originalPrice: 3100,
-  category: "promotional-gifts",
-  subCategory: "eco",
-  description: `Are you looking for eco-friendly gift hampers for employees, clients, and business associates? Check out our ‘eco-essentials’ organic gift hamper that will not only cater to your brand image but also protect the environment. Transform your everyday routine with this eco-conscious, sustainable gift hamper that combines style and sustainability.
+    id: "Eco - Essentials",
+    name: "Eco - Essentials",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858534/eco-friendly-gift_cbg5tt.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858534/eco-friendly-gift_cbg5tt.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858532/corporate-eco-friendly-gifts_ztazcl.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858530/eco-friendly-gift-hamper_vfnz6q.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858529/Mug_2_y7afv3.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858528/CoconutCandle_vsffkq.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858527/multipurpose-eco-friendly-canvas-pouch_sdfzhc.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762858526/StrawP4_iby4fu.webp",
+    ],
+    price: 2650,
+    originalPrice: 3100,
+    category: "promotional-gifts",
+    subCategory: "eco",
+    description: `Are you looking for eco-friendly gift hampers for employees, clients, and business associates? Check out our ‘eco-essentials’ organic gift hamper that will not only cater to your brand image but also protect the environment. Transform your everyday routine with this eco-conscious, sustainable gift hamper that combines style and sustainability.
 
 The chic multipurpose canvas pouch keeps your essentials organized, while the 250-ml eco-friendly travel cup makes every sip feel planet-friendly. With the reusable stainless steel straw set of 4 straws in its jute pouch, you can make a small but meaningful change in your daily life to conserve the planet. Plus, you will get a coconut shell candle made with soy wax that adds a touch of natural serenity to any space.
 
 This eco-friendly gift hamper is perfect for those who want to make a positive impact on the environment while enjoying stylish and practical accessories.`,
-},
-{
-  id: "The Eco-friendly Box",
-  name: "The Eco-friendly Box",
-  image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859400/Gemini_Generated_Image_l0d3f6l0d3f6l0d3_sklqhn.png",
-  images: [
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859400/Gemini_Generated_Image_l0d3f6l0d3f6l0d3_sklqhn.png",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859401/Gemini_Generated_Image_f0fdbzf0fdbzf0fd_p54vpy.png",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859432/41KDjRa5viL_888ec556-919e-4b8b-9ff0-8d398c77b85d_phoxrw.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859433/CorkV1_paad1w.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859435/WhatsAppImage2023-09-02at14.25.59_2_indto2.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859436/WhatsAppImage2023-09-02at14.26.00_jdnuzb.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859439/travelpouch.03_fb1f6bef-f104-4269-bf1a-4e1b047af671_zj6g8w.webp"
-  ],
-  price: 3350,
-  originalPrice: 3700,
-  category: "promotional-gifts",
-  subCategory: "eco",
-  description: `Going eco-friendly can help you go a long way.’ This saying is especially true when it comes to corporate gifting. Choosing environmentally friendly gifts is not just good for the environment but also good for your brand image. If you are looking for some creative, thoughtful, and sustainable gift ideas, this Eco-friendly box would be perfect for you.
+  },
+  {
+    id: "The Eco-friendly Box",
+    name: "The Eco-friendly Box",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859400/Gemini_Generated_Image_l0d3f6l0d3f6l0d3_sklqhn.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859400/Gemini_Generated_Image_l0d3f6l0d3f6l0d3_sklqhn.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859401/Gemini_Generated_Image_f0fdbzf0fdbzf0fd_p54vpy.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859432/41KDjRa5viL_888ec556-919e-4b8b-9ff0-8d398c77b85d_phoxrw.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859433/CorkV1_paad1w.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859435/WhatsAppImage2023-09-02at14.25.59_2_indto2.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859436/WhatsAppImage2023-09-02at14.26.00_jdnuzb.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762859439/travelpouch.03_fb1f6bef-f104-4269-bf1a-4e1b047af671_zj6g8w.webp",
+    ],
+    price: 3350,
+    originalPrice: 3700,
+    category: "promotional-gifts",
+    subCategory: "eco",
+    description: `Going eco-friendly can help you go a long way.’ This saying is especially true when it comes to corporate gifting. Choosing environmentally friendly gifts is not just good for the environment but also good for your brand image. If you are looking for some creative, thoughtful, and sustainable gift ideas, this Eco-friendly box would be perfect for you.
 
  This eco-friendly gift box contains an insulated bamboo tumbler to keep your beverages hot or cold for a long time. The cork coasters and cork diary are a great way to reuse cork and avoid generating extra waste. You will also get a cork travel pouch in this gift hamper, that can be a great replacement for plastic travel pouches. This way, you can contribute to conserving the environment without compromising on functionality. 
 
 The plantable pens are a great way to inspire more people to plant trees, and they come in a sustainable cork pouch. Besides being sustainable, all the items in this eco-friendly box are aesthetically pleasing and make your life easy and convenient.`,
-},
-{
-  id: "Eco-Chic Gift Box - Bamboo like notebook, pen & Bamboo bottle Gift Pack",
-  name: "Eco-Chic Gift Box - Bamboo like notebook, pen & Bamboo bottle Gift Pack",
-  image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860294/Gemini_Generated_Image_t57d7ft57d7ft57d_xykllv.png",
-  images: [
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860294/Gemini_Generated_Image_t57d7ft57d7ft57d_xykllv.png",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860294/Gemini_Generated_Image_sg0ovksg0ovksg0o_e8fexa.png",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860293/Gemini_Generated_Image_u708ksu708ksu708_vzrhhm.png"
-  ],
-  price: 3350,
-  originalPrice: 3700,
-  category: "promotional-gifts",
-  subCategory: "eco",
-  description: `Embrace style and sustainability with our Eco-Chic Gift Box, featuring a bamboo-inspired notebook, sleek bamboo water bottle, and smooth bamboo pen—all crafted from eco-friendly, reusable materials. Perfect for work, travel, and gifting, this elegant set combines natural charm with everyday functionality, helping reduce plastic waste while adding a touch of earthy sophistication to your routine or someone special’s day.
+  },
+  {
+    id: "Eco-Chic Gift Box - Bamboo like notebook, pen & Bamboo bottle Gift Pack",
+    name: "Eco-Chic Gift Box - Bamboo like notebook, pen & Bamboo bottle Gift Pack",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860294/Gemini_Generated_Image_t57d7ft57d7ft57d_xykllv.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860294/Gemini_Generated_Image_t57d7ft57d7ft57d_xykllv.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860294/Gemini_Generated_Image_sg0ovksg0ovksg0o_e8fexa.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860293/Gemini_Generated_Image_u708ksu708ksu708_vzrhhm.png",
+    ],
+    price: 3350,
+    originalPrice: 3700,
+    category: "promotional-gifts",
+    subCategory: "eco",
+    description: `Embrace style and sustainability with our Eco-Chic Gift Box, featuring a bamboo-inspired notebook, sleek bamboo water bottle, and smooth bamboo pen—all crafted from eco-friendly, reusable materials. Perfect for work, travel, and gifting, this elegant set combines natural charm with everyday functionality, helping reduce plastic waste while adding a touch of earthy sophistication to your routine or someone special’s day.
 `,
-},
-{
-  id: "The Sustainable Way",
-  name: "The Sustainable Way",
-  image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860678/eco-friendly-corporate-gift-hamper_o0ec28.webp",
-  images: [
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860689/eco-friendly-copper-gift_s2dfhm.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860678/eco-friendly-corporate-gift-hamper_o0ec28.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860677/WoodenLeafCoaster_1_mbveo9.webp ",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860674/IndividualDiwaliProducts_-4_422fe08b-08a0-4070-aa5c-40fd6992e3b3_ldx3ke.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860673/CoconutCandle_1_oywh5h.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860672/wooden-slider-gift-box_p1qgju.webp"
-  ],
-  price: 2290,
-  originalPrice: 3290,
-  category: "promotional-gifts",
-  subCategory: "eco",
-  description: `Elevate your eco-conscious gifting with The Sustainable Way hamper, a thoughtfully curated box designed with sustainability and style in mind. Set inside a reusable wooden slider-lid box, this elegant hamper includes a pair of half‑hammered copper glasses, a coconut-shell candle, two leaf-carved wooden coasters, and two packs of golden almond brittle, all tied together with a greeting card of your choice. Each item is sustainably crafted from natural coconut shell and wood to plant-based brittle, making it perfect for mindful celebrations or eco-friendly gifting.
+  },
+  {
+    id: "The Sustainable Way",
+    name: "The Sustainable Way",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860678/eco-friendly-corporate-gift-hamper_o0ec28.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860689/eco-friendly-copper-gift_s2dfhm.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860678/eco-friendly-corporate-gift-hamper_o0ec28.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860677/WoodenLeafCoaster_1_mbveo9.webp ",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860674/IndividualDiwaliProducts_-4_422fe08b-08a0-4070-aa5c-40fd6992e3b3_ldx3ke.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860673/CoconutCandle_1_oywh5h.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762860672/wooden-slider-gift-box_p1qgju.webp",
+    ],
+    price: 2290,
+    originalPrice: 3290,
+    category: "promotional-gifts",
+    subCategory: "eco",
+    description: `Elevate your eco-conscious gifting with The Sustainable Way hamper, a thoughtfully curated box designed with sustainability and style in mind. Set inside a reusable wooden slider-lid box, this elegant hamper includes a pair of half‑hammered copper glasses, a coconut-shell candle, two leaf-carved wooden coasters, and two packs of golden almond brittle, all tied together with a greeting card of your choice. Each item is sustainably crafted from natural coconut shell and wood to plant-based brittle, making it perfect for mindful celebrations or eco-friendly gifting.
 
 Whether it’s to delight at Diwali, to honor someone’s green lifestyle, or to serve as a standout corporate or personal gift, this hamper combines rustic aesthetics with premium packaging. Ideal for recipients who value sustainability without compromising on elegance. Celebrate consciously and beautifully with a gift that’s good for them and kind to the planet.
 `,
-},
-{
-  id: "Chef’s Essentials",
-  name: "Chef’s Essentials",
-  image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762861558/gift-for-chef_yjig61.webp",
-  images: [
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762861558/gift-for-chef_yjig61.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762861558/Akshita_sShoot-23_hugazr.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762861558/IMG_5659_720x_53d5d698-01b2-43b3-a000-5b0c88a8adaa_du8isp.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762861557/DSC03336_720x_4820ed35-b332-4def-8039-a28a03922a23_gqqgva.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762861557/20210822-IMG_2803_720x_75a21a2f-c1a5-4232-b6b8-cefcd0661ac8_f20a1t.webp"
-  ],
-  price: 2990,
-  originalPrice: 3290,
-  category: "promotional-gifts",
-  subCategory: "eco",
-  description: `Treat the special women in your life with a delightful culinary experience with our Chef’s Essentials gift hamper, specially curated for the kitchen enthusiast in her. 
+  },
+  {
+    id: "Chef’s Essentials",
+    name: "Chef’s Essentials",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762861558/gift-for-chef_yjig61.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762861558/gift-for-chef_yjig61.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762861558/Akshita_sShoot-23_hugazr.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762861558/IMG_5659_720x_53d5d698-01b2-43b3-a000-5b0c88a8adaa_du8isp.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762861557/DSC03336_720x_4820ed35-b332-4def-8039-a28a03922a23_gqqgva.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762861557/20210822-IMG_2803_720x_75a21a2f-c1a5-4232-b6b8-cefcd0661ac8_f20a1t.webp",
+    ],
+    price: 2990,
+    originalPrice: 3290,
+    category: "promotional-gifts",
+    subCategory: "eco",
+    description: `Treat the special women in your life with a delightful culinary experience with our Chef’s Essentials gift hamper, specially curated for the kitchen enthusiast in her. 
   Combining practicality with style and sentiment, this gift hamper for ladies is the perfect way to celebrate their love of cooking. 
   For the amazing chefs who make delicious and sumptuous recipes with love as their secret ingredient, this gift hamper is one of the unique gifts for women. 
   Beautifully packed in an eco-friendly reusable gift box the premium products and cooking equipment encourage experimentation and enhance culinary adventures. 
   The Chef's Essentials Gift Hamper is the perfect way to spread the joy of delicious food. 
   You can add a personalized message to convey your love and appreciation to the chef, making this gift even more memorable. 
 `,
-},
+  },
 
- {
+  {
     id: "Rasatva Ruvaa - Nirvana | Coffee Supreme | Gourmet Coffee Gift Hamper | Premium Corporate Gift for Employees | Anniversary, Festive Gift for Friends & Family",
     name: "Rasatva Ruvaa - Nirvana | Coffee Supreme | Gourmet Coffee Gift Hamper | Premium Corporate Gift for Employees | Anniversary, Festive Gift for Friends & Family",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762862366/91-W9eTKZnL._SX569__mwcjk2.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762862366/91-W9eTKZnL._SX569__mwcjk2.png",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762862366/91-W9eTKZnL._SX569__mwcjk2.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762862366/91-W9eTKZnL._SX569__mwcjk2.png",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762862293/81jFlp9iC4L._SX679__e8dtap.jpg",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762862295/Gemini_Generated_Image_uefi0yuefi0yuefi_xgqxwf.png",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762862294/Gemini_Generated_Image_6jl61h6jl61h6jl6_bqkpah.png"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762862294/Gemini_Generated_Image_6jl61h6jl61h6jl6_bqkpah.png",
     ],
     price: 2500,
     category: "promotional-gifts",
@@ -488,19 +518,20 @@ Whether it’s to delight at Diwali, to honor someone’s green lifestyle, or to
     description:
       "Deluxe premium collection with assorted dryfruits and chocolates.",
   },
-{
+  {
     id: "Good Wishes Sustainable Hamper",
     name: "Good Wishes Sustainable Hamper",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762864167/good-wishes-sustainable-hamper_2_tteec7.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762864167/good-wishes-sustainable-hamper_2_tteec7.png",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762864167/good-wishes-sustainable-hamper_2_tteec7.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762864167/good-wishes-sustainable-hamper_2_tteec7.png",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762863632/good-wishes-sustainable-hamper_1_sqaho0.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762863631/good-wishes-sustainable-hamper_3_dqueop.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762863631/good-wishes-sustainable-hamper_3_dqueop.webp",
     ],
     price: 2499,
     category: "promotional-gifts",
     subCategory: "premium",
-    description:
-      `This elegant gift box is the perfect way to show your loved ones that you care about the environment This beautiful and thoughtful gift comes with personalised text on a reusable pinewood box and is filled with sustainable goodies All of the sustainable items are presented in a reusable box making it an ecofriendly and beautiful gift for any occasion
+    description: `This elegant gift box is the perfect way to show your loved ones that you care about the environment This beautiful and thoughtful gift comes with personalised text on a reusable pinewood box and is filled with sustainable goodies All of the sustainable items are presented in a reusable box making it an ecofriendly and beautiful gift for any occasion
 Product Details
 
 Copper Glass Set of 2
@@ -518,86 +549,87 @@ Vegetarian`,
   {
     id: "Shaadmaan Luxury Gift Box",
     name: "Shaadmaan Luxury Gift Box",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762864276/UntitledSession00049_iqirtx.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762864276/UntitledSession00049_iqirtx.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762864277/PurpleBird-19thDec202200450_crop_r0hers.webp"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762864276/UntitledSession00049_iqirtx.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762864276/UntitledSession00049_iqirtx.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762864277/PurpleBird-19thDec202200450_crop_r0hers.webp",
     ],
     price: 2700,
     category: "promotional-gifts",
     subCategory: "premium",
-    description:
-     `If you or your gift recipient are anything like us, candles will make them happy. 
+    description: `If you or your gift recipient are anything like us, candles will make them happy. 
      Those whose love language is smell, know the sheer pleasure associated with a fragrant candle. Especially, when the fragrance is of rose - the ultimate symbol of love, passion and romance.
       Double the joy of gifting, with the Shaadmaan, curation with a pair of silver plated Baagh rose candles. Cheers to new beginnings!`,
   },
   {
     id: "Tea Candle Holder",
     name: "Tea Candle Holder",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762938753/CSH041_i77c6h.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762938753/CSH041_i77c6h.webp",
-      
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762938753/CSH041_i77c6h.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762938753/CSH041_i77c6h.webp",
     ],
     price: 2499,
     category: "promotional-gifts",
     subCategory: "premium",
-    description:
-     `Elevate your gifting game with our hamper featuring a set of 2 tea light holders. 
+    description: `Elevate your gifting game with our hamper featuring a set of 2 tea light holders. 
      These beautifully handcrafted holders, made from brass and silver-plated with a lacquer finish, add a touch of elegance and warmth to any setting.`,
   },
   {
     id: "Premium Passport Holder",
     name: "Premium Passport Holder",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762939516/CSSD219_fp1aaz.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762939516/CSSD219_fp1aaz.png",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762939296/CSSD219A_ztllrk.webp"
-      
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762939516/CSSD219_fp1aaz.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762939516/CSSD219_fp1aaz.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762939296/CSSD219A_ztllrk.webp",
     ],
     price: 5400,
     category: "promotional-gifts",
     subCategory: "premium",
-    description:
-     `Elevate your travel essentials with our luxurious passport holder, crafted from high-quality brass, silver-plated, and lacquered for durability. This sleek and sophisticated design offers both style and protection for your passport. Its compact size ensures it fits perfectly in any travel bag. Ideal for discerning travelers who value elegance and practicality. Travel in style with this exquisite passport holder.`,
+    description: `Elevate your travel essentials with our luxurious passport holder, crafted from high-quality brass, silver-plated, and lacquered for durability. This sleek and sophisticated design offers both style and protection for your passport. Its compact size ensures it fits perfectly in any travel bag. Ideal for discerning travelers who value elegance and practicality. Travel in style with this exquisite passport holder.`,
   },
   {
     id: "Silver Bowl",
     name: "Silver Bowl",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762940929/Silver_Bowl_crcvzg.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762940929/Silver_Bowl_crcvzg.webp"
-      
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762940929/Silver_Bowl_crcvzg.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762940929/Silver_Bowl_crcvzg.webp",
     ],
     price: 4950,
     category: "promotional-gifts",
     subCategory: "premium",
-    description:
-     `One of our subtle collections, the decorated bowl may be used for holding potpourri or chocolates. 
+    description: `One of our subtle collections, the decorated bowl may be used for holding potpourri or chocolates. 
      Completely handcrafted, made in brass and lacquered, it is a beautiful piece to own or gift!`,
   },
   {
     id: "Decorative Bowl Set",
     name: "Decorative Bowl Set",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762941096/Bowl_Set_hzo63b.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762941096/Bowl_Set_hzo63b.webp"
-      
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762941096/Bowl_Set_hzo63b.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762941096/Bowl_Set_hzo63b.webp",
     ],
     price: 9999,
     category: "promotional-gifts",
     subCategory: "premium",
-    description:
-     `Make every day festive by the way you serve. 
+    description: `Make every day festive by the way you serve. 
      Our decorated bowl set comes in set of three and is completely handcrafted, silver-plated and lacquered. Add potpourri or dry eatables and keep it for personal use or gifting.`,
   },
   {
     id: "Silver Plated Plate",
     name: "Silver Plated Plate",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762941296/CSTW059---POOJA-THALI_oyx5up.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762941296/CSTW059---POOJA-THALI_oyx5up.webp"
-      
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762941296/CSTW059---POOJA-THALI_oyx5up.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762941296/CSTW059---POOJA-THALI_oyx5up.webp",
     ],
     price: 7499,
     category: "promotional-gifts",
     subCategory: "premium",
-    description:
-     `Make every day festive by the way you serve. 
+    description: `Make every day festive by the way you serve. 
      Our decorated bowl set comes in set of three and is completely handcrafted, silver-plated and lacquered. Add potpourri or dry eatables and keep it for personal use or gifting.`,
   },
   // PROMO - subCategory: apparel
@@ -622,16 +654,17 @@ Vegetarian`,
     subCategory: "apparel",
     description: "Premium wearable set for corporate gifting.",
   },
- 
 
   // PROMO - subCategory: premium
 
-  
   {
     id: "Elite Onboarding Welcome Kit",
     name: "Elite Onboarding Welcome Kit",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763373992/Elite_Onboarding_Welcome_Kit_ufozst.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763373992/Elite_Onboarding_Welcome_Kit_ufozst.png"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763373992/Elite_Onboarding_Welcome_Kit_ufozst.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763373992/Elite_Onboarding_Welcome_Kit_ufozst.png",
+    ],
     price: 1599,
     category: "corporates",
     subCategory: "onboarding",
@@ -653,8 +686,11 @@ Stylish, practical, and impactful—our Elite Onboarding Welcome Kit helps every
   {
     id: "Executive Starter Welcome Kit",
     name: "Executive Starter Welcome Kit",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374333/Executive_Starter_Welcome_Kit_zcmktx.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374333/Executive_Starter_Welcome_Kit_zcmktx.png"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374333/Executive_Starter_Welcome_Kit_zcmktx.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374333/Executive_Starter_Welcome_Kit_zcmktx.png",
+    ],
     price: 1299,
     category: "corporates",
     subCategory: "onboarding",
@@ -672,8 +708,11 @@ Stylish, thoughtful, and truly executive—this welcome kit is the perfect way t
   {
     id: "Essential Welcome Box for New Joiners",
     name: "Essential Welcome Box for New Joiners",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374491/Essential_Welcome_Box_for_New_Joiners_erdban.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374491/Essential_Welcome_Box_for_New_Joiners_erdban.png"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374491/Essential_Welcome_Box_for_New_Joiners_erdban.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374491/Essential_Welcome_Box_for_New_Joiners_erdban.png",
+    ],
     price: 1999,
     category: "corporates",
     subCategory: "onboarding",
@@ -692,9 +731,11 @@ Thoughtful, functional, and brand-ready—this kit is designed to make every new
   {
     id: "Premium Corporate Welcome Kit",
     name: "Premium Corporate Welcome Kit",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374700/Premium_Corporate_Welcome_Kit1_uxzcfe.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374700/Premium_Corporate_Welcome_Kit1_uxzcfe.png",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374701/Premium_Corporate_Welcome_Kit_natkmn.png"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374700/Premium_Corporate_Welcome_Kit1_uxzcfe.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374700/Premium_Corporate_Welcome_Kit1_uxzcfe.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374701/Premium_Corporate_Welcome_Kit_natkmn.png",
     ],
     price: 1699,
     category: "corporates",
@@ -716,9 +757,11 @@ Sleek, thoughtful, and truly premium—your brand’s first impression starts he
   {
     id: "Signature Welcome Essentials Kit",
     name: "Signature Welcome Essentials Kit",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374935/Signature_Welcome_Essentials_Kit_mzetlt.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374935/Signature_Welcome_Essentials_Kit_mzetlt.png",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374938/Signature_Welcome_Essentials_Kit1_h8zvfa.png"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374935/Signature_Welcome_Essentials_Kit_mzetlt.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374935/Signature_Welcome_Essentials_Kit_mzetlt.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763374938/Signature_Welcome_Essentials_Kit1_h8zvfa.png",
     ],
     price: 1599,
     category: "corporates",
@@ -739,10 +782,12 @@ Minimal, classy, and meaningful—your brand’s first welcome starts here.`,
   {
     id: "The Luxe Wellness Welcome Kit",
     name: "The Luxe Wellness Welcome Kit",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375119/The_Luxe_Wellness_Welcome_Kit_q2hx4a.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375119/The_Luxe_Wellness_Welcome_Kit_q2hx4a.webp",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375119/The_Luxe_Wellness_Welcome_Kit_q2hx4a.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375119/The_Luxe_Wellness_Welcome_Kit_q2hx4a.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375118/The_Luxe_Wellness_Welcome_Kit1_lkrgr2.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375118/The_Luxe_Wellness_Welcome_Kit2_qziqp0.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375118/The_Luxe_Wellness_Welcome_Kit2_qziqp0.webp",
     ],
     price: 1799,
     category: "corporates",
@@ -762,16 +807,15 @@ Perfect for new employee onboarding, festive gifting, corporate retreats, team a
 Elegant, personal, and inspiring—The Luxe Wellness Welcome Kit is the perfect way to say “Welcome, we’re glad you’re here.”`,
   },
 
-
-
-
   // CORPORATE - subCategory: anniversary
   {
     id: "Milestone Work Anniversary Gift Box",
     name: "Milestone Work Anniversary Gift Box",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375405/Milestone_Work_Anniversary_Gift_Box_qay5pj.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375405/Milestone_Work_Anniversary_Gift_Box_qay5pj.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375402/Milestone_Work_Anniversary_Gift_Box1_wfp4xy.webp"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375405/Milestone_Work_Anniversary_Gift_Box_qay5pj.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375405/Milestone_Work_Anniversary_Gift_Box_qay5pj.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375402/Milestone_Work_Anniversary_Gift_Box1_wfp4xy.webp",
     ],
     price: 799,
     category: "corporates",
@@ -784,13 +828,15 @@ Ideal for 1-year, 5-year, or any milestone celebrations—this gift box adds a p
   {
     id: "Adventure Awaits Farewell Box",
     name: "Adventure Awaits Farewell Box",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375781/Adventure_Awaits_Farewell_Box_hucbfe.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375781/Adventure_Awaits_Farewell_Box_hucbfe.webp"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375781/Adventure_Awaits_Farewell_Box_hucbfe.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375781/Adventure_Awaits_Farewell_Box_hucbfe.webp",
+    ],
     price: 699,
     category: "corporates",
     subCategory: "anniversary",
-    description:
-      `Make farewells memorable with our New Beginnings Farewell Gift Box, created to appreciate the journey and celebrate a fresh start.
+    description: `Make farewells memorable with our New Beginnings Farewell Gift Box, created to appreciate the journey and celebrate a fresh start.
 This beautifully curated hamper features:
 ✔ A stylish travel tumbler for new adventures
 ✔ Easy-pour specialty coffee to energize the next chapter
@@ -802,16 +848,18 @@ All items come packed in an elegant, logo-branded black box with a premium ribbo
 A perfect farewell present for employees, coworkers, team members, or friends embarking on a new journey—because goodbyes deserve to be special.`,
   },
 
-   {
+  {
     id: "Elegant Appreciation Gift Box",
     name: "Elegant Appreciation Gift Box",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375910/Elegant_Appreciation_Gift_Box_dgmi9v.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375910/Elegant_Appreciation_Gift_Box_dgmi9v.png"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375910/Elegant_Appreciation_Gift_Box_dgmi9v.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763375910/Elegant_Appreciation_Gift_Box_dgmi9v.png",
+    ],
     price: 899,
     category: "corporates",
     subCategory: "anniversary",
-    description:
-      `Show genuine appreciation with our Luxury Achievement Gift Hamper, crafted to make every moment of recognition truly special.
+    description: `Show genuine appreciation with our Luxury Achievement Gift Hamper, crafted to make every moment of recognition truly special.
 This premium set includes:
 
 ✔ A professionally framed certificate of appreciation
@@ -826,21 +874,21 @@ Thoughtful, classy, and memorable—an ideal choice to honor someone who truly d
   {
     id: "Happy Workiversary Candle",
     name: "Happy Workiversary Candle",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763376225/Happy_Workiversary_Candle_cw9sfy.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763376225/Happy_Workiversary_Candle_cw9sfy.webp",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763376225/Happy_Workiversary_Candle_cw9sfy.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763376225/Happy_Workiversary_Candle_cw9sfy.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763376225/Happy_Workiversary_Candle2_gzbwxm.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763376224/Happy_Workiversary_Candle3_kpyqye.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763376224/Happy_Workiversary_Candle3_kpyqye.webp",
     ],
     price: 1099,
     category: "corporates",
     subCategory: "anniversary",
-    description:
-      `Honor years of commitment with our Work Anniversary Appreciation Candle, a warm and heartfelt way to say “Thank You.”
+    description: `Honor years of commitment with our Work Anniversary Appreciation Candle, a warm and heartfelt way to say “Thank You.”
 Hand-poured using premium soy wax, this clean-burning, vegan candle brings a touch of comfort and joy to any workspace or home.
 Featuring a charming “Happy Workiversary” label and the option to include a custom personal message on the back, it becomes a truly special keepsake.
 Ideal for celebrating employee milestones, work anniversaries, or team achievements—this candle makes appreciation feel personal, warm, and unforgettable.`,
   },
-
 
   {
     id: "The Luxury Family Feast Hamper(Corporate)",
@@ -861,7 +909,7 @@ Ideal for celebrating employee milestones, work anniversaries, or team achieveme
 • Sweets Design Candle (Optional)
 • Copper Water Bottle
 • Premium Greeting Card
-• Lotus Wall Hangings - 2 pcs`
+• Lotus Wall Hangings - 2 pcs`,
   },
   {
     id: "The Jute Blessing(Corporate)",
@@ -880,7 +928,7 @@ Ideal for celebrating employee milestones, work anniversaries, or team achieveme
 • Lotus Flower Wall Hanging
 • Custom Note card
 • Poutpuri
-• Besan Laddu-250gms`
+• Besan Laddu-250gms`,
   },
   {
     id: "The Harmony(Corporate)",
@@ -896,7 +944,7 @@ Ideal for celebrating employee milestones, work anniversaries, or team achieveme
 • Jar of Crunchy Nuts
 • Rich Cookies
 • Lotus Flower Wall Hanging-2pcs
-• Custom Note card`
+• Custom Note card`,
   },
   {
     id: "The Excelare(Corporate)",
@@ -911,7 +959,7 @@ Ideal for celebrating employee milestones, work anniversaries, or team achieveme
 • Assorted Chocolates
 • Poutpuri
 • Besan Laddu & Chocolates-250gms
-• Custom Note card`
+• Custom Note card`,
   },
   {
     id: "The Festival of Flavours Box(Corporate)",
@@ -928,7 +976,7 @@ Ideal for celebrating employee milestones, work anniversaries, or team achieveme
 • cashews with jute pouch
 • Almonds with jute pouch
 • Custom Note card
-• Lotus Flower Wall hanging`
+• Lotus Flower Wall hanging`,
   },
   {
     id: "The Tyohaar Treat(Corporate)",
@@ -945,17 +993,18 @@ Ideal for celebrating employee milestones, work anniversaries, or team achieveme
 • Nuts with jute pouch
 • Glass Bottle with jute pouch
 • Custom Note card
-• Lotus Flower Wall hanging`
+• Lotus Flower Wall hanging`,
   },
-
-  
 
   // CORPORATE - subCategory: funfriday
   {
     id: "Fun Friday Nostalgia Box",
     name: "Fun Friday Nostalgia Box",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377041/Fun_Friday_Nostalgia_Box_q8nma7.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377041/Fun_Friday_Nostalgia_Box_q8nma7.webp"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377041/Fun_Friday_Nostalgia_Box_q8nma7.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377041/Fun_Friday_Nostalgia_Box_q8nma7.webp",
+    ],
     price: 599,
     category: "corporates",
     subCategory: "funfriday",
@@ -968,10 +1017,12 @@ Bring your team together, spark conversations, and relive the magic of being a k
   {
     id: "Fun Friday 90s Nostalgia Box",
     name: "Fun Friday 90s Nostalgia Box",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377202/Fun_Friday_90s_Nostalgia_Box_pk7toi.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377202/Fun_Friday_90s_Nostalgia_Box_pk7toi.webp",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377202/Fun_Friday_90s_Nostalgia_Box_pk7toi.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377202/Fun_Friday_90s_Nostalgia_Box_pk7toi.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377201/Fun_Friday_90s_Nostalgia_Box1_t6kdeh.avif",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377200/Fun_Friday_90s_Nostalgia_Box2_sl578s.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377200/Fun_Friday_90s_Nostalgia_Box2_sl578s.webp",
     ],
     price: 799,
     category: "corporates",
@@ -993,10 +1044,12 @@ This box turns any Friday into a trip back to school days—where we played Bric
   {
     id: "Fun Friday Time-Travel Box",
     name: "Fun Friday Time-Travel Box",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377495/Fun_Friday_Time-Travel_Box_uzfeux.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377495/Fun_Friday_Time-Travel_Box_uzfeux.webp",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377495/Fun_Friday_Time-Travel_Box_uzfeux.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377495/Fun_Friday_Time-Travel_Box_uzfeux.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377494/Fun_Friday_Time-Travel_Box2_tt7nzm.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377493/Fun_Friday_Time-Travel_Box3_epeahm.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377493/Fun_Friday_Time-Travel_Box3_epeahm.webp",
     ],
     price: 349,
     category: "corporates",
@@ -1020,11 +1073,13 @@ Let your team relive those carefree school days—where Magic Pops cracked in th
   {
     id: "Fun Friday Nostalgia Reloaded Hamper",
     name: "Fun Friday Nostalgia Reloaded Hamper",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377834/Fun_Friday_Nostalgia_Reloaded_Hamper_wsroaw.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377834/Fun_Friday_Nostalgia_Reloaded_Hamper_wsroaw.webp",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377834/Fun_Friday_Nostalgia_Reloaded_Hamper_wsroaw.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377834/Fun_Friday_Nostalgia_Reloaded_Hamper_wsroaw.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377833/Fun_Friday_Nostalgia_Reloaded_Hamper1_emu1u9.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377832/Fun_Friday_Nostalgia_Reloaded_Hamper2_ljr0e7.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377831/Fun_Friday_Nostalgia_Reloaded_Hamper3_fral6t.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763377831/Fun_Friday_Nostalgia_Reloaded_Hamper3_fral6t.webp",
     ],
     price: 549,
     category: "corporates",
@@ -1061,11 +1116,13 @@ Bring back the fun, the madness, and the magic—because every Friday deserves a
   {
     id: "Superhero Water Ring Challenge",
     name: "Superhero Water Ring Challenge",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378209/Superhero_Water_Ring_Challenge_ckzmb6.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378209/Superhero_Water_Ring_Challenge_ckzmb6.jpg",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378209/Superhero_Water_Ring_Challenge_ckzmb6.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378209/Superhero_Water_Ring_Challenge_ckzmb6.jpg",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378208/Superhero_Water_Ring_Challenge1_u1biem.jpg",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378207/Superhero_Water_Ring_Challenge2_dqewci.jpg",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378205/Superhero_Water_Ring_Challenge3_goqksv.jpg"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378205/Superhero_Water_Ring_Challenge3_goqksv.jpg",
     ],
     price: 249,
     category: "corporates",
@@ -1086,10 +1143,12 @@ A perfect pick for 90s nostalgia boxes, superhero gift hampers, and everyday fun
   {
     id: "Classic Handheld Brick Game",
     name: "Classic Handheld Brick Game",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378482/Classic_Handheld_Brick_Game_dfk8ae.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378482/Classic_Handheld_Brick_Game_dfk8ae.jpg",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378482/Classic_Handheld_Brick_Game_dfk8ae.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378482/Classic_Handheld_Brick_Game_dfk8ae.jpg",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378480/Classic_Handheld_Brick_Game2_c5vjru.jpg",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378479/Classic_Handheld_Brick_Game3_gr0i2j.jpg"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763378479/Classic_Handheld_Brick_Game3_gr0i2j.jpg",
     ],
     price: 1100,
     category: "corporates",
@@ -1111,11 +1170,13 @@ This is not just a toy—it's a memory revived!`,
   {
     id: "Nature’s Harmony Gift Set",
     name: "Nature’s Harmony Gift Set",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380685/Nature_s_Harmony_Gift_Set_eofr5w.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380685/Nature_s_Harmony_Gift_Set_eofr5w.webp",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380685/Nature_s_Harmony_Gift_Set_eofr5w.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380685/Nature_s_Harmony_Gift_Set_eofr5w.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380685/Nature_s_Harmony_Gift_Set2_ezdy0f.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380684/Nature_s_Harmony_Gift_Set4_urqplv.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380684/Nature_s_Harmony_Gift_Set3_iyp3ic.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380684/Nature_s_Harmony_Gift_Set3_iyp3ic.webp",
     ],
     price: 3999,
     category: "corporates",
@@ -1138,18 +1199,19 @@ thank-you gifts, festive gifting, clients, teachers, employees, or anyone who de
   {
     id: "The Ultimate Me-Time Gift Box",
     name: "The Ultimate Me-Time Gift Box",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380981/The_Ultimate_Me-Time_Gift_Box_cnui0e.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380981/The_Ultimate_Me-Time_Gift_Box_cnui0e.webp",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380981/The_Ultimate_Me-Time_Gift_Box_cnui0e.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380981/The_Ultimate_Me-Time_Gift_Box_cnui0e.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380979/The_Ultimate_Me-Time_Gift_Box2_jenu5u.jpg",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380978/The_Ultimate_Me-Time_Gift_Box3_dihzq1.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380976/The_Ultimate_Me-Time_Gift_Box4_d85cd9.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380975/The_Ultimate_Me-Time_Gift_Box5_bdm6uq.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763380975/The_Ultimate_Me-Time_Gift_Box5_bdm6uq.webp",
     ],
     price: 1799,
     category: "corporates",
     subCategory: "premium",
-    description:
-      `Indulge in the ultimate self-care experience with our Relax & Recharge Self-Care Gift Hamper, designed to calm the mind, soothe the senses, and refresh the skin.
+    description: `Indulge in the ultimate self-care experience with our Relax & Recharge Self-Care Gift Hamper, designed to calm the mind, soothe the senses, and refresh the skin.
 This luxurious box includes:
 
 ✔ Pilgrim Squalane Foaming Face Wash – With Kiwi & Vitamin B5 to cleanse, nourish, and hydrate
@@ -1163,16 +1225,17 @@ This luxurious box includes:
   {
     id: "Amore Floral Gift Set",
     name: "Amore Floral Gift Set",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763381320/Amore_Floral_Gift_Set_msxsi8.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763381320/Amore_Floral_Gift_Set_msxsi8.webp",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763381320/Amore_Floral_Gift_Set_msxsi8.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763381320/Amore_Floral_Gift_Set_msxsi8.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763381318/Amore_Floral_Gift_Set1_aqrrji.webp",
-      "hhttps://res.cloudinary.com/dzh2zxbvw/image/upload/v1763381317/Amore_Floral_Gift_Set2_ivpduh.jpg"
+      "hhttps://res.cloudinary.com/dzh2zxbvw/image/upload/v1763381317/Amore_Floral_Gift_Set2_ivpduh.jpg",
     ],
     price: 1299,
     category: "corporates",
     subCategory: "premium",
-    description:
-      `Celebrate your loved ones with the Bloom Beauty Luxury Gift Hamper, a charming collection designed to delight anyone who appreciates elegance and thoughtful gifting.
+    description: `Celebrate your loved ones with the Bloom Beauty Luxury Gift Hamper, a charming collection designed to delight anyone who appreciates elegance and thoughtful gifting.
 
 This premium box includes:
 
@@ -1190,14 +1253,15 @@ It’s the ideal mix of beauty, sweetness, and practicality.`,
   {
     id: "The Gourmet Delight Box",
     name: "The Gourmet Delight Box",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763381609/The_Gourmet_Delight_Box_flzl3p.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763381609/The_Gourmet_Delight_Box_flzl3p.png"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763381609/The_Gourmet_Delight_Box_flzl3p.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763381609/The_Gourmet_Delight_Box_flzl3p.png",
     ],
     price: 1399,
     category: "corporates",
     subCategory: "premium",
-    description:
-      `Celebrate good taste with our Luxury Snack & Spread Gourmet Hamper, curated for food lovers who appreciate premium quality and unique flavours.
+    description: `Celebrate good taste with our Luxury Snack & Spread Gourmet Hamper, curated for food lovers who appreciate premium quality and unique flavours.
 
 This box includes a thoughtful mix of:
 
@@ -1216,15 +1280,16 @@ festive celebrations, thank-you hampers, and wellness-focused gifts.`,
   {
     id: "The Luxe Floral Gourmet Hamper",
     name: "The Luxe Floral Gourmet Hamper",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763382046/The_Luxe_Floral_Gourmet_Hamper_zcwyme.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763382046/The_Luxe_Floral_Gourmet_Hamper_zcwyme.png",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763382047/The_Luxe_Floral_Gourmet_Hamper1_q3afnl.png"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763382046/The_Luxe_Floral_Gourmet_Hamper_zcwyme.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763382046/The_Luxe_Floral_Gourmet_Hamper_zcwyme.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763382047/The_Luxe_Floral_Gourmet_Hamper1_q3afnl.png",
     ],
     price: 1599,
     category: "corporates",
     subCategory: "premium",
-    description:
-      `Indulge the senses with the Blush Blossom Indulgence Box—a luxurious curation of gourmet delicacies and artisanal treats. Designed in a premium floral box with golden satin detailing, this hamper makes a refined and memorable gift for any celebration.
+    description: `Indulge the senses with the Blush Blossom Indulgence Box—a luxurious curation of gourmet delicacies and artisanal treats. Designed in a premium floral box with golden satin detailing, this hamper makes a refined and memorable gift for any celebration.
 
 Inside the box, you’ll find:
 
@@ -1242,7 +1307,6 @@ Whether you’re sending festive wishes, celebrating a milestone, or surprising 
 Perfect for Diwali gifting, client hampers, weddings, birthdays, anniversaries, or premium corporate orders.`,
   },
 
-
   // === CORPORATE ITEMS END ===
 
   // === OCCASIONAL ITEMS (used by OccasionalGifts page) START ===
@@ -1254,13 +1318,15 @@ Perfect for Diwali gifting, client hampers, weddings, birthdays, anniversaries, 
   {
     id: "Open Tray Square Gift Hamper",
     name: "Open Tray Square Gift Hamper (Room Hamper)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951306/OpenTraySquareGiftHamper_h2yb2d.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951306/OpenTraySquareGiftHamper_h2yb2d.webp"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951306/OpenTraySquareGiftHamper_h2yb2d.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951306/OpenTraySquareGiftHamper_h2yb2d.webp",
+    ],
     price: 800,
     category: "occasional-gifts",
     subCategory: "wedding",
-    description:
-        `Open Tray Square Gift Hamper includes:
+    description: `Open Tray Square Gift Hamper includes:
 
 Lays
 Kurkure
@@ -1271,13 +1337,16 @@ Doritos
 Cadbury Cookies
 Paper Boat Aamras
 Metal Basket
-Floral Decor`
+Floral Decor`,
   },
   {
     id: "Stripes Jute Bag Room Hamper",
     name: "Stripes Jute Bag Room Hamper (Room Hamper)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951305/Eco-friendly_Rakhi_delight_bag_for_sister_ta0lou.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951305/Eco-friendly_Rakhi_delight_bag_for_sister_ta0lou.webp"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951305/Eco-friendly_Rakhi_delight_bag_for_sister_ta0lou.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951305/Eco-friendly_Rakhi_delight_bag_for_sister_ta0lou.webp",
+    ],
     price: 630,
     category: "occasional-gifts",
     subCategory: "wedding",
@@ -1291,13 +1360,16 @@ Britannia Cake
 Doritos
 Cadbury Cookies
 Paper Boat Aamras
-Stripes Jute Bag`
+Stripes Jute Bag`,
   },
   {
     id: "Wedding Serenity Hamper",
     name: "Wedding Serenity Hamper (Room Hamper)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951304/IMG_9424_1_srsk9u.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951304/IMG_9424_1_srsk9u.webp"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951304/IMG_9424_1_srsk9u.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951304/IMG_9424_1_srsk9u.webp",
+    ],
     price: 850,
     category: "occasional-gifts",
     subCategory: "wedding",
@@ -1321,13 +1393,16 @@ Immerse your guests in an atmosphere of opulence with our hotel-themed wedding r
 
 Why is Wedding Room Hamper the best wedding gift for your guests?
 
-Transform your wedding venue into a haven of luxury and warmth for your guests with our Wedding Room Hampers. Elevate their experience, make them feel truly cherished, and set the stage for unforgettable moments during your joyous celebration. Because every guest deserves to be a part of a love story as beautiful as yours.`
+Transform your wedding venue into a haven of luxury and warmth for your guests with our Wedding Room Hampers. Elevate their experience, make them feel truly cherished, and set the stage for unforgettable moments during your joyous celebration. Because every guest deserves to be a part of a love story as beautiful as yours.`,
   },
   {
     id: "Snack Time Bliss Basket hamper",
     name: "Snack Time Bliss Basket hamper (Room Hamper)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951302/SnackTimeBlissBaskethamper_oamw7t.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951302/SnackTimeBlissBaskethamper_oamw7t.webp"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951302/SnackTimeBlissBaskethamper_oamw7t.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951302/SnackTimeBlissBaskethamper_oamw7t.webp",
+    ],
     price: 780,
     category: "occasional-gifts",
     subCategory: "wedding",
@@ -1341,13 +1416,16 @@ Britannia Cake
 Doritos
 Cadbury Cookies
 Paper Boat Aamras
-Organza Festive Tray`
+Organza Festive Tray`,
   },
   {
     id: "Gourmet Room Gift Hamper",
     name: "Gourmet Room Gift Hamper (Room Hamper)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951301/GourmetRoomGiftHamper_sb42gk.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951301/GourmetRoomGiftHamper_sb42gk.webp"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951301/GourmetRoomGiftHamper_sb42gk.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951301/GourmetRoomGiftHamper_sb42gk.webp",
+    ],
     price: 830,
     category: "occasional-gifts",
     subCategory: "wedding",
@@ -1363,13 +1441,16 @@ Inside the Hamper:
 🍪 Cadbury Cookies
 🥭 Paper Boat Aamras
 
-Beautifully presented in a premium transparent gift bag, this hamper is the perfect balance of taste, style, and joy — ideal for gifting or indulgence!`
+Beautifully presented in a premium transparent gift bag, this hamper is the perfect balance of taste, style, and joy — ideal for gifting or indulgence!`,
   },
   {
     id: "Snack & Sip Delight Box",
     name: "Snack & Sip Delight Box",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951300/SnackSensationsRoomGiftHampers_jdgh5j.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951300/SnackSensationsRoomGiftHampers_jdgh5j.webp"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951300/SnackSensationsRoomGiftHampers_jdgh5j.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951300/SnackSensationsRoomGiftHampers_jdgh5j.webp",
+    ],
     price: 720,
     category: "occasional-gifts",
     subCategory: "wedding",
@@ -1385,13 +1466,16 @@ Beautifully presented in a premium transparent gift bag, this hamper is the perf
 🍪 Cadbury Cookies
 🥭 Paper Boat Aamras
 
-Beautifully arranged on a Festive Tray, adorned with elegant Net Wrapping and Floral Décor, the Snack Sensations Room Gift Hamper is a perfect blend of taste, presentation, and celebration.`
+Beautifully arranged on a Festive Tray, adorned with elegant Net Wrapping and Floral Décor, the Snack Sensations Room Gift Hamper is a perfect blend of taste, presentation, and celebration.`,
   },
   {
     id: "The Bloom & Bliss Hamper",
     name: "The Bloom & Bliss Hamper (Room Hamper)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951298/SnackDelighthamper_lkaid2.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951298/SnackDelighthamper_lkaid2.webp"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951298/SnackDelighthamper_lkaid2.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951298/SnackDelighthamper_lkaid2.webp",
+    ],
     price: 700,
     category: "occasional-gifts",
     subCategory: "wedding",
@@ -1407,13 +1491,16 @@ Beautifully arranged on a Festive Tray, adorned with elegant Net Wrapping and Fl
 🍪 Cadbury Cookies
 🥭 Paper Boat Aamras
 
-Packed in a beautiful printed jute bag, this hamper blends taste with style — a perfect combination of delicious indulgence and elegant presentation.`
+Packed in a beautiful printed jute bag, this hamper blends taste with style — a perfect combination of delicious indulgence and elegant presentation.`,
   },
   {
     id: "The Luxe Snack Affair",
     name: "The Luxe Snack Affair (Room Hamper)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951297/SensationalGourmetSnacksRoomGiftHamper_hlkcdn.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951297/SensationalGourmetSnacksRoomGiftHamper_hlkcdn.webp"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951297/SensationalGourmetSnacksRoomGiftHamper_hlkcdn.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951297/SensationalGourmetSnacksRoomGiftHamper_hlkcdn.webp",
+    ],
     price: 820,
     category: "occasional-gifts",
     subCategory: "wedding",
@@ -1429,13 +1516,16 @@ Packed in a beautiful printed jute bag, this hamper blends taste with style — 
 🍪 Cadbury Cookies
 🥭 Paper Boat Aamras
 
-Beautifully presented in an elegant Metal Basket adorned with Floral Décor, this hamper perfectly blends taste, luxury, and charm — creating a delightful gifting experience that leaves a lasting impression.`
- },
- {
+Beautifully presented in an elegant Metal Basket adorned with Floral Décor, this hamper perfectly blends taste, luxury, and charm — creating a delightful gifting experience that leaves a lasting impression.`,
+  },
+  {
     id: "The Signature Welcome Basket",
     name: "The Signature Welcome Basket (Room Hamper)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951296/In-RoomSnackHamper_h3z7a8.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951296/In-RoomSnackHamper_h3z7a8.webp"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951296/In-RoomSnackHamper_h3z7a8.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951296/In-RoomSnackHamper_h3z7a8.webp",
+    ],
     price: 420,
     category: "occasional-gifts",
     subCategory: "wedding",
@@ -1450,13 +1540,17 @@ Beautifully presented in an elegant Metal Basket adorned with Floral Décor, thi
 🍫 Munch
 🌀 Orbit
 
-Elegantly packed in a Festive Paper Bag with Ribbon Decoration, this hamper combines simplicity and sophistication — making it the perfect treat to refresh, surprise, and delight.`},
+Elegantly packed in a Festive Paper Bag with Ribbon Decoration, this hamper combines simplicity and sophistication — making it the perfect treat to refresh, surprise, and delight.`,
+  },
 
-{
+  {
     id: "Elegant Dome Gift Collect",
     name: "Elegant Dome Gift Collect (Room Hamper)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951295/DomeRoomGiftHamper_btlnir.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951295/DomeRoomGiftHamper_btlnir.webp"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951295/DomeRoomGiftHamper_btlnir.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951295/DomeRoomGiftHamper_btlnir.webp",
+    ],
     price: 749,
     category: "occasional-gifts",
     subCategory: "wedding",
@@ -1473,13 +1567,16 @@ Elegantly packed in a Festive Paper Bag with Ribbon Decoration, this hamper comb
 🧃 Paper Boat Aamras
 🧺 Premium Big Basket
 
-Beautifully arranged in a Premium Dome-Style Basket, this hamper blends elegance with everyday indulgence — making it the perfect surprise to refresh, delight, and create a memorable experience for any recipient.`
-},
-{
+Beautifully arranged in a Premium Dome-Style Basket, this hamper blends elegance with everyday indulgence — making it the perfect surprise to refresh, delight, and create a memorable experience for any recipient.`,
+  },
+  {
     id: "Royal Comfort Room Gift Hamper",
     name: "Royal Comfort Room Gift Hamper (Room Hamper)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951295/ClassicEleganceRoomGiftHamper_etz0um.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951295/ClassicEleganceRoomGiftHamper_etz0um.webp"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951295/ClassicEleganceRoomGiftHamper_etz0um.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951295/ClassicEleganceRoomGiftHamper_etz0um.webp",
+    ],
     price: 811,
     category: "occasional-gifts",
     subCategory: "wedding",
@@ -1497,13 +1594,16 @@ Beautifully arranged in a Premium Dome-Style Basket, this hamper blends elegance
 🧺 Metal Basket
 🌸 Floral Décor
 
-Beautifully presented in a Metal Basket adorned with floral decor, this hamper offers the perfect mix of indulgence and elegance — making every welcome feel special, warm, and unforgettable.`
-},
-{
+Beautifully presented in a Metal Basket adorned with floral decor, this hamper offers the perfect mix of indulgence and elegance — making every welcome feel special, warm, and unforgettable.`,
+  },
+  {
     id: "Heritage Room Gift Hamper",
     name: "Heritage Room Gift Hamper (Room Hamper)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951294/AztecRoomGiftHamper_vudwga.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951294/AztecRoomGiftHamper_vudwga.webp"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951294/AztecRoomGiftHamper_vudwga.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951294/AztecRoomGiftHamper_vudwga.webp",
+    ],
     price: 699,
     category: "occasional-gifts",
     subCategory: "wedding",
@@ -1522,13 +1622,17 @@ Beautifully presented in a Metal Basket adorned with floral decor, this hamper o
 ✨ Net Decoration
 🌸 Floral Décor
 
-Expertly arranged on a Festive Tray with elegant Net and Floral Decoration, this hamper blends modern indulgence with wedding charm—making every guest feel welcomed, appreciated, and truly celebrated.`},
+Expertly arranged on a Festive Tray with elegant Net and Floral Decoration, this hamper blends modern indulgence with wedding charm—making every guest feel welcomed, appreciated, and truly celebrated.`,
+  },
 
-{
+  {
     id: "Guest Delight Room Hamper",
     name: "Guest Delight Room Hamper (Room Hamper)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951294/IMG_9399_1_in0i46.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951294/IMG_9399_1_in0i46.webp"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951294/IMG_9399_1_in0i46.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951294/IMG_9399_1_in0i46.webp",
+    ],
     price: 649,
     category: "occasional-gifts",
     subCategory: "wedding",
@@ -1554,50 +1658,65 @@ Immerse your guests in an atmosphere of warmth and comfort with our beautifully 
 Why the Wedding Room Hamper Is the Perfect Gift for Your Guests
 
 Transform your wedding venue into a haven of joy and hospitality. Our Wedding Room Hampers elevate your guests’ experience, making them feel cherished from the moment they arrive. These delightful treats and thoughtful inclusions add a personal touch, creating unforgettable moments throughout your celebration.
-Because every guest deserves to be part of a love story as beautiful as yours.`},
-{
+Because every guest deserves to be part of a love story as beautiful as yours.`,
+  },
+  {
     id: "Haldi,Mehendi,Teej favour ",
     name: "Haldi / Mehendi / Teej Hampers",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763104826/96F25A36-FE58-44E6-BD5C-58E3CC771367_namxl0.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763104826/96F25A36-FE58-44E6-BD5C-58E3CC771367_namxl0.webp"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763104826/96F25A36-FE58-44E6-BD5C-58E3CC771367_namxl0.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763104826/96F25A36-FE58-44E6-BD5C-58E3CC771367_namxl0.webp",
+    ],
     price: 199,
     category: "occasional-gifts",
     subCategory: "wedding",
     description: `A beautifully crafted floral zari potli with an ornate pearl handle forms the centerpiece of this charming gifting set. Paired with a stunning kundan pearl bracelet and a matching kundan ring, it brings together tradition and elegance in perfect harmony.
 
 To complete the ensemble, a fragrant gajra adds a touch of festive grace, while a saunf / mehendi cone provides the classic traditional element, making this set ideal for weddings, mehendi ceremonies, festive gifting, or bridal favors.
-`},
-{
+`,
+  },
+  {
     id: "Haldi & Mehandi Potli ",
     name: "HALDI & MEHANDI Potli",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763104824/WhatsAppImage2025-02-02at11.31.45PM_mcwvad.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763104824/WhatsAppImage2025-02-02at11.31.45PM_mcwvad.jpg"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763104824/WhatsAppImage2025-02-02at11.31.45PM_mcwvad.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763104824/WhatsAppImage2025-02-02at11.31.45PM_mcwvad.jpg",
+    ],
     price: 120,
     category: "occasional-gifts",
     subCategory: "wedding",
     description: `This exquisite gifting ensemble features a luxurious Organza Banarasi Potli, blending traditional craftsmanship with modern elegance. Complementing the potli is a charming Pearl Bandhej Bracelet and an Adjustable Bandhej Ring, both designed to add a festive and stylish touch to any look.
 
 A delicate Gajra Scrunchie brings in floral grace, making it perfect for weddings, mehendi functions, festive favors, or bridal gifting. Available in assorted colors, this set offers the perfect balance of beauty, tradition, and thoughtful detailing.
-`},
-{
+`,
+  },
+  {
     id: "Haldi Hamper ",
     name: "Haldi Hamper",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763104824/WhatsAppImage2025-02-22at11.16.39PM_prpjfr.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763104824/WhatsAppImage2025-02-22at11.16.39PM_prpjfr.jpg"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763104824/WhatsAppImage2025-02-22at11.16.39PM_prpjfr.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763104824/WhatsAppImage2025-02-22at11.16.39PM_prpjfr.jpg",
+    ],
     price: 99,
     category: "occasional-gifts",
     subCategory: "wedding",
     description: `A vibrant Gota Potli in mix colors sets the tone for this beautifully curated festive set. Paired with a pair of gota beads bangles in coordinated mix colors, it adds a charming traditional touch perfect for weddings, haldi, mehendi, or festive celebrations.
 
 The ensemble also includes a delicate floral maangtika and a floral adjustable ring, completing the look with a graceful blend of elegance and tradition. A personalised card adds a heartfelt touch, making this set an ideal choice for gifting or return favors that leave a lasting impression. 
-`},
-{
+`,
+  },
+  {
     id: "Haldi & Mehandi Hamper ",
     name: "Haldi & Mehandi Hamper",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763106087/AEE11B1C-5EEA-4CAD-B8AF-FE69CE59BE24_qycmfv.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763106087/AEE11B1C-5EEA-4CAD-B8AF-FE69CE59BE24_qycmfv.webp",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763106087/AEE11B1C-5EEA-4CAD-B8AF-FE69CE59BE24_qycmfv.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763106087/AEE11B1C-5EEA-4CAD-B8AF-FE69CE59BE24_qycmfv.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763106087/6748B2F0-2570-4400-AA66-1143A0C24C83_ifeygi.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763106087/52B68C93-EB76-488E-9ED5-4396E2DEA7E9_hpucp7.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763106087/52B68C93-EB76-488E-9ED5-4396E2DEA7E9_hpucp7.webp",
     ],
     price: 179,
     category: "occasional-gifts",
@@ -1605,13 +1724,16 @@ The ensemble also includes a delicate floral maangtika and a floral adjustable r
     description: `This charming gifting set includes a beautifully crafted Potli, perfect for festive occasions and celebrations. Paired with a Bangle Pair in mix colours, it adds a vibrant traditional touch to any outfit.
 
 A colourful Bindi Sheet is included to enhance the look with classic elegance, along with a Mehendi Cone to complete the festive essentials. Thoughtful, simple, and beautifully curated — ideal for mehendi favors, wedding giveaways, or festive gifting.
-`},
-{
+`,
+  },
+  {
     id: "Handmade Earings Set ",
     name: "Handmade Earings Set",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763107051/CFE2353_D_ifpbol.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763107051/CFE2353_D_ifpbol.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763107051/CFE2357_D_x2blwn.webp"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763107051/CFE2353_D_ifpbol.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763107051/CFE2353_D_ifpbol.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763107051/CFE2357_D_x2blwn.webp",
     ],
     price: 479,
     category: "occasional-gifts",
@@ -1623,12 +1745,15 @@ Crafted with precision and artistry, the vibrant pink beads sway beautifully wit
 Ideal for the bright, joyful vibes of spring and summer weddings, these earrings don���t just complement your ensemble—they complete it. Whether you’re a bridesmaid, a sister of the bride, or simply love festive elegance, the “Dulhan ki Behen” Beaded Earrings promise to make your entrance unforgettable.
 
 A must-have for Haldi, Mehndi, and all wedding festivities, this pair is the perfect addition to any jewellery collection.
-`},
-{
+`,
+  },
+  {
     id: "3 jar dryfruit hamper",
     name: "3 Jar Dryfruit Hamper (Return Gifts)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763110690/IMG-20250304-WA0005_cr90pz.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763110690/IMG-20250304-WA0005_cr90pz.webp"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763110690/IMG-20250304-WA0005_cr90pz.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763110690/IMG-20250304-WA0005_cr90pz.webp",
     ],
     price: 899,
     category: "occasional-gifts",
@@ -1646,12 +1771,15 @@ Ideal for weddings, engagements, and all festive ceremonies, these 3-jar dry fru
 With the rising trend of healthy and elegant gifting, these wedding return gift boxes have become a preferred choice across India. The box can also be personalized with the couple’s names, wedding date, or a heartfelt message, making every gift feel special and memorable.
 
 A smart, elegant, and timeless wedding return gift—perfectly blending flavor, freshness, and heartfelt sentiment.
-`},
-{
+`,
+  },
+  {
     id: "Vibrant Haldi Rasam Gift Set",
     name: "Vibrant Haldi Rasam Gift Set",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763111033/47DFCC17-D0F6-4D37-939E-69FC9A463411_msnyio.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763111033/47DFCC17-D0F6-4D37-939E-69FC9A463411_msnyio.webp"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763111033/47DFCC17-D0F6-4D37-939E-69FC9A463411_msnyio.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763111033/47DFCC17-D0F6-4D37-939E-69FC9A463411_msnyio.webp",
     ],
     price: 249,
     category: "occasional-gifts",
@@ -1673,12 +1801,15 @@ A smart, elegant, and timeless wedding return gift—perfectly blending flavor, 
 (Multiple sizes and colors to complete the traditional festive look.)
 
 Thoughtfully curated with vibrant Rajasthani aesthetics, this hamper is perfect for adding joy, culture, and color to any celebration.
-`},
-{
+`,
+  },
+  {
     id: "Baraat Swagat Broach",
     name: "Baraat Swagat Broach (Pack of 10)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112596/WhatsAppImage2024-12-03at21.39.12_1_fe7ezf.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112596/WhatsAppImage2024-12-03at21.39.12_1_fe7ezf.webp"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112596/WhatsAppImage2024-12-03at21.39.12_1_fe7ezf.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112596/WhatsAppImage2024-12-03at21.39.12_1_fe7ezf.webp",
     ],
     price: 579,
     category: "occasional-gifts",
@@ -1686,12 +1817,15 @@ Thoughtfully curated with vibrant Rajasthani aesthetics, this hamper is perfect 
     description: `Welcome your guests / baraatis with this exquisite kundan broaches and make them feel special. 
 
 comes in a pack of 10
-`},
-{
+`,
+  },
+  {
     id: "Shri Krishna Broach",
     name: "Shri Krishna Broach (Pack of 10)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112595/WhatsAppImage2025-08-04at21.47.03_2790ab84-6016-4df5-bef4-ad7f6d25bc8f_mx2cav.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112595/WhatsAppImage2025-08-04at21.47.03_2790ab84-6016-4df5-bef4-ad7f6d25bc8f_mx2cav.webp"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112595/WhatsAppImage2025-08-04at21.47.03_2790ab84-6016-4df5-bef4-ad7f6d25bc8f_mx2cav.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112595/WhatsAppImage2025-08-04at21.47.03_2790ab84-6016-4df5-bef4-ad7f6d25bc8f_mx2cav.webp",
     ],
     price: 679,
     category: "occasional-gifts",
@@ -1699,12 +1833,15 @@ comes in a pack of 10
     description: `Welcome your guests / baraatis with this exquisite kundan broaches and make them feel special. 
 
 comes in a pack of 10
-`},
-{
+`,
+  },
+  {
     id: "Evil Eye Broach",
     name: "Evil Eye Broach (Pack of 10)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112594/WhatsAppImage2024-12-03at21.39.03_1_dync88.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112594/WhatsAppImage2024-12-03at21.39.03_1_dync88.webp"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112594/WhatsAppImage2024-12-03at21.39.03_1_dync88.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112594/WhatsAppImage2024-12-03at21.39.03_1_dync88.webp",
     ],
     price: 679,
     category: "occasional-gifts",
@@ -1712,14 +1849,17 @@ comes in a pack of 10
     description: `Welcome your guests / baraatis with this exquisite kundan broaches and make them feel special. 
 
 comes in a pack of 10
-`},
-{
+`,
+  },
+  {
     id: "Swagath Mala",
     name: "Swagath Mala (Pack of 10)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112594/WhatsAppImage2024-12-03at21.38.45_2_wljebp.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112594/WhatsAppImage2024-12-03at21.38.45_2_wljebp.webp",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112594/WhatsAppImage2024-12-03at21.38.45_2_wljebp.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112594/WhatsAppImage2024-12-03at21.38.45_2_wljebp.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112594/WhatsApp_Image_2024-12-03_at_21.39.02_1_b7o0lt.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112594/WhatsApp_Image_2024-12-03_at_21.38.46_2_cipr9s.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763112594/WhatsApp_Image_2024-12-03_at_21.38.46_2_cipr9s.webp",
     ],
     price: 879,
     category: "occasional-gifts",
@@ -1727,46 +1867,49 @@ comes in a pack of 10
     description: `When your guests are special , there should be something more special to welcoe them. Now Welcome your guests with this uniquely designed swagat mala and make them feel special.
 
 Comes in a pack of 10
-`},
-// {
-//     id: "Swagath Mala with Shrinath ji pendandt",
-//     name: "Swagath Mala with Shrinath ji pendandt(Pack of 10)",
-//     image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763113908/swagat-mala-or-guest-welcome-garland-858_qgobu5.jpg",
-//     images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763113908/swagat-mala-or-guest-welcome-garland-858_qgobu5.jpg",
-//       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763113284/51tgEWnYG2L_teagys.jpg"
-//     ],
-//     price: 759,
-//     category: "occasional-gifts",
-//     subCategory: "wedding",
-//     description: `Bring a touch of divine elegance to your celebrations with this beautifully crafted Srinath Ji Pendant Pearl Mala, designed especially for Indian wedding rituals and barati welcomes. Featuring classic pearl-style beads and intricate golden detailing, this mala adds charm, tradition, and sophistication to any ceremony.
+`,
+  },
+  // {
+  //     id: "Swagath Mala with Shrinath ji pendandt",
+  //     name: "Swagath Mala with Shrinath ji pendandt(Pack of 10)",
+  //     image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763113908/swagat-mala-or-guest-welcome-garland-858_qgobu5.jpg",
+  //     images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763113908/swagat-mala-or-guest-welcome-garland-858_qgobu5.jpg",
+  //       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763113284/51tgEWnYG2L_teagys.jpg"
+  //     ],
+  //     price: 759,
+  //     category: "occasional-gifts",
+  //     subCategory: "wedding",
+  //     description: `Bring a touch of divine elegance to your celebrations with this beautifully crafted Srinath Ji Pendant Pearl Mala, designed especially for Indian wedding rituals and barati welcomes. Featuring classic pearl-style beads and intricate golden detailing, this mala adds charm, tradition, and sophistication to any ceremony.
 
-// ✨ Key Features:
+  // ✨ Key Features:
 
-// • Traditional & Elegant Design
-// A stunning multi-strand mala adorned with premium synthetic pearls, highlighted with golden accents and delicate black enamel work for a regal finish.
+  // • Traditional & Elegant Design
+  // A stunning multi-strand mala adorned with premium synthetic pearls, highlighted with golden accents and delicate black enamel work for a regal finish.
 
-// • Ceremonial Perfect
-// Ideal for Indian weddings, especially as a graceful welcome accessory for the barati (groom’s procession).
+  // • Ceremonial Perfect
+  // Ideal for Indian weddings, especially as a graceful welcome accessory for the barati (groom’s procession).
 
-// • Premium Craftsmanship
-// Made with high-quality pearls and metallic embellishments to ensure durability, shine, and a luxurious appearance.
+  // • Premium Craftsmanship
+  // Made with high-quality pearls and metallic embellishments to ensure durability, shine, and a luxurious appearance.
 
-// • Comfortable Length
-// Approximately 45 cm in length, offering a comfortable and versatile fit for guests of all ages.
+  // • Comfortable Length
+  // Approximately 45 cm in length, offering a comfortable and versatile fit for guests of all ages.
 
-// • Divine Pendant
-// Features a beautifully detailed Srinath Ji idol pendant, adding spiritual charm and traditional richness to the mala.
+  // • Divine Pendant
+  // Features a beautifully detailed Srinath Ji idol pendant, adding spiritual charm and traditional richness to the mala.
 
-// • Color Variants
-// Available in White / Off-White, complementing all ethnic outfits and wedding themes.
+  // • Color Variants
+  // Available in White / Off-White, complementing all ethnic outfits and wedding themes.
 
-// This mala is the perfect blend of cultural significance and elegant craftsmanship—an ideal choice for wedding events, festive occasions, and traditional ceremonies.
-// `},
-{
+  // This mala is the perfect blend of cultural significance and elegant craftsmanship—an ideal choice for wedding events, festive occasions, and traditional ceremonies.
+  // `},
+  {
     id: "Swagath Mala with kundan stone",
     name: "Swagath Mala with kundan stone (Pack of 10)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763113241/IMG-20231210-WA0549_bzvvya.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763113241/IMG-20231210-WA0549_bzvvya.webp"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763113241/IMG-20231210-WA0549_bzvvya.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763113241/IMG-20231210-WA0549_bzvvya.webp",
     ],
     price: 900,
     category: "occasional-gifts",
@@ -1776,13 +1919,16 @@ Comes in a pack of 10
 As the baraat arrives at the wedding venue, these malas are ceremoniously placed on the groom’s side guests, symbolizing honor and joy. The blend of pearls and Kundan stones adds a regal touch, making each moment feel grand and memorable.
 
 Ideal for those looking for wedding welcome gifts, barati swagat malas, or traditional gifting options, this elegant mala enhances the cultural charm of your celebration while creating a lasting impression on your guests.
-`},
-{
+`,
+  },
+  {
     id: "Royal Kundan Satka Charm Keychains",
     name: "Royal Kundan Satka Charm Keychains",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763116625/65-rs-per-pc-on-buying-50-pcs-satka-pins-lamansh-designer-kundan-satka-s-keychains-for-ladies-haldi-mehendi-sangeet-favors-for-bridesmaids-in-weddings-31352644567101_1080x_kj0par.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763116625/65-rs-per-pc-on-buying-50-pcs-satka-pins-lamansh-designer-kundan-satka-s-keychains-for-ladies-haldi-mehendi-sangeet-favors-for-bridesmaids-in-weddings-31352644567101_1080x_kj0par.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763116625/65-rs-per-pc-on-buying-50-pcs-satka-pins-lamansh-designer-kundan-satka-s-keychains-for-ladies-haldi-mehendi-sangeet-favors-for-bridesmaids-in-weddings-31389537959997_1800x1800_gtihbd.webp"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763116625/65-rs-per-pc-on-buying-50-pcs-satka-pins-lamansh-designer-kundan-satka-s-keychains-for-ladies-haldi-mehendi-sangeet-favors-for-bridesmaids-in-weddings-31352644567101_1080x_kj0par.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763116625/65-rs-per-pc-on-buying-50-pcs-satka-pins-lamansh-designer-kundan-satka-s-keychains-for-ladies-haldi-mehendi-sangeet-favors-for-bridesmaids-in-weddings-31352644567101_1080x_kj0par.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763116625/65-rs-per-pc-on-buying-50-pcs-satka-pins-lamansh-designer-kundan-satka-s-keychains-for-ladies-haldi-mehendi-sangeet-favors-for-bridesmaids-in-weddings-31389537959997_1800x1800_gtihbd.webp",
     ],
     price: 1400,
     category: "occasional-gifts",
@@ -1815,12 +1961,15 @@ Pairs beautifully with:
 • Sarees
 • Ethnic Dresses
 • All Traditional Outfits
-`},
-{
+`,
+  },
+  {
     id: "Handmade Earings Set(Groom)",
     name: "Handmade Earings Set(Groom Side)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763117199/CFE2413_D_d5qd3n.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763117199/CFE2413_D_d5qd3n.webp"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763117199/CFE2413_D_d5qd3n.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763117199/CFE2413_D_d5qd3n.webp",
     ],
     price: 300,
     category: "occasional-gifts",
@@ -1832,12 +1981,15 @@ Crafted with meticulous detail, the stunning green and gold combination adds a r
 Part of our exclusive wedding fashion series, these earrings enhance your individuality and bring out your festive radiance. Whether you're searching for the perfect Dulhe Ki Behen accessory or a thoughtful gift for someone special, these earrings are a timeless choice.
 
 Seasonless, stylish, and statement-worthy—our Green Dulhe Ki Behen Earrings will make every moment picture-perfect. Get ready to steal the spotlight and let your elegance take center stage.
-`},
-{
+`,
+  },
+  {
     id: "Haldi Glow Maangtikka",
     name: "Haldi Glow Maangtikka (Pack of 10)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763117657/IMG_1204-scaled_sj9uxf.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763117657/IMG_1204-scaled_sj9uxf.jpg"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763117657/IMG_1204-scaled_sj9uxf.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763117657/IMG_1204-scaled_sj9uxf.jpg",
     ],
     price: 300,
     category: "occasional-gifts",
@@ -1847,13 +1999,16 @@ Seasonless, stylish, and statement-worthy—our Green Dulhe Ki Behen Earrings wi
 Lightweight, comfortable, and perfect for brides, bridesmaids, and guests, these floral adornments effortlessly enhance any ethnic outfit. Whether used as a maangtikka, bracelet, or hair accessory, they bring the perfect pop of yellow for a joyful, picture-perfect celebration.
 
 Ideal for Haldi, Mehndi, Sangeet, and festive gifting—these floral pieces make every moment feel special and beautifully coordinated.
-`},
-{
+`,
+  },
+  {
     id: "Utsav Haldi Mehndi Gift Hamper",
     name: "Utsav Haldi Mehndi Gift Hamper(Pack of 5)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763118537/IMG_1152-scaled_tv1xuo.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763118537/IMG_1152-scaled_tv1xuo.png",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763118516/IMG_1153-scaled_lalbt8.png "
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763118537/IMG_1152-scaled_tv1xuo.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763118537/IMG_1152-scaled_tv1xuo.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763118516/IMG_1153-scaled_lalbt8.png ",
     ],
     price: 739,
     category: "occasional-gifts",
@@ -1863,13 +2018,16 @@ Ideal for Haldi, Mehndi, Sangeet, and festive gifting—these floral pieces make
 Paired with it are stunning handcrafted earrings adorned with pearls, red accents, and intricate metallic floral motifs. These studs beautifully complement the clutch, making the set an ideal gift or a stylish accessory bundle for any traditional occasion.
 
 Stylish • Traditional • Perfect for Gifting
-`},
-{
+`,
+  },
+  {
     id: "Cover Pouch",
     name: "Cover Pouch(Pack of 10)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120167/IMG-3161_my0tty.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120167/IMG-3161_my0tty.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120189/IMG-3164_ou0nvd.webp "
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120167/IMG-3161_my0tty.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120167/IMG-3161_my0tty.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120189/IMG-3164_ou0nvd.webp ",
     ],
     price: 439,
     category: "occasional-gifts",
@@ -1882,34 +2040,39 @@ Lightweight and spacious, they are ideal for weddings, mehndi functions, haldi g
 • Available in assorted vibrant colors
 • Perfect for gifting & bulk orders
 • Stylish, lightweight & easy to carry
-`},
-{
+`,
+  },
+  {
     id: "Bride & Bridesmaid Floral Hand Accessory Set",
     name: "Bride & Bridesmaid Floral Hand Accessory Set(Pack of 10)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120444/1C0029F7-A6E6-434A-BCB8-1E93EEE1C92F_tjbpvk.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120444/1C0029F7-A6E6-434A-BCB8-1E93EEE1C92F_tjbpvk.webp",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120444/1C0029F7-A6E6-434A-BCB8-1E93EEE1C92F_tjbpvk.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120444/1C0029F7-A6E6-434A-BCB8-1E93EEE1C92F_tjbpvk.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120444/0588E4F4-83A2-4307-BA1E-178EB33E93CE_t0pqll.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120443/1C0E51A7-39D9-43CA-AE20-73482CFA12BB_whmv9j.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120440/B79A613C-38C8-432B-A302-5E4DC36BEEC7_d67mlc.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763120440/B79A613C-38C8-432B-A302-5E4DC36BEEC7_d67mlc.webp",
     ],
     price: 1439,
     category: "occasional-gifts",
     subCategory: "wedding",
     description: `Crafted with stunning artificial flowers and pearl detailing, this hand accessory set adds a graceful statement to ethnic wear.
      The vibrant colors make it ideal for group functions, bridesmaid coordination, and themed celebrations.
-`},
-
+`,
+  },
 
   // OCCASIONAL - subCategory: engagement
   {
     id: "Handcrafted Multicolor Pichwai Pot with Cow Motifs",
     name: "Handcrafted Multicolor Pichwai Pot with Cow Motifs",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115097/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_6_kfzofp.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115097/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_6_kfzofp.webp",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115097/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_6_kfzofp.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115097/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_6_kfzofp.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115099/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_1_eq1kgc.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115097/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_7_adilgo.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115097/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_5_fzy059.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115097/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_6_kfzofp.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115097/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_6_kfzofp.webp",
     ],
     price: 1499,
     category: "occasional-gifts",
@@ -1917,13 +2080,14 @@ Lightweight and spacious, they are ideal for weddings, mehndi functions, haldi g
     description: `This vibrant Cow-Themed Serving Set adds a touch of tradition and color to any home. 
     Featuring a beautifully printed tray with matching airtight jars, it’s perfect for gifting during weddings, festivals, or housewarmings. Elegant, durable, and eye-catching—an ideal choice for thoughtful and functional gifting.`,
   },
-  
+
   {
     id: "Silver-Plated Tortoise Decorative Plate Set",
-      name: "Silver-Plated Tortoise Decorative Plate Set",
-      image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115958/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_8_a2lxb3.webp",
-      images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115958/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_8_a2lxb3.webp",
-      
+    name: "Silver-Plated Tortoise Decorative Plate Set",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115958/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_8_a2lxb3.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115958/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_8_a2lxb3.webp",
     ],
     price: 1999,
     category: "occasional-gifts",
@@ -1932,10 +2096,11 @@ Lightweight and spacious, they are ideal for weddings, mehndi functions, haldi g
   },
   {
     id: "Silver Leaf Embellished Decorative Bowl Set",
-      name: "Silver Leaf Embellished Decorative Bowl Set",
-      image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763116235/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_9_tjnyih.webp",
-      images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763116235/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_9_tjnyih.webp",
-      
+    name: "Silver Leaf Embellished Decorative Bowl Set",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763116235/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_9_tjnyih.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763116235/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_9_tjnyih.webp",
     ],
     price: 1699,
     category: "occasional-gifts",
@@ -1944,13 +2109,15 @@ Lightweight and spacious, they are ideal for weddings, mehndi functions, haldi g
      Presented in a luxurious velvet box, it makes a stunning gift for weddings, housewarmings, festivals, or corporate occasions.
      A perfect blend of modern elegance and artistic craftsmanship.`,
   },
-  
+
   {
     id: "Swastik Brass Diya with Velvet Gift Box",
     name: "Swastik Brass Diya with Velvet Gift Box",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763119581/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_11_ukx2vo.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763119581/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_11_ukx2vo.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763119581/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_11_ukx2vo.webp"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763119581/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_11_ukx2vo.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763119581/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_11_ukx2vo.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763119581/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_11_ukx2vo.webp",
     ],
     price: 2199,
     category: "occasional-gifts",
@@ -1962,8 +2129,11 @@ Lightweight and spacious, they are ideal for weddings, mehndi functions, haldi g
   {
     id: "Royal Lotus Bowl & Spoon Gift Set",
     name: "Royal Lotus Bowl & Spoon Gift Set",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763119916/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_12_mhbvpn.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763119916/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_12_mhbvpn.webp"    ],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763119916/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_12_mhbvpn.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763119916/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_12_mhbvpn.webp",
+    ],
     price: 1199,
     category: "occasional-gifts",
     subCategory: "engagement",
@@ -1974,8 +2144,11 @@ Lightweight and spacious, they are ideal for weddings, mehndi functions, haldi g
   {
     id: "Golden Swan Tealight Holder Pair",
     name: "Golden Swan Tealight Holder Pair (Return Gifts)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763121310/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_13_kttow2.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763121310/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_13_kttow2.webp"    ],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763121310/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_13_kttow2.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763121310/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_13_kttow2.webp",
+    ],
     price: 1399,
     category: "occasional-gifts",
     subCategory: "engagement",
@@ -1986,8 +2159,11 @@ Lightweight and spacious, they are ideal for weddings, mehndi functions, haldi g
   {
     id: "Silver Peacock Diya with Parrot Top – Premium Gift Edition",
     name: "Silver Peacock Diya with Parrot Top – Premium Gift Edition (Silver Plated)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763121577/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_14_w3xkio.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763121577/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_14_w3xkio.webp"    ],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763121577/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_14_w3xkio.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763121577/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_14_w3xkio.webp",
+    ],
     price: 2399,
     category: "occasional-gifts",
     subCategory: "engagement",
@@ -1998,11 +2174,13 @@ Lightweight and spacious, they are ideal for weddings, mehndi functions, haldi g
   {
     id: "Royal Brass Gift Tray Set – 4 Box Dry Fruit Holder",
     name: "Royal Brass Gift Tray Set – 4 Box Dry Fruit Holder",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122396/Gemini_Generated_Image_j85l5sj85l5sj85l_xaizoi.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122396/Gemini_Generated_Image_j85l5sj85l5sj85l_xaizoi.png" ,
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122396/Gemini_Generated_Image_j85l5sj85l5sj85l_xaizoi.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122396/Gemini_Generated_Image_j85l5sj85l5sj85l_xaizoi.png",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122384/Gemini_Generated_Image_lutnvplutnvplutn_1_ersqe3.png",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122383/Gemini_Generated_Image_19046i19046i1904_pd3lup.png"
-       ],
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122383/Gemini_Generated_Image_19046i19046i1904_pd3lup.png",
+    ],
     price: 1199,
     category: "occasional-gifts",
     subCategory: "engagement",
@@ -2018,12 +2196,14 @@ Perfect for serving dry fruits, sweets, mukhwas, snacks, or for festive décor, 
   {
     id: "Premium Brass Storage Jar with Lotus Top",
     name: "Premium Brass Storage Jar with Lotus Top",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122927/Gemini_Generated_Image_ue682rue682rue68_t4ix5e.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122927/Gemini_Generated_Image_ue682rue682rue68_t4ix5e.png" ,
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122927/Gemini_Generated_Image_ue682rue682rue68_t4ix5e.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122927/Gemini_Generated_Image_ue682rue682rue68_t4ix5e.png",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122928/Gemini_Generated_Image_gx95t2gx95t2gx95_gyft4j.png",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122928/Gemini_Generated_Image_gx95t2gx95t2gx95_gyft4j.png",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122932/Gemini_Generated_Image_9mcvt49mcvt49mcv_ynbew4.png"
-       ],
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763122932/Gemini_Generated_Image_9mcvt49mcvt49mcv_ynbew4.png",
+    ],
     price: 170,
     category: "occasional-gifts",
     subCategory: "engagement",
@@ -2039,11 +2219,13 @@ Ideal for storing dry fruits, sweets, mukhwas, jewelry, or small keepsakes, it a
   {
     id: "Floral Copper Bottle & Glass Set",
     name: "Floral Copper Bottle & Glass Set",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763123765/Gemini_Generated_Image_wc3hrbwc3hrbwc3h_cbvxg9.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763123765/Gemini_Generated_Image_wc3hrbwc3hrbwc3h_cbvxg9.png" ,
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763123765/Gemini_Generated_Image_wc3hrbwc3hrbwc3h_cbvxg9.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763123765/Gemini_Generated_Image_wc3hrbwc3hrbwc3h_cbvxg9.png",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763123732/Gemini_Generated_Image_xno1e0xno1e0xno1_qxds6i.png",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763123696/Gemini_Generated_Image_nv1xu2nv1xu2nv1x_v8kx8n.png"
-       ],
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763123696/Gemini_Generated_Image_nv1xu2nv1xu2nv1x_v8kx8n.png",
+    ],
     price: 1999,
     category: "occasional-gifts",
     subCategory: "engagement",
@@ -2057,14 +2239,15 @@ The matching copper glasses add to the charm, making it a perfect set for home u
 • Ideal for gifting: weddings, festivals, housewarmings`,
   },
 
-
   // OCCASIONAL - subCategory: anniversary
   {
     id: "Anniversary Coffee Delight Box",
     name: "Anniversary Coffee Delight Box",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188596/001-60-scaled_fcyhh0.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188596/001-60-scaled_fcyhh0.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188597/002-58_o5y5no.webp"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188596/001-60-scaled_fcyhh0.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188596/001-60-scaled_fcyhh0.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188597/002-58_o5y5no.webp",
     ],
     price: 2399,
     category: "occasional-gifts",
@@ -2078,10 +2261,12 @@ The entire gift is beautifully arranged in a sturdy box filled with vibrant shre
   {
     id: "Serenity Bamboo & Aroma Candle Gift Set",
     name: "Serenity Bamboo & Aroma Candle Gift Set",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188921/51Vhp0luHnL_pxxkf9.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188921/51Vhp0luHnL_pxxkf9.jpg",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188921/51Vhp0luHnL_pxxkf9.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188921/51Vhp0luHnL_pxxkf9.jpg",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188920/515gnUcgG5L_f3o1m0.jpg",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188920/51-GfVUYOBL_crcjyi.jpg"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188920/51-GfVUYOBL_crcjyi.jpg",
     ],
     price: 799,
     category: "occasional-gifts",
@@ -2095,10 +2280,12 @@ Ideal for gifting on anniversaries, housewarmings, festivals, or corporate event
   {
     id: "Shree Wraps Premium Dry Fruit Treasure Box",
     name: "Shree Wraps Premium Dry Fruit Treasure Box",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763189226/IMG_0033._copy_npga2l.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763189226/IMG_0033._copy_npga2l.webp",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763189226/IMG_0033._copy_npga2l.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763189226/IMG_0033._copy_npga2l.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763189226/IMG_0022.copy_fcgltc.webp",
-      ],
+    ],
     price: 1599,
     category: "occasional-gifts",
     subCategory: "anniversary",
@@ -2122,10 +2309,12 @@ Mixed Seeds & Berries`,
   {
     id: "Shree Wraps Anniversary Bliss Hamper",
     name: "Shree Wraps Anniversary Bliss Hamper",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763190212/Gemini_Generated_Image_qz8brqqz8brqqz8b_wsfdt2.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763190212/Gemini_Generated_Image_qz8brqqz8brqqz8b_wsfdt2.png",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763190212/Gemini_Generated_Image_qz8brqqz8brqqz8b_wsfdt2.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763190212/Gemini_Generated_Image_qz8brqqz8brqqz8b_wsfdt2.png",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763190212/Gemini_Generated_Image_yx17jbyx17jbyx17_zjlplb.png",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763190212/Gemini_Generated_Image_qz8brqqz8brqqz8b_1_tiqp3t.png"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763190212/Gemini_Generated_Image_qz8brqqz8brqqz8b_1_tiqp3t.png",
     ],
     price: 599,
     category: "occasional-gifts",
@@ -2139,10 +2328,11 @@ Whether you’re gifting it to a loved one or sharing it as a return gift for gu
   {
     id: "Shree Wraps Divine Blessings Anniversary Hamper",
     name: "Shree Wraps Divine Blessings Anniversary Hamper",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763190646/Gemini_Generated_Image_u932xu932xu932xu_st7iwy.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763190646/Gemini_Generated_Image_u932xu932xu932xu_st7iwy.png",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763190646/Gemini_Generated_Image_u932xu932xu932xu_st7iwy.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763190646/Gemini_Generated_Image_u932xu932xu932xu_st7iwy.png",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763190645/Gemini_Generated_Image_rvjifwrvjifwrvji_cboe7b.png",
-      
     ],
     price: 649,
     category: "occasional-gifts",
@@ -2156,74 +2346,78 @@ Wrapped with shimmering fabrics, soft hues, and refined embellishments, this ham
 A return gift that truly touches the heart—bringing blessings home with every detail.`,
   },
   {
-  id: "Royal-Lotus-Bowl-Spoon-Gift-Set-Anniversary-01",
-  name: "Royal Lotus Bowl & Spoon Gift Set",
-  image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763119916/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_12_mhbvpn.webp",
-  images: [
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763119916/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_12_mhbvpn.webp"
-  ],
-  price: 1199,
-  category: "occasional-gifts",
-  subCategory: "anniversary",
-  description: `Elevate your gifting with this luxurious Lotus Bowl & Spoon Set, crafted with stunning gold and silver detailing.
+    id: "Royal-Lotus-Bowl-Spoon-Gift-Set-Anniversary-01",
+    name: "Royal Lotus Bowl & Spoon Gift Set",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763119916/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_12_mhbvpn.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763119916/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_12_mhbvpn.webp",
+    ],
+    price: 1199,
+    category: "occasional-gifts",
+    subCategory: "anniversary",
+    description: `Elevate your gifting with this luxurious Lotus Bowl & Spoon Set, crafted with stunning gold and silver detailing.
   Perfect for serving dry fruits, sweets, or desserts, it comes beautifully packed in a premium red velvet box.
   Ideal for anniversaries, weddings, festivals, and elegant return gifts.`,
-},
-{
-  id: "Shree Wraps Royal Copper Hydration Set",
-  name: "Shree Wraps Royal Copper Hydration Set",
-  image: "hhttps://res.cloudinary.com/dzh2zxbvw/image/upload/v1763191765/Gemini_Generated_Image_z8mpuwz8mpuwz8mp_bvhdxv.png",
-  images: [
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763191765/Gemini_Generated_Image_z8mpuwz8mpuwz8mp_bvhdxv.png",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763191765/IAV-DGS-114-3B_ffce71cf-fb8e-4cd7-b7ca-17c3cb860770_1728x_ompfxp.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763191764/IAV-DGS-114-3C_b3a3aa36-5fbe-43d8-a48e-39682e62534e_1728x_bjecxf.webp",
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763191764/IAV-DGS-114-3G_c75d571c-39d5-4716-893b-1e12b126167c_1728x_nryjyz.webp"
-  ],
-  price: 1495,
-  originalPrice: 1999,
-  category: "occasional-gifts",
-  subCategory: "anniversary",
-  description: `Experience the perfect blend of tradition, wellness, and luxury with the Shree Wraps Royal Copper Hydration Set. This premium set includes a beautifully hand-etched copper bottle paired with two matching copper glasses, each crafted with intricate detailing that reflects timeless Indian artistry.
+  },
+  {
+    id: "Shree Wraps Royal Copper Hydration Set",
+    name: "Shree Wraps Royal Copper Hydration Set",
+    image:
+      "hhttps://res.cloudinary.com/dzh2zxbvw/image/upload/v1763191765/Gemini_Generated_Image_z8mpuwz8mpuwz8mp_bvhdxv.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763191765/Gemini_Generated_Image_z8mpuwz8mpuwz8mp_bvhdxv.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763191765/IAV-DGS-114-3B_ffce71cf-fb8e-4cd7-b7ca-17c3cb860770_1728x_ompfxp.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763191764/IAV-DGS-114-3C_b3a3aa36-5fbe-43d8-a48e-39682e62534e_1728x_bjecxf.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763191764/IAV-DGS-114-3G_c75d571c-39d5-4716-893b-1e12b126167c_1728x_nryjyz.webp",
+    ],
+    price: 1495,
+    originalPrice: 1999,
+    category: "occasional-gifts",
+    subCategory: "anniversary",
+    description: `Experience the perfect blend of tradition, wellness, and luxury with the Shree Wraps Royal Copper Hydration Set. This premium set includes a beautifully hand-etched copper bottle paired with two matching copper glasses, each crafted with intricate detailing that reflects timeless Indian artistry.
 
 Made from 100% pure copper, this drinkware set is not only visually stunning but also offers powerful Ayurvedic health benefits. Drinking water stored in copper helps balance the body's doshas, boosts immunity, improves digestion, and promotes overall well-being. The glossy finish and traditional patterns add a touch of elegance, making it suitable for everyday use as well as display.
 
 Thoughtfully designed for gifting, this set is perfect for anniversaries, weddings, festive gifting, housewarming ceremonies, and premium return gifts. Its luxurious look, meaningful purpose, and long-lasting quality make it a memorable and functional present your loved ones will truly appreciate.
 
 A beautiful fusion of health, heritage, and craftsmanship—only from Shree Wraps.`,
-},
-{
-  id: "Shree Wraps Handcrafted Royale Drinkware Set",
-  name: "Shree Wraps Handcrafted Royale Drinkware Set",
-  image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763192003/img_1815_cqpjdl.png",
-  images: [
-    "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763192003/img_1815_cqpjdl.png"
-  ],
-  price: 1399,
-  originalPrice: 2500,
-  category: "occasional-gifts",
-  subCategory: "anniversary",
-  description: `Celebrate tradition and artistry with the Shree Wraps Floral Elegance Bottle & Glass Gift Set—a luxurious gifting choice that brings together beauty, craftsmanship, and wellness. This stunning set includes a premium hand-printed bottle accompanied by two matching tumblers, each adorned with vibrant floral motifs inspired by traditional Indian designs.
+  },
+  {
+    id: "Shree Wraps Handcrafted Royale Drinkware Set",
+    name: "Shree Wraps Handcrafted Royale Drinkware Set",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763192003/img_1815_cqpjdl.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763192003/img_1815_cqpjdl.png",
+    ],
+    price: 1399,
+    originalPrice: 2500,
+    category: "occasional-gifts",
+    subCategory: "anniversary",
+    description: `Celebrate tradition and artistry with the Shree Wraps Floral Elegance Bottle & Glass Gift Set—a luxurious gifting choice that brings together beauty, craftsmanship, and wellness. This stunning set includes a premium hand-printed bottle accompanied by two matching tumblers, each adorned with vibrant floral motifs inspired by traditional Indian designs.
 
 Crafted with precision and coated with high-quality enamel artwork, the set stands out for its rich detailing and glossy finish. Beyond its visual appeal, the bottle is lined with pure copper on the inside, offering the well-known Ayurvedic benefits of copper-infused water—improved digestion, enhanced immunity, and balanced energy levels.
 
 The elegant pieces come seated in a satin-lined gift box, making it an ideal present for anniversaries, weddings, festive gifting, corporate giveaways, and premium return gifts. Designed to impress and built to last, this set combines functionality with artistic charm, delivering a gift that is both meaningful and memorable.
 
 A perfect fusion of health, heritage, and handcrafted beauty—crafted with love by Shree Wraps.`,
-},
+  },
   // OCCASIONAL - subCategory: baby-shower
   {
     id: "Shree Wraps New Arrival Sweet Cart Hamper",
     name: "Shree Wraps New Arrival Sweet Cart Hamper",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763192410/5cf3f13d86d625147fa914619181dfe0_original_g8br5n.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763192410/5cf3f13d86d625147fa914619181dfe0_original_g8br5n.jpg",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763192410/5cf3f13d86d625147fa914619181dfe0_original_g8br5n.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763192410/5cf3f13d86d625147fa914619181dfe0_original_g8br5n.jpg",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763192409/6933e62f435712e1dc452af3ebe6fc6b_original_qckbg1.jpg",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763192409/6310f61afda9fb5fe88b9e5099dd51eb_original_rkh2vd.jpg"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763192409/6310f61afda9fb5fe88b9e5099dd51eb_original_rkh2vd.jpg",
     ],
     price: 949,
     category: "occasional-gifts",
     subCategory: "baby-shower",
-    description:
-      `Make your baby shower even more memorable with the Shree Wraps Baby Boy Celebration Cart Hamper—a charming, handcrafted mini cart designed to delight your guests with sweetness and love. Styled in soothing baby blue and white tones, this adorable cart-shaped box is decorated with cute detailing, including little socks, ribbons, and a special “Thank you for showering our baby with love” tag that adds a heartfelt touch.
+    description: `Make your baby shower even more memorable with the Shree Wraps Baby Boy Celebration Cart Hamper—a charming, handcrafted mini cart designed to delight your guests with sweetness and love. Styled in soothing baby blue and white tones, this adorable cart-shaped box is decorated with cute detailing, including little socks, ribbons, and a special “Thank you for showering our baby with love” tag that adds a heartfelt touch.
 
 Inside, the hamper features a delightful assortment of treats such as donut-themed goodies, premium jars filled with sweet surprises, and adorable “It’s a Boy!” themed elements that complete the joyful celebration. The beautifully curated presentation makes it perfect for baby showers, newborn celebrations, and gifting to welcome a baby boy.
 
@@ -2231,15 +2425,16 @@ Thoughtfully designed with elegance and warmth, this hamper by Shree Wraps is su
 
 A sweet gesture for a sweet beginning!`,
   },
- 
- 
+
   {
     id: "Shree Wraps Two-Tier Baby Boy Welcome Hamper",
     name: "Shree Wraps Two-Tier Baby Boy Welcome Hamper",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763192730/IMG_6067_a1kb9p.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763192730/IMG_6067_a1kb9p.webp",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763192730/IMG_6067_a1kb9p.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763192730/IMG_6067_a1kb9p.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763192730/2_Tier_Hamper_1_a9tppo.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763192730/IMG_6065_dbpcx3.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763192730/IMG_6065_dbpcx3.webp",
     ],
     price: 4999,
     category: "occasional-gifts",
@@ -2255,9 +2450,11 @@ Overflowing with sweetness, style, and celebration, this Shree Wraps hamper is t
   {
     id: "Shree Wraps Baby Girl Celebration Hamper",
     name: "Shree Wraps Baby Girl Celebration Hamper",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763196997/Gemini_Generated_Image_q2939iq2939iq293_kksnpc.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763196997/Gemini_Generated_Image_q2939iq2939iq293_kksnpc.png",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763196996/Gemini_Generated_Image_sc377zsc377zsc37_aimz6a.png"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763196997/Gemini_Generated_Image_q2939iq2939iq293_kksnpc.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763196997/Gemini_Generated_Image_q2939iq2939iq293_kksnpc.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763196996/Gemini_Generated_Image_sc377zsc377zsc37_aimz6a.png",
     ],
     price: 999,
     category: "occasional-gifts",
@@ -2273,9 +2470,11 @@ A lovely blend of charm, quality, and celebration—crafted with care by Shree W
   {
     id: "Shree Wraps One-derful Unicorn Celebration Hamper",
     name: "Shree Wraps One-derful Unicorn Celebration Hamper",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763197135/Hitube_v6auvKbCOT_2025_11_15_13_19_23_k130y8.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763197135/Hitube_v6auvKbCOT_2025_11_15_13_19_23_k130y8.jpg",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763197134/Hitube_EmTBMZjuln_2025_11_15_13_19_25_ay27co.jpg"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763197135/Hitube_v6auvKbCOT_2025_11_15_13_19_23_k130y8.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763197135/Hitube_v6auvKbCOT_2025_11_15_13_19_23_k130y8.jpg",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763197134/Hitube_EmTBMZjuln_2025_11_15_13_19_25_ay27co.jpg",
     ],
     price: 969,
     category: "occasional-gifts",
@@ -2291,8 +2490,10 @@ A magical burst of rainbows, sweetness, and celebration—only from Shree Wraps.
   {
     id: "Shree Wraps Little Prince Gift Basket",
     name: "Shree Wraps Little Prince Gift Basket",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763197547/Hitube_qfLj8NHHgq_2025_11_15_14_31_10_hkysjk.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763197547/Hitube_qfLj8NHHgq_2025_11_15_14_31_10_hkysjk.jpg"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763197547/Hitube_qfLj8NHHgq_2025_11_15_14_31_10_hkysjk.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763197547/Hitube_qfLj8NHHgq_2025_11_15_14_31_10_hkysjk.jpg",
     ],
     price: 799,
     category: "occasional-gifts",
@@ -2306,8 +2507,10 @@ Perfectly blending elegance and celebration, this baby boy hamper by Shree Wraps
   {
     id: "Shree Wraps Little Gentleman Gift Tray",
     name: "Shree Wraps Little Gentleman Gift Tray",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763197748/Hitube_hAmzj0WFz4_2025_11_15_14_31_09_dyg6gd.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763197748/Hitube_hAmzj0WFz4_2025_11_15_14_31_09_dyg6gd.jpg"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763197748/Hitube_hAmzj0WFz4_2025_11_15_14_31_09_dyg6gd.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763197748/Hitube_hAmzj0WFz4_2025_11_15_14_31_09_dyg6gd.jpg",
     ],
     price: 899,
     category: "occasional-gifts",
@@ -2323,8 +2526,10 @@ A perfect blend of cuteness and luxury to make your celebration truly unforgetta
   {
     id: "Shree Wraps Little Star Baby Gift Arrangement",
     name: "Shree Wraps Little Star Baby Gift Arrangement",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763197939/Hitube_PvB0w83aPW_2025_11_15_14_31_08_w2rk95.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763197939/Hitube_PvB0w83aPW_2025_11_15_14_31_08_w2rk95.jpg"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763197939/Hitube_PvB0w83aPW_2025_11_15_14_31_08_w2rk95.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763197939/Hitube_PvB0w83aPW_2025_11_15_14_31_08_w2rk95.jpg",
     ],
     price: 999,
     category: "occasional-gifts",
@@ -2338,11 +2543,13 @@ A delightful blend of cuteness and sophistication, this hamper by Shree Wraps is
   {
     id: "Shree Wraps Blue Bliss Premium Truffle Hamper",
     name: "Shree Wraps Blue Bliss Premium Truffle Hamper",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198119/WhatsApp_Image_2025-11-15_at_2.20.43_PM_1_fgx4dy.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198119/WhatsApp_Image_2025-11-15_at_2.20.43_PM_1_fgx4dy.jpg",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198119/WhatsApp_Image_2025-11-15_at_2.20.43_PM_1_fgx4dy.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198119/WhatsApp_Image_2025-11-15_at_2.20.43_PM_1_fgx4dy.jpg",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198118/WhatsApp_Image_2025-11-15_at_2.20.44_PM_via28e.jpg",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198120/WhatsApp_Image_2025-11-15_at_2.20.43_PM_qlbjpo.jpg",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198121/WhatsApp_Image_2025-11-15_at_2.20.42_PM_uogows.jpg"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198121/WhatsApp_Image_2025-11-15_at_2.20.42_PM_uogows.jpg",
     ],
     price: 799,
     category: "occasional-gifts",
@@ -2358,9 +2565,11 @@ A truly royal treat for truly special moments.`,
   {
     id: "Shree Wraps Little Joy Treat Box",
     name: "Shree Wraps Little Joy Treat Box",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198299/WhatsApp_Image_2025-11-15_at_2.20.41_PM_sa9jbh.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198299/WhatsApp_Image_2025-11-15_at_2.20.41_PM_sa9jbh.jpg",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198300/WhatsApp_Image_2025-11-15_at_2.20.40_PM_1_vypmev.jpg"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198299/WhatsApp_Image_2025-11-15_at_2.20.41_PM_sa9jbh.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198299/WhatsApp_Image_2025-11-15_at_2.20.41_PM_sa9jbh.jpg",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198300/WhatsApp_Image_2025-11-15_at_2.20.40_PM_1_vypmev.jpg",
     ],
     price: 199,
     category: "occasional-gifts",
@@ -2374,10 +2583,12 @@ Perfect for baby showers • gender reveal parties • newborn celebrations • 
   {
     id: "Blue Teddy Baby Chocolate Cart",
     name: "Blue Teddy Baby Chocolate Cart",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198572/WhatsApp_Image_2025-11-15_at_2.20.40_PM_qe7off.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198572/WhatsApp_Image_2025-11-15_at_2.20.40_PM_qe7off.jpg",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198572/WhatsApp_Image_2025-11-15_at_2.20.40_PM_qe7off.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198572/WhatsApp_Image_2025-11-15_at_2.20.40_PM_qe7off.jpg",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198572/WhatsApp_Image_2025-11-15_at_2.20.39_PM_1_l3ltxj.jpg",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198579/WhatsApp_Image_2025-11-15_at_2.20.39_PM_afxt54.jpg"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763198579/WhatsApp_Image_2025-11-15_at_2.20.39_PM_afxt54.jpg",
     ],
     price: 749,
     category: "occasional-gifts",
@@ -2387,9 +2598,11 @@ Perfect for baby showers, naming ceremonies, welcome-baby celebrations, and firs
   },
   {
     id: "Premium Baby Boy Celebration Hamper Cart",
-        name: "Premium Baby Boy Celebration Hamper Cart",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763199027/new_gdts0b.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763199027/new_gdts0b.jpg"
+    name: "Premium Baby Boy Celebration Hamper Cart",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763199027/new_gdts0b.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763199027/new_gdts0b.jpg",
     ],
     price: 1249,
     category: "occasional-gifts",
@@ -2402,9 +2615,11 @@ Ideal for baby showers, welcome-baby celebrations, cradle ceremonies, and first 
   },
   {
     id: "Boss Baby Welcome Gift Hamper",
-        name: "Boss Baby Welcome Gift Hamper",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763199229/new34_ko7yov.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763199229/new34_ko7yov.jpg"
+    name: "Boss Baby Welcome Gift Hamper",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763199229/new34_ko7yov.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763199229/new34_ko7yov.jpg",
     ],
     price: 1249,
     category: "occasional-gifts",
@@ -2419,20 +2634,21 @@ Beautifully decorated in shades of blue, it features:
 
 Perfect for baby showers, welcome-baby celebrations, or return gifts, this hamper adds a unique, joyful touch to your event. A delightful keepsake your guests will love and remember!`,
   },
-  
 
   // OCCASIONAL - subCategory: birthday-hamper
   {
     id: "Blue Fun Activity Gift Basket",
     name: "Blue Fun Activity Gift Basket",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763202761/IMG_5471_h06ejz.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763202761/IMG_5471_h06ejz.webp",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763202761/IMG_5471_h06ejz.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763202761/IMG_5471_h06ejz.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763202760/Haab439c35a714c83934d74a7607c77a_lvsw7u.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763202805/DeWatermark.ai_1752644425959_jhi01a.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763202805/O1CN01xOLeex1hLabAb6Fid__2217755_a7382362-b0cd-4764-8ed8-d2fe395efd38_ojfmho.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763202805/main-image-1_57bf9e4e-7ae0-4c83_mz4m0a.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763202806/IMG_6288_q9asog.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763202807/IMG_5465_0d599347-a3a0-41a4-91eb-ced4956b317d_ww3qwv.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763202807/IMG_5465_0d599347-a3a0-41a4-91eb-ced4956b317d_ww3qwv.webp",
     ],
     price: 699,
     category: "occasional-gifts",
@@ -2445,41 +2661,49 @@ Ideal for birthday parties, school events, and celebrations!`,
   {
     id: "Red Bus Creative Activity Return Gift Set",
     name: "Red Bus Creative Activity Return Gift Set",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203093/elewrap-gifting-studio-avenger-tag-car-fun-h079-41732324524269_zr5hsv.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203093/elewrap-gifting-studio-avenger-tag-car-fun-h079-41732324524269_zr5hsv.webp" ,
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203093/elewrap-gifting-studio-avenger-tag-car-fun-h079-41732324524269_zr5hsv.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203093/elewrap-gifting-studio-avenger-tag-car-fun-h079-41732324524269_zr5hsv.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203093/elewrap-gifting-studio-avenger-tag-car-fun-h079-41732324491501_wdug1n.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203093/elewrap-gifting-studio-avenger-tag-car-fun-h079-41732324393197_zzrjyp.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203093/elewrap-gifting-studio-avenger-tag-car-fun-h079-41732324393197_zzrjyp.webp",
     ],
     price: 120,
     category: "occasional-gifts",
     subCategory: "birthday-hamper",
-    description: "Party-friendly snacks and activity kits for birthday parties.",
+    description:
+      "Party-friendly snacks and activity kits for birthday parties.",
   },
   {
     id: "Lucky Forever Kids Creative Gift Set",
     name: "Lucky Forever Kids Creative Gift Set",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203348/RoughOne_13_z94m3r.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203348/RoughOne_13_z94m3r.webp" ,
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203348/RoughOne_13_z94m3r.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203348/RoughOne_13_z94m3r.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203348/IMG_6603d_fcwzlf.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203347/IMG_6606_qktggw.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203346/O1CN01avNbGO28x8U2i25JD__2214082_uf7loz.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203347/5285-1000x1000copywa_upscayl_2x_ed24a0ac-de6c-4668-b868-fa0249a4da87_mgkmef.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203346/ChatGPTImageJul15_2025_11_36_38A_1_rcw1k9.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203346/imgi_36_214fbc2e73364c15c7fb2d1a_g1kyam.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203346/imgi_36_214fbc2e73364c15c7fb2d1a_g1kyam.webp",
     ],
     price: 399,
     category: "occasional-gifts",
     subCategory: "birthday-hamper",
-    description: "Party-friendly snacks and activity kits for birthday parties.",
+    description:
+      "Party-friendly snacks and activity kits for birthday parties.",
   },
   {
     id: "Yellow Dino Art & Fun Return Gift Box",
     name: "Yellow Dino Art & Fun Return Gift Box",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203668/IMG_6467_fe84148e-495a-480b-ba1d-71808845a65a_jyhwvi.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203668/IMG_6467_fe84148e-495a-480b-ba1d-71808845a65a_jyhwvi.webp" ,
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203668/IMG_6467_fe84148e-495a-480b-ba1d-71808845a65a_jyhwvi.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203668/IMG_6467_fe84148e-495a-480b-ba1d-71808845a65a_jyhwvi.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203668/IMG_6454_ofg1mg.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203668/IMG_6455_n6nurw.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203668/IMG_6457_d84ade1b-d5eb-41e8-bc5a-a6674b7c0d0d_jnzd0w.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203668/IMG_6457_d84ade1b-d5eb-41e8-bc5a-a6674b7c0d0d_jnzd0w.webp",
     ],
     price: 739,
     category: "occasional-gifts",
@@ -2503,12 +2727,14 @@ Perfect for birthday return gifts, school events, and theme parties, the Yellow 
   {
     id: "Premium Smart Learning & Fun Gift Set for Kids",
     name: "Premium Smart Learning & Fun Gift Set for Kids",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203985/IMG_6435_p4jj9n.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203985/IMG_6435_p4jj9n.webp" ,
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203985/IMG_6435_p4jj9n.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203985/IMG_6435_p4jj9n.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203984/IMG_6433_kiayvv.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203984/O1CN01ZckGvf28uqeVPxnZc__2216134397993-0-cib_8bd23464-50d7-4741-ac87-7f236b2cf224_anyoek.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203983/WhatsAppImage2025-09-24at7.55.32PM_2_jkj_upscayl_2x_upscayl-lite-4x_19a0ed19-bb3c-4c7c-998d-7677792966e9_vhjdoi.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203983/IMAGEYE_40_6654f8e4-cdc4-4d2f-8b50-5413a8cc2ead_oyllz8.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763203983/IMAGEYE_40_6654f8e4-cdc4-4d2f-8b50-5413a8cc2ead_oyllz8.webp",
     ],
     price: 1129,
     category: "occasional-gifts",
@@ -2529,13 +2755,15 @@ This gift set is a perfect mix of learning tools, creativity boosters, and styli
   {
     id: "Ultimate Kids Adventure Gift Set – Magic, Learning & Fun Combo",
     name: "Ultimate Kids Adventure Gift Set – Magic, Learning & Fun Combo",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204205/IMG_6506_rgi4im.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204205/IMG_6506_rgi4im.webp" ,
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204205/IMG_6506_rgi4im.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204205/IMG_6506_rgi4im.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204204/IMG_6507_8c6caa1d-fa84-476a-97b4-7ceff898759f_k0f6ni.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204203/wmb-handlee-1_upscayl_2x_ultrash_2_hrpzoq.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204203/download-2023-06-06T150342.745_5_gp6h1z.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204202/H1b5c68762ea74c739fe79a2a46e3138_bcmscx.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204202/61ee0d8c6bd84cb224dd274ee68fe2a9_xld1eo.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204202/61ee0d8c6bd84cb224dd274ee68fe2a9_xld1eo.webp",
     ],
     price: 349,
     category: "occasional-gifts",
@@ -2553,16 +2781,18 @@ This thoughtfully curated return gift set includes:
 
 This gift set is a perfect mix of learning tools, creativity boosters, and stylish accessories—ideal for both boys and girls. Whether it’s a birthday return gift, kids’ party hamper, or a special celebration, this smart learning combo guarantees excitement, engagement, and smiles!`,
   },
-   {
+  {
     id: "Jungle Explorer Creative Gift Set for Kids",
     name: "Jungle Explorer Creative Gift Set for Kids",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204425/IMG_6510_1ce4c58d-0751-4e92-bdf2-a76253afdd54_zakrs4.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204425/IMG_6510_1ce4c58d-0751-4e92-bdf2-a76253afdd54_zakrs4.webp" ,
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204425/IMG_6510_1ce4c58d-0751-4e92-bdf2-a76253afdd54_zakrs4.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204425/IMG_6510_1ce4c58d-0751-4e92-bdf2-a76253afdd54_zakrs4.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204424/IMG_6512_gb6mpe.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204423/IMG_6513_xhbbgz.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204422/Imageye_89_e11374ad-095f-4782-8f_41b93b5a-f7dc-43cf-b0a0-1fe08ae8a9cb_oq2olw.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204421/H3148957c8fa841e99e5144ef20b858b_1_qk3fya.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204421/download_24_018516a1-b375-412c-a_pgbmsa.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204421/download_24_018516a1-b375-412c-a_pgbmsa.webp",
     ],
     price: 315,
     category: "occasional-gifts",
@@ -2583,11 +2813,13 @@ This return gift set offers the perfect blend of creativity, play, and early lea
   {
     id: "Smart Racer Activity Gift Set for Kids",
     name: "Smart Racer Activity Gift Set for Kids",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204929/IMG_6497_epcelx.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204929/IMG_6497_epcelx.webp" ,
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204929/IMG_6497_epcelx.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204929/IMG_6497_epcelx.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204929/IMG_6499_qk4f74.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204929/O1CN01Ne86Gx1hxbW2MWyVd__2988144_1_zj4sp7.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204929/Imageye_70_e7097119-692d-4567-95_85713519-fe9f-4eb9-9356-132254c163bf_u9oigf.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763204929/Imageye_70_e7097119-692d-4567-95_85713519-fe9f-4eb9-9356-132254c163bf_u9oigf.webp",
     ],
     price: 449,
     category: "occasional-gifts",
@@ -2609,12 +2841,14 @@ The Smart Racer Activity Gift Set blends learning, creativity, and play into one
   {
     id: "Pink Princess Creative Gift Set for Kids",
     name: "Pink Princess Creative Gift Set for Kids",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205151/Gemini_Generated_Image_h39azph39azph39a_ubfstq.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205151/Gemini_Generated_Image_h39azph39azph39a_ubfstq.webp" ,
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205151/Gemini_Generated_Image_h39azph39azph39a_ubfstq.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205151/Gemini_Generated_Image_h39azph39azph39a_ubfstq.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205167/Gemini_Generated_Image_yu96zzyu96zzyu96_ulrpja.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205120/O1CN01Q73m5z1zIX0YNDzen__2208050456691-0-cib_994a5989-2764-4a89-9e83-b487b21af94c_fcaoph.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205118/d9a8a161-d1a4-411b-8e57-cfd044eb76e4_df681d34-2646-42b6-89ad-f1fa355c40e4_iqfj7z.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205119/IMG_8187_32854a2b-d69e-4858-a2a0-dbf3b84b193d_lh7elo.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205119/IMG_8187_32854a2b-d69e-4858-a2a0-dbf3b84b193d_lh7elo.webp",
     ],
     price: 569,
     category: "occasional-gifts",
@@ -2635,12 +2869,14 @@ Perfect for birthdays, return gifts, school events, and party favors, the Pink P
   {
     id: "Cartoon Purse Kids Stationery Gift Set",
     name: "Cartoon Purse Kids Stationery Gift Set",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205421/IMG_5770_mys8jn.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205421/IMG_5770_mys8jn.webp" ,
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205421/IMG_5770_mys8jn.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205421/IMG_5770_mys8jn.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205420/IMG_5774_tgq4hj.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205409/IMG_5772_uuwvxo.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205408/O1CN019NIwEl27GiPpiU2b3__2208467707770-0-cib_37ac64b2-1a82-49f4-9e59-9142a3185580_ug7bo2.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205408/Imageye_30_cccbd38b-8d9e-4126-b3_n6exoy.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205408/Imageye_30_cccbd38b-8d9e-4126-b3_n6exoy.webp",
     ],
     price: 225,
     category: "occasional-gifts",
@@ -2649,15 +2885,17 @@ Perfect for birthdays, return gifts, school events, and party favors, the Pink P
     Perfect for birthday return gifts, school rewards, or surprise treats. 
     Designed to delight kids with bright colours, fun characters, and usable stationery that sparks creativity every day!`,
   },
-{
+  {
     id: "Blue Explorer Activity Gift Hamper",
     name: "Blue Explorer Activity Gift Hamper",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205734/IMG_5465_0d599347-a3a0-41a4-91eb-ced4956b317d_onkrvi.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205734/IMG_5465_0d599347-a3a0-41a4-91eb-ced4956b317d_onkrvi.webp" ,
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205734/IMG_5465_0d599347-a3a0-41a4-91eb-ced4956b317d_onkrvi.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205734/IMG_5465_0d599347-a3a0-41a4-91eb-ced4956b317d_onkrvi.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205734/IMG_5471_vjj2jv.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205733/IMG_5479_o1dywb.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205733/IMG_6288_wucmnc.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205733/main-image-1_57bf9e4e-7ae0-4c83_ig4ri1.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763205733/main-image-1_57bf9e4e-7ae0-4c83_ig4ri1.webp",
     ],
     price: 549,
     category: "occasional-gifts",
@@ -2666,14 +2904,16 @@ Perfect for birthdays, return gifts, school events, and party favors, the Pink P
     Ideal for return gifts, birthdays, and special celebrations!`,
   },
   {
-      id: "LABUBU Dreamland Stationery Gift Set",
+    id: "LABUBU Dreamland Stationery Gift Set",
     name: "LABUBU Dreamland Stationery Gift Set",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206589/O1CN01SI3ikk1Pb0ut3k4or__2216680051858-0-cib_e9gofd.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206589/O1CN01SI3ikk1Pb0ut3k4or__2216680051858-0-cib_e9gofd.webp" ,
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206589/O1CN01SI3ikk1Pb0ut3k4or__2216680051858-0-cib_e9gofd.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206589/O1CN01SI3ikk1Pb0ut3k4or__2216680051858-0-cib_e9gofd.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206576/O1CN01n2o2Ie1Pb0uu5YzK3__2216680051858-0-cib_vtyoft.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206574/O1CN016IMdN51Pb0uuYpAMQ__2216680051858-0-cib_imubeq.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206573/O1CN01LVNHTL1Pb0uv5ytVo__2216680051858-0-cib_rygpro.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206554/O1CN01ohZoOu1Pb0uw1nsle__2216680051858-0-cib_olvgit.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206554/O1CN01ohZoOu1Pb0uw1nsle__2216680051858-0-cib_olvgit.webp",
     ],
     price: 139,
     category: "occasional-gifts",
@@ -2684,14 +2924,16 @@ The box includes a high-quality notebook, smooth-writing pencils, a sharpener, a
 Ideal as a birthday gift, school starter kit, return gift, or everyday stationery bundle, this LABUBU set brings smiles and creativity to kids of all ages.`,
   },
   {
-      id: "Cute Stationery Surprise Gift Pouch",
+    id: "Cute Stationery Surprise Gift Pouch",
     name: "Cute Stationery Surprise Gift Pouch",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206827/IMG_6529_07ffc01f-c065-486c-b75d-aa97093e8694_xzbzq1.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206827/IMG_6529_07ffc01f-c065-486c-b75d-aa97093e8694_xzbzq1.webp" ,
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206827/IMG_6529_07ffc01f-c065-486c-b75d-aa97093e8694_xzbzq1.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206827/IMG_6529_07ffc01f-c065-486c-b75d-aa97093e8694_xzbzq1.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206825/IMG_6532_0dc32448-92be-43d8-a8b7-c97c42307a2f_jctwhq.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206825/IMG_6531_67272e24-3f3d-4da9-b773-c558cc8f7dd9_mavdjv.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206823/O1CN01elr66A1TNy7s1s9hS__2218300_2_vwcf0n.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206822/Imageye_66_50798b21-2c96-49a1-aa_3_q4igzg.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206822/Imageye_66_50798b21-2c96-49a1-aa_3_q4igzg.webp",
     ],
     price: 189,
     category: "occasional-gifts",
@@ -2702,14 +2944,16 @@ This thoughtfully curated set includes a mix of useful, creative, and playful it
 they’re drawing, studying, or simply exploring their imagination.`,
   },
   {
-      id: "Love Summer Kids Stationery Gift Set – Premium 6-in-1 Return Gift Kit",
+    id: "Love Summer Kids Stationery Gift Set – Premium 6-in-1 Return Gift Kit",
     name: "Love Summer Kids Stationery Gift Set – Premium 6-in-1 Return Gift Kit",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206997/IMG_6417_evzkph.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206997/IMG_6417_evzkph.webp" ,
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206997/IMG_6417_evzkph.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206997/IMG_6417_evzkph.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206995/IMG_6414_db5f3438-200a-4952-8c2d-c3960c838b3e_ujohjc.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206994/IMG_5345_wia7wq.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206992/IMG_6418_v5jzpv.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206991/O1CN01XqXU2D1wVrVbQdFqu__2213307_a936a14d-d5a1-4790-a7da-866871108e5b_tsixn3.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763206991/O1CN01XqXU2D1wVrVbQdFqu__2213307_a936a14d-d5a1-4790-a7da-866871108e5b_tsixn3.webp",
     ],
     price: 265,
     category: "occasional-gifts",
@@ -2723,13 +2967,15 @@ The transparent zip pouch is not only visually appealing with its summer-style f
 Bring smiles, creativity, and colour to your child’s world with the Love Summer Kids Stationery Gift Set—a perfect mix of cute, useful, and fun!`,
   },
   {
-      id: "Little Artist Pencil & Scissors Combo Set",
+    id: "Little Artist Pencil & Scissors Combo Set",
     name: "Little Artist Pencil & Scissors Combo Set",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763207290/H91c147237161498eadfbf4c7834ec986R_lnl2q0.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763207290/H91c147237161498eadfbf4c7834ec986R_lnl2q0.webp" ,
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763207290/H91c147237161498eadfbf4c7834ec986R_lnl2q0.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763207290/H91c147237161498eadfbf4c7834ec986R_lnl2q0.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763207289/Hc81ad32a202e446aa29b24977368f623M_d0kuur.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763207287/Hc23849b2f4764b16b1c52fabb135f823I_motwl4.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763207286/Haa187b1f413d42cb9067013a30adb57bt_sojlrs.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763207286/Haa187b1f413d42cb9067013a30adb57bt_sojlrs.webp",
     ],
     price: 420,
     category: "occasional-gifts",
@@ -2740,16 +2986,17 @@ The set includes child-friendly scissors, featuring soft plastic blades that are
 it helps children learn responsibility and organizational skills.`,
   },
 
-
   {
-      id: "Dino Gift Bag with Stationery Kit",
+    id: "Dino Gift Bag with Stationery Kit",
     name: "Dino Gift Bag with Stationery Kit",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763207566/IMG_6392_pvrgjy.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763207566/IMG_6392_pvrgjy.webp" ,
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763207566/IMG_6392_pvrgjy.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763207566/IMG_6392_pvrgjy.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763207521/IMG_9694_tgjmuw.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763207522/IMG_6395_o4aiz0.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763207521/IMG_1340_zltl57.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763207520/O1CN01uh7ve81NGHVVBlJjm__9956115_957ccd3d-ef54-4792-bc21-2cde3a4273e5_adms2h.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763207520/O1CN01uh7ve81NGHVVBlJjm__9956115_957ccd3d-ef54-4792-bc21-2cde3a4273e5_adms2h.webp",
     ],
     price: 440,
     category: "occasional-gifts",
@@ -2761,14 +3008,16 @@ and delight. Durable, attractive, and guaranteed to bring smiles!`,
   },
 
   {
-      id: "Blossom Accessory Gift Bag – Premium Girls’ Hair & Style Kit",
+    id: "Blossom Accessory Gift Bag – Premium Girls’ Hair & Style Kit",
     name: "Blossom Accessory Gift Bag – Premium Girls’ Hair & Style Kit",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763208287/SnapInsta.to_522834318_17884207992344316_4352140203840561714_n_uabl5u.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763208287/SnapInsta.to_522834318_17884207992344316_4352140203840561714_n_uabl5u.jpg" ,
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763208287/SnapInsta.to_522834318_17884207992344316_4352140203840561714_n_uabl5u.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763208287/SnapInsta.to_522834318_17884207992344316_4352140203840561714_n_uabl5u.jpg",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763208286/SnapInsta.to_520709316_17884208010344316_5571801005896678952_n_ijanxf.jpg",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763208266/SnapInsta.to_520601273_17884208001344316_7844249456376750781_n_1_g1jbya.jpg",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763208287/SnapInsta.to_523328646_17884207995344316_1204399495290249959_n_pywbn9.jpg",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763208255/SnapInsta.to_522440508_17884207998344316_6543425516144766152_n_zgqbkx.jpg"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763208255/SnapInsta.to_522440508_17884207998344316_6543425516144766152_n_zgqbkx.jpg",
     ],
     price: 410,
     category: "occasional-gifts",
@@ -2778,11 +3027,13 @@ and delight. Durable, attractive, and guaranteed to bring smiles!`,
   },
 
   {
-      id: "Girlie Blossom Charm Gift Box – Pink Edition",
+    id: "Girlie Blossom Charm Gift Box – Pink Edition",
     name: "Girlie Blossom Charm Gift Box – Pink Edition",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763208523/SnapInsta.to_523693622_17884207965344316_1471183180627489529_n_1_ex19wo.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763208523/SnapInsta.to_523693622_17884207965344316_1471183180627489529_n_1_ex19wo.jpg" ,
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763208523/SnapInsta.to_522614195_17884207962344316_7117415935627191168_n_od0uhu.jpg"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763208523/SnapInsta.to_523693622_17884207965344316_1471183180627489529_n_1_ex19wo.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763208523/SnapInsta.to_523693622_17884207965344316_1471183180627489529_n_1_ex19wo.jpg",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763208523/SnapInsta.to_522614195_17884207962344316_7117415935627191168_n_od0uhu.jpg",
     ],
     price: 340,
     category: "occasional-gifts",
@@ -2795,10 +3046,12 @@ Perfect for birthdays, friendship gifts, or a self-love treat, this box celebrat
 Every item reflects a youthful, happy vibe — ideal for anyone who loves expressing their inner girlie energy.`,
   },
   {
-      id: "Cozy Mug & Accessories Gift Box",
+    id: "Cozy Mug & Accessories Gift Box",
     name: "Cozy Mug & Accessories Gift Box",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763209086/Cozy_Mug_Accessories_Gift_Box_odc1fc.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763209086/Cozy_Mug_Accessories_Gift_Box_odc1fc.jpg"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763209086/Cozy_Mug_Accessories_Gift_Box_odc1fc.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763209086/Cozy_Mug_Accessories_Gift_Box_odc1fc.jpg",
     ],
     price: 499,
     category: "occasional-gifts",
@@ -2811,10 +3064,12 @@ Whether it’s for birthdays, thank-you gifts, appreciation surprises, festive g
 A charming blend of comfort, color, and thoughtful details — the perfect little happiness package for someone special.`,
   },
   {
-      id: "Deluxe Chocolate Candy Bouquet – Sweet Treat Gift Stick",
+    id: "Deluxe Chocolate Candy Bouquet – Sweet Treat Gift Stick",
     name: "Deluxe Chocolate Candy Bouquet – Sweet Treat Gift Stick",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763209255/Deluxe_Chocolate_Candy_Bouquet_Sweet_Treat_Gift_Stick_bz7kbe.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763209255/Deluxe_Chocolate_Candy_Bouquet_Sweet_Treat_Gift_Stick_bz7kbe.jpg"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763209255/Deluxe_Chocolate_Candy_Bouquet_Sweet_Treat_Gift_Stick_bz7kbe.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763209255/Deluxe_Chocolate_Candy_Bouquet_Sweet_Treat_Gift_Stick_bz7kbe.jpg",
     ],
     price: 449,
     category: "occasional-gifts",
@@ -2827,14 +3082,16 @@ Each piece is securely placed to create a full, attractive arrangement that look
 Ready to gift straight out of the package, it’s the perfect combination of sweetness, creativity, and presentation — guaranteed to bring a big smile to anyone you surprise.`,
   },
   {
-      id: "Galaxy Explorer Kids Gift Set – Space Adventure Kit",
+    id: "Galaxy Explorer Kids Gift Set – Space Adventure Kit",
     name: "Galaxy Explorer Kids Gift Set – Space Adventure Kit",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763210247/Galaxy_Explorer_Kids_Gift_Set_Space_Adventure_Kit4_g10dbe.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763210247/Galaxy_Explorer_Kids_Gift_Set_Space_Adventure_Kit4_g10dbe.jpg",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763210247/Galaxy_Explorer_Kids_Gift_Set_Space_Adventure_Kit4_g10dbe.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763210247/Galaxy_Explorer_Kids_Gift_Set_Space_Adventure_Kit4_g10dbe.jpg",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763210245/Galaxy_Explorer_Kids_Gift_Set_Space_Adventure_Kit3_gnoqd5.jpg",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763210243/Galaxy_Explorer_Kids_Gift_Set_Space_Adventure_Kit2_jqb0cq.jpg",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763210242/Galaxy_Explorer_Kids_Gift_Set_Space_Adventure_Kit1_vvmnom.jpg",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763210242/Galaxy_Explorer_Kids_Gift_Set_Space_Adventure_Kit_v8evvb.jpg"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763210242/Galaxy_Explorer_Kids_Gift_Set_Space_Adventure_Kit_v8evvb.jpg",
     ],
     price: 1099,
     category: "occasional-gifts",
@@ -2850,16 +3107,15 @@ For interactive fun, the set includes a space-pattern sensory ball and a Lego-st
 Perfect as a birthday gift, school starter pack, return gift, or surprise present, this set combines practicality with imagination. It’s not just a gift — it’s a mini space mission packed with joy, curiosity, and endless fun.`,
   },
 
-
-  
-  
-
   // OCCASIONAL - subCategory: farewell
   {
     id: "Golden Elegance Chocolate Gift Box",
     name: "Golden Elegance Chocolate Gift Box",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763365213/Golden_Elegance_Chocolate_Gift_Box_xnioso.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763365213/Golden_Elegance_Chocolate_Gift_Box_xnioso.png"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763365213/Golden_Elegance_Chocolate_Gift_Box_xnioso.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763365213/Golden_Elegance_Chocolate_Gift_Box_xnioso.png",
+    ],
     price: 299,
     category: "occasional-gifts",
     subCategory: "farewell",
@@ -2877,8 +3133,11 @@ the Golden Elegance Chocolate Gift Box promises to leave a lasting impression wi
   {
     id: "Royal Ruby Blossom Thank You Box",
     name: "Royal Ruby Blossom Thank You Box (Pack of 5)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763364070/Royal_Ruby_Blossom_Thank_You_Box_zfawix.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763364070/Royal_Ruby_Blossom_Thank_You_Box_zfawix.jpg"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763364070/Royal_Ruby_Blossom_Thank_You_Box_zfawix.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763364070/Royal_Ruby_Blossom_Thank_You_Box_zfawix.jpg",
+    ],
     price: 100,
     category: "occasional-gifts",
     subCategory: "farewell",
@@ -2889,12 +3148,14 @@ Perfect for weddings, engagements, baby showers, festive gifting, return favors,
 Elegant, classy, and crafted with love, the Royal Ruby Blossom Box is the perfect way to say “Thank You” with grace and style.`,
   },
 
-
-   {
+  {
     id: "The Golden Retirement Coffee Hamper",
     name: "The Golden Retirement Coffee Hamper",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763365233/The_Golden_Retirement_Coffee_Hamper_orvgiv.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763365233/The_Golden_Retirement_Coffee_Hamper_orvgiv.jpg"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763365233/The_Golden_Retirement_Coffee_Hamper_orvgiv.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763365233/The_Golden_Retirement_Coffee_Hamper_orvgiv.jpg",
+    ],
     price: 599,
     category: "occasional-gifts",
     subCategory: "farewell",
@@ -2917,8 +3178,11 @@ Whether you’re gifting a colleague, senior, mentor, or loved one, this hamper 
   {
     id: "Blossom Delight Dry Fruit Jar",
     name: "Blossom Delight Dry Fruit Jar (500gram jar`",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763364599/Blossom_Delight_Dry_Fruit_Jar_kerqvu.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763364599/Blossom_Delight_Dry_Fruit_Jar_kerqvu.jpg"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763364599/Blossom_Delight_Dry_Fruit_Jar_kerqvu.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763364599/Blossom_Delight_Dry_Fruit_Jar_kerqvu.jpg",
+    ],
     price: 499,
     category: "occasional-gifts",
     subCategory: "farewell",
@@ -2930,10 +3194,11 @@ Graceful, wholesome, and beautifully designed—this jar offers both taste and e
   },
   {
     id: "Silver-Plated Tortoise Decorative Plate Set (farewell gift)",
-      name: "Silver-Plated Tortoise Decorative Plate Set",
-      image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115958/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_8_a2lxb3.webp",
-      images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115958/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_8_a2lxb3.webp",
-      
+    name: "Silver-Plated Tortoise Decorative Plate Set",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115958/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_8_a2lxb3.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763115958/Return_Gifts_Available_at_very_Reasonable_prices_For_more_information_contact_us9149111034_8_a2lxb3.webp",
     ],
     price: 1999,
     category: "occasional-gifts",
@@ -2944,10 +3209,12 @@ Graceful, wholesome, and beautifully designed—this jar offers both taste and e
   {
     id: "Serenity Bamboo & Aroma Candle Gift Set(farewell gift)",
     name: "Serenity Bamboo & Aroma Candle Gift Set",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188921/51Vhp0luHnL_pxxkf9.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188921/51Vhp0luHnL_pxxkf9.jpg",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188921/51Vhp0luHnL_pxxkf9.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188921/51Vhp0luHnL_pxxkf9.jpg",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188920/515gnUcgG5L_f3o1m0.jpg",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188920/51-GfVUYOBL_crcjyi.jpg"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763188920/51-GfVUYOBL_crcjyi.jpg",
     ],
     price: 799,
     category: "occasional-gifts",
@@ -2959,13 +3226,14 @@ Complementing the plant’s natural freshness is the elegant scented candle, cra
 Ideal for gifting on anniversaries, housewarmings, festivals, or corporate events, this set beautifully blends nature and fragrance into one thoughtful package. A perfect gesture of love, positivity, and well-being.`,
   },
 
-
   {
     id: "Royal Peacock Heritage Jar Gift Box",
     name: "Royal Peacock Heritage Jar Gift Box",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763368742/Royal_Peacock_Heritage_Jar_Gift_Box_l3vi5v.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763368742/Royal_Peacock_Heritage_Jar_Gift_Box_l3vi5v.jpg",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763368742/Royal_Peacock_Heritage_Jar_Gift_Box2_ld0qce.jpg"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763368742/Royal_Peacock_Heritage_Jar_Gift_Box_l3vi5v.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763368742/Royal_Peacock_Heritage_Jar_Gift_Box_l3vi5v.jpg",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763368742/Royal_Peacock_Heritage_Jar_Gift_Box2_ld0qce.jpg",
     ],
     price: 799,
     category: "occasional-gifts",
@@ -2981,9 +3249,11 @@ this gift box blends heritage craftsmanship with modern luxury—making every gi
   {
     id: "Lotus Bloom Dry Fruit Duo Gift Pack",
     name: "Lotus Bloom Dry Fruit Duo Gift Pack",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763368862/Lotus_Bloom_Dry_Fruit_Duo_Gift_Pack_nvdrrr.jpg",
-      images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763368862/Lotus_Bloom_Dry_Fruit_Duo_Gift_Pack_nvdrrr.jpg"
-      ],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763368862/Lotus_Bloom_Dry_Fruit_Duo_Gift_Pack_nvdrrr.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763368862/Lotus_Bloom_Dry_Fruit_Duo_Gift_Pack_nvdrrr.jpg",
+    ],
     price: 339,
     category: "occasional-gifts",
     subCategory: "farewell",
@@ -2999,8 +3269,11 @@ it stands as a meaningful token of gratitude—celebrating years of service, che
   {
     id: "Stripes Jute Bag Room Hamper(picnic-hampers)",
     name: "Stripes Jute Bag Room Hamper (picnic-hampers)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951305/Eco-friendly_Rakhi_delight_bag_for_sister_ta0lou.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951305/Eco-friendly_Rakhi_delight_bag_for_sister_ta0lou.webp"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951305/Eco-friendly_Rakhi_delight_bag_for_sister_ta0lou.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951305/Eco-friendly_Rakhi_delight_bag_for_sister_ta0lou.webp",
+    ],
     price: 630,
     category: "occasional-gifts",
     subCategory: "picnic-hampers",
@@ -3014,13 +3287,16 @@ Britannia Cake
 Doritos
 Cadbury Cookies
 Paper Boat Aamras
-Stripes Jute Bag`
+Stripes Jute Bag`,
   },
   {
     id: "Wedding Serenity Hamper(picnic-hampers",
     name: "Wedding Serenity Hamper (picnic-hampers)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951304/IMG_9424_1_srsk9u.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951304/IMG_9424_1_srsk9u.webp"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951304/IMG_9424_1_srsk9u.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951304/IMG_9424_1_srsk9u.webp",
+    ],
     price: 850,
     category: "occasional-gifts",
     subCategory: "picnic-hampers",
@@ -3044,13 +3320,16 @@ Immerse your guests in an atmosphere of opulence with our hotel-themed wedding r
 
 Why is Wedding Room Hamper the best wedding gift for your guests?
 
-Transform your wedding venue into a haven of luxury and warmth for your guests with our Wedding Room Hampers. Elevate their experience, make them feel truly cherished, and set the stage for unforgettable moments during your joyous celebration. Because every guest deserves to be a part of a love story as beautiful as yours.`
+Transform your wedding venue into a haven of luxury and warmth for your guests with our Wedding Room Hampers. Elevate their experience, make them feel truly cherished, and set the stage for unforgettable moments during your joyous celebration. Because every guest deserves to be a part of a love story as beautiful as yours.`,
   },
   {
     id: "Snack Time Bliss Basket hamper (picnic-hampers)",
     name: "Snack Time Bliss Basket hamper (picnic-hampers)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951302/SnackTimeBlissBaskethamper_oamw7t.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951302/SnackTimeBlissBaskethamper_oamw7t.webp"],
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951302/SnackTimeBlissBaskethamper_oamw7t.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762951302/SnackTimeBlissBaskethamper_oamw7t.webp",
+    ],
     price: 780,
     category: "occasional-gifts",
     subCategory: "picnic-hampers",
@@ -3064,14 +3343,16 @@ Britannia Cake
 Doritos
 Cadbury Cookies
 Paper Boat Aamras
-Organza Festive Tray`
+Organza Festive Tray`,
   },
   {
     id: "The Luxe Picnic Delight Hamper(picnic-hampers)",
     name: "The Luxe Picnic Delight Hamper (picnic-hampers)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371267/The_Luxe_Picnic_Delight_Hamper_r3af5k.png",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371267/The_Luxe_Picnic_Delight_Hamper_r3af5k.png",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371266/The_Luxe_Picnic_Delight_Hamper2_uonlnc.webp"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371267/The_Luxe_Picnic_Delight_Hamper_r3af5k.png",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371267/The_Luxe_Picnic_Delight_Hamper_r3af5k.png",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371266/The_Luxe_Picnic_Delight_Hamper2_uonlnc.webp",
     ],
     price: 3999,
     category: "occasional-gifts",
@@ -3086,8 +3367,10 @@ Celebrate sunshine, laughter, and togetherness with the Luxe Picnic Delight Hamp
   {
     id: "Wild Picnic Buddies Drawstring Pouch Set",
     name: "Wild Picnic Buddies Drawstring Pouch Set",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371687/Wild_Picnic_Buddies_Drawstring_Pouch_Set_teeopl.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371687/Wild_Picnic_Buddies_Drawstring_Pouch_Set_teeopl.jpg"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371687/Wild_Picnic_Buddies_Drawstring_Pouch_Set_teeopl.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371687/Wild_Picnic_Buddies_Drawstring_Pouch_Set_teeopl.jpg",
     ],
     price: 499,
     category: "occasional-gifts",
@@ -3100,15 +3383,13 @@ Perfect for school picnics, family outings, kids’ birthday return gifts, trave
 excitement, and adorable style to every adventure.`,
   },
 
-
-
-
-
-   {
+  {
     id: "Jungle Picnic Munch Pack",
     name: "Jungle Picnic Munch Pack",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371956/Jungle_Picnic_Munch_Pack_nhebc1.jpg",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371956/Jungle_Picnic_Munch_Pack_nhebc1.jpg"
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371956/Jungle_Picnic_Munch_Pack_nhebc1.jpg",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763371956/Jungle_Picnic_Munch_Pack_nhebc1.jpg",
     ],
     price: 399,
     category: "occasional-gifts",
@@ -3120,16 +3401,17 @@ Inside every pack is a delicious mix of Indian snack favourites such as Kurkure,
 Lightweight, easy to carry, and full of yummy surprises, these Jungle Picnic Munch Packs make every outdoor moment more delightful and wholesome. A perfect return gift for picnics, kids’ parties, adventure-themed events, and school outings.`,
   },
 
-
   {
     id: "Picnic Backpack Snack Pouch",
     name: "Picnic Backpack Snack Pouch (pack of 2)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372402/Picnic_Backpack_Snack_Pouch5_em642g.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372402/Picnic_Backpack_Snack_Pouch5_em642g.webp",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372402/Picnic_Backpack_Snack_Pouch5_em642g.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372402/Picnic_Backpack_Snack_Pouch5_em642g.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372399/Picnic_Backpack_Snack_Pouch2_pbi7og.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372400/Picnic_Backpack_Snack_Pouch_bnvebp.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372399/Picnic_Backpack_Snack_Pouch3_udqe0q.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372399/Picnic_Backpack_Snack_Pouch4_cy9tqi.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372399/Picnic_Backpack_Snack_Pouch4_cy9tqi.webp",
     ],
     price: 699,
     category: "occasional-gifts",
@@ -3142,14 +3424,16 @@ Lightweight, resealable, and super cute, this pouch makes munching easy while ke
 A playful must-have for little explorers who love tasty treats on the go!`,
   },
 
-
-    {
+  {
     id: "FunPicnic Cartoon Backpack Snack Bag",
     name: "FunPicnic Cartoon Backpack Snack Bag (pack of 2)",
-    image: "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372801/FunPicnic_Cartoon_Backpack_Snack_Bag_fxodts.webp",
-    images: ["https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372801/FunPicnic_Cartoon_Backpack_Snack_Bag_fxodts.webp","https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372801/FunPicnic_Cartoon_Backpack_Snack_Bag2_gwo6zq.webp",
+    image:
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372801/FunPicnic_Cartoon_Backpack_Snack_Bag_fxodts.webp",
+    images: [
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372801/FunPicnic_Cartoon_Backpack_Snack_Bag_fxodts.webp",
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372801/FunPicnic_Cartoon_Backpack_Snack_Bag2_gwo6zq.webp",
       "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372801/FunPicnic_Cartoon_Backpack_Snack_Bag3_bp8tmk.webp",
-      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372801/FunPicnic_Cartoon_Backpack_Snack_Bag4_dpsisf.webp"
+      "https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763372801/FunPicnic_Cartoon_Backpack_Snack_Bag4_dpsisf.webp",
     ],
     price: 599,
     category: "occasional-gifts",
@@ -3968,7 +4252,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
     subCategory: "all-age-inclusive",
     description: "Premium inclusive hamper with curated items.",
   },
-   {
+  {
     id: "The Luxury Family Feast Hamper",
     name: "The Luxury Family Feast Hamper",
     image: "https://i.ibb.co/0psvzhyJ/The-Family-Feast-Collections.png",
@@ -3987,7 +4271,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
 • Sweets Design Candle (Optional)
 • Copper Water Bottle
 • Premium Greeting Card
-• Lotus Wall Hangings - 2 pcs`
+• Lotus Wall Hangings - 2 pcs`,
   },
   {
     id: "The Jute Blessing",
@@ -4006,7 +4290,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
 • Lotus Flower Wall Hanging
 • Custom Note card
 • Poutpuri
-• Besan Laddu-250gms`
+• Besan Laddu-250gms`,
   },
   {
     id: "The Harmony",
@@ -4022,7 +4306,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
 • Jar of Crunchy Nuts
 • Rich Cookies
 • Lotus Flower Wall Hanging-2pcs
-• Custom Note card`
+• Custom Note card`,
   },
   {
     id: "The Excelare",
@@ -4037,7 +4321,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
 • Assorted Chocolates
 • Poutpuri
 • Besan Laddu & Chocolates-250gms
-• Custom Note card`
+• Custom Note card`,
   },
   {
     id: "The Festival of Flavours Box",
@@ -4054,7 +4338,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
 • cashews with jute pouch
 • Almonds with jute pouch
 • Custom Note card
-• Lotus Flower Wall hanging`
+• Lotus Flower Wall hanging`,
   },
   {
     id: "The Tyohaar Treat",
@@ -4071,7 +4355,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
 • Nuts with jute pouch
 • Glass Bottle with jute pouch
 • Custom Note card
-• Lotus Flower Wall hanging`
+• Lotus Flower Wall hanging`,
   },
   {
     id: "The Nutty Affair",
@@ -4087,7 +4371,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
 • Jar of Raisins
 • Rich Cookies
 • Diya & Jyoti
-• Custom Note card`
+• Custom Note card`,
   },
   {
     id: "The Global Tech",
@@ -4104,7 +4388,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
 • Assorted Chocolates- 6pcs
 • Choco Chips Cookies-8pcs
 • Teracotta Diya - 2pcs
-• Custom Note card`
+• Custom Note card`,
   },
   {
     id: "Kongsberg",
@@ -4121,7 +4405,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
 • Wooden Block Diya
 • Lotus Flower Wall hanging-2pcs
 • Flower wax candles
-• Custom Note card`
+• Custom Note card`,
   },
   {
     id: "A Sweet Diwali",
@@ -4137,7 +4421,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
 • Jar of Almonds
 • Jar of Raisins
 • Assorted Chocolates- 15pcs
-• Custom Note card`
+• Custom Note card`,
   },
   {
     id: "The Festive Edit",
@@ -4152,7 +4436,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
 • Copper Bottle - 500ml
 ��� Besan Laddu-50gms
 • Lotus Flower Wall hanging - 2pcs
-• Decorative Diya / Scented Candle`
+• Decorative Diya / Scented Candle`,
   },
   {
     id: "Homelane",
@@ -4168,7 +4452,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
 • Besan Laddu-50gms
 • Lotus Flower Wall hanging - 2pcs
 • Assorted Chocolates- 6pcs
-• Decorative Diya / Scented Candle`
+• Decorative Diya / Scented Candle`,
   },
   {
     id: "The Flavour & Fastivity",
@@ -4185,7 +4469,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
 • Lotus Flower Wall hanging - 2pcs
 • Assorted Chocolates
 • Custom Note Card
-• Decorative Diya / Scented Candle`
+• Decorative Diya / Scented Candle`,
   },
   {
     id: "Diwali Dhamaka",
@@ -4200,7 +4484,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
 • A Metal Diya Holder
 • Lotus Flower Wall hanging - 2pcs
 • Assorted Dry Fruits- 3 jars
-• Custom Note Card`
+• Custom Note Card`,
   },
   {
     id: "The Scrumptious Munch box",
@@ -4220,7 +4504,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
 • Pistachios with jute pouch
 • Raisins with jute pouch
 • Custom Note card
-• Decorated Diya/Scented Candles`
+• Decorated Diya/Scented Candles`,
   },
   {
     id: "The Gratitude Box",
@@ -4236,7 +4520,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
 • Crispy Waffles Chips
 • Scented Candles
 • Custom Note Card
-• Lotus Flower Wall Hanging- 2pcs`
+• Lotus Flower Wall Hanging- 2pcs`,
   },
   {
     id: "Dil of Diwali",
@@ -4253,7 +4537,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
 • Raisins - 50gms
 • Assorted Chocolates -
 • Custom Note Card
-• Lotus Flower Wall Hanging- 2pcs`
+• Lotus Flower Wall Hanging- 2pcs`,
   },
   {
     id: "Diwali Snacks Box",
@@ -4268,7 +4552,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
 • Jar of Almonds
 • Jar of Raisins
 • Jar of Pistachios
-• Custom Note Card`
+• Custom Note Card`,
   },
   {
     id: "Rigid Boxes 1",
@@ -4278,7 +4562,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
     originalPrice: 800,
     category: "festival-gifts",
     subCategory: "diwali-gifts",
-    description: `We Can Customise it As Per Your Need`
+    description: `We Can Customise it As Per Your Need`,
   },
   {
     id: "Rigid Boxes 2",
@@ -4288,7 +4572,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
     originalPrice: 100,
     category: "festival-gifts",
     subCategory: "diwali-gifts",
-    description: `We Can Customise it As Per Your Need`
+    description: `We Can Customise it As Per Your Need`,
   },
   {
     id: "Rigid Boxes 3",
@@ -4298,7 +4582,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
     originalPrice: 400,
     category: "festival-gifts",
     subCategory: "diwali-gifts",
-    description: `We Can Customise it As Per Your Need`
+    description: `We Can Customise it As Per Your Need`,
   },
   {
     id: "Rigid Boxes 4",
@@ -4308,7 +4592,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
     originalPrice: 600,
     category: "festival-gifts",
     subCategory: "diwali-gifts",
-    description: `We Can Customise it As Per Your Need`
+    description: `We Can Customise it As Per Your Need`,
   },
   {
     id: "Round Dry Fruits Chocolates",
@@ -4317,7 +4601,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
     price: 599,
     originalPrice: 899,
     category: "festival-gifts",
-    subCategory: "diwali-gifts"
+    subCategory: "diwali-gifts",
   },
   {
     id: "Chocolate Bar",
@@ -4326,7 +4610,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
     price: 350,
     originalPrice: 420,
     category: "festival-gifts",
-    subCategory: "diwali-gifts"
+    subCategory: "diwali-gifts",
   },
   {
     id: "Exotic Chocolate Bar",
@@ -4335,7 +4619,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
     price: 499,
     originalPrice: 599,
     category: "festival-gifts",
-    subCategory: "diwali-gifts"
+    subCategory: "diwali-gifts",
   },
   {
     id: "Premium Homemaid Chocolates",
@@ -4344,7 +4628,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
     price: 399,
     originalPrice: 499,
     category: "festival-gifts",
-    subCategory: "diwali-gifts"
+    subCategory: "diwali-gifts",
   },
   {
     id: "Exotic Dark Center Chocolates",
@@ -4353,7 +4637,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
     price: 150,
     originalPrice: 180,
     category: "festival-gifts",
-    subCategory: "diwali-gifts"
+    subCategory: "diwali-gifts",
   },
   {
     id: "Premium Shape Chocolates",
@@ -4362,7 +4646,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
     price: 500,
     originalPrice: 600,
     category: "festival-gifts",
-    subCategory: "diwali-gifts"
+    subCategory: "diwali-gifts",
   },
   {
     id: "Heart Shape Chocolates",
@@ -4371,7 +4655,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
     price: 500,
     originalPrice: 600,
     category: "festival-gifts",
-    subCategory: "diwali-gifts"
+    subCategory: "diwali-gifts",
   },
   {
     id: "Diwali Crackers Chocolates",
@@ -4380,7 +4664,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
     price: 300,
     originalPrice: 600,
     category: "festival-gifts",
-    subCategory: "diwali-gifts"
+    subCategory: "diwali-gifts",
   },
   {
     id: "Festival Diwali Box 1",
@@ -4389,7 +4673,7 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
     price: 1199,
     originalPrice: 1499,
     category: "festival-gifts",
-    subCategory: "diwali-gifts"
+    subCategory: "diwali-gifts",
   },
   {
     id: "Festival Diwali Box 2",
@@ -4398,8 +4682,8 @@ Lightweight, resealable, and super stylish, these snack bags keep treats fresh w
     price: 2499,
     originalPrice: 3099,
     category: "festival-gifts",
-    subCategory: "diwali-gifts"
-  }
+    subCategory: "diwali-gifts",
+  },
 
   // === CHARITY ITEMS END ===
 ];
