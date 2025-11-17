@@ -95,63 +95,6 @@ export default function AboutUs() {
         </div>
       </section>
 
-      {/* Team Section */}
-      <section className="container mx-auto py-16 px-6">
-        <h2 className="text-3xl font-semibold text-center">Meet Our Team</h2>
-        <div className="mt-10 grid grid-cols-1 md:grid-cols-4 gap-8">
-          {/* Card 1 */}
-          <div className="relative rounded-xl overflow-hidden shadow-lg group">
-            <img
-              src="https://i.ibb.co/qYfTWvqd/pooja-di.jpg"
-              alt="Team Member"
-              className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
-            />
-            <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white p-4 transition duration-500 group-hover:bg-black/70">
-              <h3 className="text-lg font-semibold">Pooja Sharma</h3>
-              <p className="text-sm">CEO</p>
-            </div>
-          </div>
-
-          {/* Card 2 */}
-          <div className="relative rounded-xl overflow-hidden shadow-lg group">
-            <img
-              src="https://i.ibb.co/dwjV6j49/Ananta-malik.jpg"
-              alt="Team Member"
-              className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
-            />
-            <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white p-4 transition duration-500 group-hover:bg-black/70">
-              <h3 className="text-lg font-semibold">Ananta Sharma</h3>
-              <p className="text-sm">CMO</p>
-            </div>
-          </div>
-
-          {/* Card 3 */}
-          <div className="relative rounded-xl overflow-hidden shadow-lg group">
-            <img
-              src="https://i.ibb.co/VpgsPrs0/rishabh.jpg"
-              alt="Team Member"
-              className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
-            />
-            <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white p-4 transition duration-500 group-hover:bg-black/70">
-              <h3 className="text-lg font-semibold">Rishabh Chaubey</h3>
-              <p className="text-sm">CFO</p>
-            </div>
-          </div>
-
-          {/* Card 4 */}
-          <div className="relative rounded-xl overflow-hidden shadow-lg group">
-            <img
-              src="https://i.ibb.co/MDFvXsyx/Sonu.jpg"
-              alt="Team Member"
-              className="w-full h-80 object-cover transition-transform duration-500 group-hover:scale-110"
-            />
-            <div className="absolute bottom-0 left-0 right-0 bg-black/50 text-white p-4 transition duration-500 group-hover:bg-black/70">
-              <h3 className="text-lg font-semibold">Sonu Kumar</h3>
-              <p className="text-sm">COO</p>
-            </div>
-          </div>
-        </div>
-      </section>
     </div>
   );
 }
