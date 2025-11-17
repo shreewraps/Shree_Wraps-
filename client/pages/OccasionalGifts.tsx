@@ -111,20 +111,24 @@ export default function OccasionalGifts() {
         </div>
 
         {/* left / right controls */}
-        <button
-          aria-label="Scroll left"
-          onClick={() => scrollByOffset(-300)}
-          className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8 rounded-full bg-white border shadow flex items-center justify-center z-10"
-        >
-          ‹
-        </button>
-        <button
-          aria-label="Scroll right"
-          onClick={() => scrollByOffset(300)}
-          className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8 rounded-full bg-white border shadow flex items-center justify-center z-10"
-        >
-          ›
-        </button>
+        {hasOverflow && (
+          <>
+            <button
+              aria-label="Scroll left"
+              onClick={() => scrollByOffset(-300)}
+              className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8 rounded-full bg-white border shadow flex items-center justify-center z-10"
+            >
+              ‹
+            </button>
+            <button
+              aria-label="Scroll right"
+              onClick={() => scrollByOffset(300)}
+              className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8 rounded-full bg-white border shadow flex items-center justify-center z-10"
+            >
+              ›
+            </button>
+          </>
+        )}
       </div>
 
       {filtered.length === 0 ? (
