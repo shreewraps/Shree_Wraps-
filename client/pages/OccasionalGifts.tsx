@@ -20,6 +20,7 @@ export default function OccasionalGifts() {
   const [active, setActive] = useState("all");
   const [sortOption, setSortOption] = useState<SortOption>("none");
   const scrollRef = useRef<HTMLDivElement | null>(null);
+  const [hasOverflow, setHasOverflow] = useState(false);
   const location = useLocation();
 
   function scrollByOffset(offset: number) {
@@ -27,6 +28,18 @@ export default function OccasionalGifts() {
     if (!el) return;
     el.scrollBy({ left: offset, behavior: "smooth" });
   }
+
+  function checkOverflow() {
+    const el = scrollRef.current;
+    if (!el) return;
+    setHasOverflow(el.scrollWidth > el.clientWidth);
+  }
+
+  useEffect(() => {
+    checkOverflow();
+    window.addEventListener("resize", checkOverflow);
+    return () => window.removeEventListener("resize", checkOverflow);
+  }, []);
 
   let filtered = useMemo(() => {
     if (active === "all") return catalogProducts.filter((p) => p.category === "occasional-gifts");
