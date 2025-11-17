@@ -729,7 +729,7 @@ Inside the kit:
 ✔️ Premium Polo T-shirt – Smart, comfortable, and ideal for a unified team look
 ✔️ Executive Notebook – Perfect for notes, planning, and daily productivity
 ✔️ Matte Black Signature Pen – Elegant, smooth-writing, and office-ready
-✔️ Luxury Black Gift Box – A stylish presentation that makes a lasting first impression
+���️ Luxury Black Gift Box – A stylish presentation that makes a lasting first impression
 
 Designed for corporate onboarding, HR welcome programs, employee induction, team-building events, and client gifting, this kit blends practicality with a polished aesthetic to ensure new employees feel motivated and appreciated from day one.
 
@@ -1242,72 +1242,6 @@ Whether you’re sending festive wishes, celebrating a milestone, or surprising 
 Perfect for Diwali gifting, client hampers, weddings, birthdays, anniversaries, or premium corporate orders.`,
   },
 
-  // CORPORATE - subCategory: partnership
-  {
-    id: "corp-partnership-1",
-    name: "Partnership Welcome Box - A",
-    image: "https://picsum.photos/seed/corp-partnership-1/600/400",
-    images: [],
-    price: 1899,
-    category: "corporates",
-    subCategory: "partnership",
-    description: "Welcome box for new partners with branded items.",
-  },
-  {
-    id: "corp-partnership-2",
-    name: "Partnership Welcome Box - B",
-    image: "https://picsum.photos/seed/corp-partnership-2/600/400",
-    images: [],
-    price: 2499,
-    category: "corporates",
-    subCategory: "partnership",
-    description: "Deluxe partner welcome kit with premium samples.",
-  },
-
-  // CORPORATE - subCategory: eco
-  {
-    id: "corp-eco-1",
-    name: "Eco Promotional Gift - A",
-    image: "https://picsum.photos/seed/corp-eco-1/600/400",
-    images: [],
-    price: 699,
-    category: "corporates",
-    subCategory: "eco",
-    description:
-      "Eco-friendly corporate gifts with jute and sustainable items.",
-  },
-  {
-    id: "corp-eco-2",
-    name: "Eco Promotional Gift - B",
-    image: "https://picsum.photos/seed/corp-eco-2/600/400",
-    images: [],
-    price: 999,
-    category: "corporates",
-    subCategory: "eco",
-    description: "Sustainable gift set for corporate branding.",
-  },
-
-  // CORPORATE - subCategory: samples
-  {
-    id: "corp-samples-1",
-    name: "Product Samples / Launch Kit - A",
-    image: "https://picsum.photos/seed/corp-samples-1/600/400",
-    images: [],
-    price: 1199,
-    category: "corporates",
-    subCategory: "samples",
-    description: "Sample kit for product launches and demos.",
-  },
-  {
-    id: "corp-samples-2",
-    name: "Product Samples / Launch Kit - B",
-    image: "https://picsum.photos/seed/corp-samples-2/600/400",
-    images: [],
-    price: 1599,
-    category: "corporates",
-    subCategory: "samples",
-    description: "Extended launch kit with multiple product samples.",
-  },
 
   // === CORPORATE ITEMS END ===
 
@@ -1686,7 +1620,7 @@ A colourful Bindi Sheet is included to enhance the look with classic elegance, a
 
 Crafted with precision and artistry, the vibrant pink beads sway beautifully with every movement, adding a touch of festive sparkle to your look. Designed for the modern woman with a spirited heart, they feature a secure push-back closure that ensures comfort throughout long celebrations. Their lightweight build lets you enjoy every moment—from dancing to posing—without any discomfort.
 
-Ideal for the bright, joyful vibes of spring and summer weddings, these earrings don’t just complement your ensemble—they complete it. Whether you’re a bridesmaid, a sister of the bride, or simply love festive elegance, the “Dulhan ki Behen” Beaded Earrings promise to make your entrance unforgettable.
+Ideal for the bright, joyful vibes of spring and summer weddings, these earrings don���t just complement your ensemble—they complete it. Whether you’re a bridesmaid, a sister of the bride, or simply love festive elegance, the “Dulhan ki Behen” Beaded Earrings promise to make your entrance unforgettable.
 
 A must-have for Haldi, Mehndi, and all wedding festivities, this pair is the perfect addition to any jewellery collection.
 `},

@@ -13,9 +13,6 @@ const SUBCATS = [
   { key: "festival", label: "Festival Hampers" },
   { key: "funfriday", label: "Fun-friday Hampers" },
   { key: "premium", label: "Premium Thank-you Hampers" },
-  { key: "partnership", label: "Partnership Welcome Boxes" },
-  { key: "eco", label: "Eco-friendly Promotional Gifts" },
-  { key: "samples", label: "Product samples or Launch Kits" },
 ];
 
 export default function CorporateGifts() {
