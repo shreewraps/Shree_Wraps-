@@ -42,7 +42,7 @@ export default function AboutUs() {
           {/* Right Side - Founder Image */}
           <div className="relative rounded-xl overflow-hidden group shadow-lg max-w-md mx-auto">
             <img
-              src="https://i.ibb.co/JRrJvvpZ/Whats-App-Image-2025-09-30-at-1-46-51-AM.jpg"
+              src="https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763383083/WhatsApp_Image_2025-11-17_at_6.06.41_PM_o3gywd.jpg"
               alt="Founder"
               className="w-[950px] h-[710px] object-cover transform group-hover:scale-110 transition duration-500"
             />
