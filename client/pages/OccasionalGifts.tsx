@@ -42,8 +42,11 @@ export default function OccasionalGifts() {
   }, []);
 
   let filtered = useMemo(() => {
-    if (active === "all") return catalogProducts.filter((p) => p.category === "occasional-gifts");
-    return catalogProducts.filter((p) => p.category === "occasional-gifts" && p.subCategory === active);
+    if (active === "all")
+      return catalogProducts.filter((p) => p.category === "occasional-gifts");
+    return catalogProducts.filter(
+      (p) => p.category === "occasional-gifts" && p.subCategory === active,
+    );
   }, [active]);
 
   // Apply sorting based on selected option
@@ -88,20 +91,30 @@ export default function OccasionalGifts() {
         <h1 className="font-serif text-3xl">Occasional Gifts</h1>
         <div className="flex flex-col md:flex-row items-start md:items-center gap-4 w-full md:w-auto">
           <SortDropdown value={sortOption} onChange={setSortOption} />
-          <Link to="/contact" className="text-sm text-primary underline whitespace-nowrap">Request a quote</Link>
+          <Link
+            to="/contact"
+            className="text-sm text-primary underline whitespace-nowrap"
+          >
+            Request a quote
+          </Link>
         </div>
       </div>
 
       {/* single-line horizontal slider for subcategory strip with nav buttons */}
       <div className="mb-6 relative">
-        <div className="overflow-x-auto no-scrollbar pl-10 pr-10" ref={(el) => (scrollRef.current = el)}>
+        <div
+          className="overflow-x-auto no-scrollbar pl-10 pr-10"
+          ref={(el) => (scrollRef.current = el)}
+        >
           <div className="inline-flex gap-3 py-2 px-1">
             {SUBCATS.map((s) => (
               <button
                 key={s.key}
                 onClick={() => setActive(s.key)}
                 className={`flex-shrink-0 px-4 py-2 rounded-md text-sm font-medium ${
-                  active === s.key ? 'bg-primary text-primary-foreground' : 'bg-accent hover:bg-accent/80'
+                  active === s.key
+                    ? "bg-primary text-primary-foreground"
+                    : "bg-accent hover:bg-accent/80"
                 }`}
               >
                 {s.label}
@@ -133,7 +146,8 @@ export default function OccasionalGifts() {
 
       {filtered.length === 0 ? (
         <div className="rounded-lg border border-dashed p-8 text-center text-muted-foreground">
-          No products found for "{SUBCATS.find((s) => s.key === active)?.label}".
+          No products found for "{SUBCATS.find((s) => s.key === active)?.label}
+          ".
         </div>
       ) : (
         <>
@@ -157,7 +171,7 @@ export default function OccasionalGifts() {
               <button
                 key={idx}
                 onClick={() => setPage(idx + 1)}
-                className={`px-3 py-1 rounded ${page === idx + 1 ? 'bg-primary text-primary-foreground' : 'border'}`}
+                className={`px-3 py-1 rounded ${page === idx + 1 ? "bg-primary text-primary-foreground" : "border"}`}
               >
                 {idx + 1}
               </button>
