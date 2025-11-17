@@ -81,9 +81,9 @@ export default function CorporateGifts() {
         </div>
       </div>
 
-      {/* single-line horizontal slider for subcategory strip with nav buttons */}
-      <div className="mb-6 relative">
-        <div className="overflow-x-auto no-scrollbar pl-10 pr-10" ref={(el) => (scrollRef.current = el)}>
+      {/* single-line horizontal slider for subcategory strip */}
+      <div className="mb-6">
+        <div className="overflow-x-auto no-scrollbar">
           <div className="inline-flex gap-3 py-2 px-1">
             {SUBCATS.map((s) => (
               <button
@@ -98,21 +98,6 @@ export default function CorporateGifts() {
             ))}
           </div>
         </div>
-
-        <button
-          aria-label="Scroll left"
-          onClick={() => scrollByOffset(-300)}
-          className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8 rounded-full bg-white border shadow flex items-center justify-center z-10"
-        >
-          ‹
-        </button>
-        <button
-          aria-label="Scroll right"
-          onClick={() => scrollByOffset(300)}
-          className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8 rounded-full bg-white border shadow flex items-center justify-center z-10"
-        >
-          ›
-        </button>
       </div>
 
       {filtered.length === 0 ? (
