@@ -13,9 +13,6 @@ const SUBCATS = [
   { key: "festival", label: "Festival Hampers" },
   { key: "funfriday", label: "Fun-friday Hampers" },
   { key: "premium", label: "Premium Thank-you Hampers" },
-  { key: "partnership", label: "Partnership Welcome Boxes" },
-  { key: "eco", label: "Eco-friendly Promotional Gifts" },
-  { key: "samples", label: "Product samples or Launch Kits" },
 ];
 
 export default function CorporateGifts() {
@@ -35,7 +32,9 @@ export default function CorporateGifts() {
       const result = catalogProducts.filter((p) => p.category === "corporates");
       return shuffleArray(result);
     }
-    return catalogProducts.filter((p) => p.category === "corporates" && p.subCategory === active);
+    return catalogProducts.filter(
+      (p) => p.category === "corporates" && p.subCategory === active,
+    );
   }, [active]);
 
   // Apply sorting based on selected option
@@ -80,20 +79,27 @@ export default function CorporateGifts() {
         <h1 className="font-serif text-3xl">Corporate Gifts</h1>
         <div className="flex flex-col md:flex-row items-start md:items-center gap-4 w-full md:w-auto">
           <SortDropdown value={sortOption} onChange={setSortOption} />
-          <Link to="/contact" className="text-sm text-primary underline whitespace-nowrap">Request a quote</Link>
+          <Link
+            to="/contact"
+            className="text-sm text-primary underline whitespace-nowrap"
+          >
+            Request a quote
+          </Link>
         </div>
       </div>
 
-      {/* single-line horizontal slider for subcategory strip with nav buttons */}
-      <div className="mb-6 relative">
-        <div className="overflow-x-auto no-scrollbar pl-10 pr-10" ref={(el) => (scrollRef.current = el)}>
+      {/* single-line horizontal slider for subcategory strip */}
+      <div className="mb-6">
+        <div className="overflow-x-auto no-scrollbar">
           <div className="inline-flex gap-3 py-2 px-1">
             {SUBCATS.map((s) => (
               <button
                 key={s.key}
                 onClick={() => setActive(s.key)}
                 className={`flex-shrink-0 px-4 py-2 rounded-md text-sm font-medium ${
-                  active === s.key ? 'bg-primary text-primary-foreground' : 'bg-accent hover:bg-accent/80'
+                  active === s.key
+                    ? "bg-primary text-primary-foreground"
+                    : "bg-accent hover:bg-accent/80"
                 }`}
               >
                 {s.label}
@@ -101,26 +107,12 @@ export default function CorporateGifts() {
             ))}
           </div>
         </div>
-
-        <button
-          aria-label="Scroll left"
-          onClick={() => scrollByOffset(-300)}
-          className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8 rounded-full bg-white border shadow flex items-center justify-center z-10"
-        >
-          ‹
-        </button>
-        <button
-          aria-label="Scroll right"
-          onClick={() => scrollByOffset(300)}
-          className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8 rounded-full bg-white border shadow flex items-center justify-center z-10"
-        >
-          ›
-        </button>
       </div>
 
       {filtered.length === 0 ? (
         <div className="rounded-lg border border-dashed p-8 text-center text-muted-foreground">
-          No products found for "{SUBCATS.find((s) => s.key === active)?.label}".
+          No products found for "{SUBCATS.find((s) => s.key === active)?.label}
+          ".
         </div>
       ) : (
         <>
@@ -144,7 +136,7 @@ export default function CorporateGifts() {
               <button
                 key={idx}
                 onClick={() => setPage(idx + 1)}
-                className={`px-3 py-1 rounded ${page === idx + 1 ? 'bg-primary text-primary-foreground' : 'border'}`}
+                className={`px-3 py-1 rounded ${page === idx + 1 ? "bg-primary text-primary-foreground" : "border"}`}
               >
                 {idx + 1}
               </button>
