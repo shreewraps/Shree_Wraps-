@@ -12,9 +12,6 @@ const SUBCATS = [
   { key: "anniversary", label: "Anniversary Gifts" },
   { key: "baby-shower", label: "Baby Shower Gifts" },
   { key: "birthday-hamper", label: "Birthday Hamper" },
-  { key: "friendship-day", label: "Friendship Day Gifts" },
-  { key: "achievement", label: "Achievement Gifts" },
-  { key: "retirement", label: "Retirement Gifts" },
   { key: "farewell", label: "Farewell Gifts" },
   { key: "picnic-hampers", label: "Picnic Hampers" },
 ];
