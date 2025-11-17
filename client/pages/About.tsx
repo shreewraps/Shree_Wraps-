@@ -47,7 +47,7 @@ export default function AboutUs() {
               className="w-[950px] h-[710px] object-cover transform group-hover:scale-110 transition duration-500"
             />
             <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/80 to-transparent p-6 transition duration-500 group-hover:from-black/90">
-              <h3 className="text-white text-2xl font-semibold">Meenakshi Sharma</h3>
+              
               <p className="text-gray-200 text-xl">Founder</p>
             </div>
           </div>
