@@ -43,12 +43,12 @@ export default function AboutUs() {
           <div className="relative rounded-xl overflow-hidden group shadow-lg max-w-md mx-auto">
             <img
               src="https://res.cloudinary.com/dzh2zxbvw/image/upload/v1763383083/WhatsApp_Image_2025-11-17_at_6.06.41_PM_o3gywd.jpg"
-              alt="Founder"
+             
               className="w-[950px] h-[710px] object-cover transform group-hover:scale-110 transition duration-500"
             />
             <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/80 to-transparent p-6 transition duration-500 group-hover:from-black/90">
               
-              <p className="text-gray-200 text-xl">Founder</p>
+             
             </div>
           </div>
         </div>
