@@ -14,13 +14,13 @@
    * A different format will require also updating the theme in tailwind.config.ts.
   */
   :root {
-    --background: 0 0% 100%;
+    --background: 60 100% 97.5%;
     --foreground: 222.2 47.4% 11.2%;
 
-    --card: 0 0% 100%;
+    --card: 60 100% 97.5%;
     --card-foreground: 222.2 47.4% 11.2%;
 
-    --popover: 0 0% 100%;
+    --popover: 60 100% 97.5%;
     --popover-foreground: 222.2 47.4% 11.2%;
 
     --primary: 162 100% 14%;
@@ -32,7 +32,7 @@
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 30 24% 95%;
+    --accent: 60 100% 97.5%;
     --accent-foreground: 162 100% 14%;
 
     --destructive: 0 84.2% 60.2%;
