@@ -2,7 +2,7 @@ import { Users, Target, Heart, Star } from "lucide-react";
 
 export default function AboutUs() {
   return (
-    <div className="w-full bg-gray-50">
+    <div className="w-full bg-[#FFFFF0]">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-primary/90 to-primary text-white py-20 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold">About Us</h1>
@@ -46,11 +46,11 @@ export default function AboutUs() {
       </section>
 
       {/* Values Section */}
-      <section className="bg-white py-16 px-6">
+      <section className="bg-[#FFFFF0] py-16 px-6">
         <div className="container mx-auto text-center">
           <h2 className="text-3xl font-semibold">Our Values</h2>
           <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="p-6 rounded-xl border bg-gray-50 shadow-sm hover:shadow-md transition">
+            <div className="p-6 rounded-xl border bg-white shadow-sm hover:shadow-md transition">
               <Users className="mx-auto h-10 w-10 text-primary" />
               <h3 className="mt-4 font-medium">Community First</h3>
               <p className="mt-2 text-sm text-muted-foreground">
@@ -58,7 +58,7 @@ export default function AboutUs() {
                 customers and partners.
               </p>
             </div>
-            <div className="p-6 rounded-xl border bg-gray-50 shadow-sm hover:shadow-md transition">
+            <div className="p-6 rounded-xl border bg-white shadow-sm hover:shadow-md transition">
               <Target className="mx-auto h-10 w-10 text-primary" />
               <h3 className="mt-4 font-medium">Driven by Purpose</h3>
               <p className="mt-2 text-sm text-muted-foreground">
@@ -66,7 +66,7 @@ export default function AboutUs() {
                 excellence and impact lives.
               </p>
             </div>
-            <div className="p-6 rounded-xl border bg-gray-50 shadow-sm hover:shadow-md transition">
+            <div className="p-6 rounded-xl border bg-white shadow-sm hover:shadow-md transition">
               <Heart className="mx-auto h-10 w-10 text-primary" />
               <h3 className="mt-4 font-medium">Passion for Quality</h3>
               <p className="mt-2 text-sm text-muted-foreground">
@@ -74,7 +74,7 @@ export default function AboutUs() {
                 unforgettable experiences.
               </p>
             </div>
-            <div className="p-6 rounded-xl border bg-gray-50 shadow-sm hover:shadow-md transition">
+            <div className="p-6 rounded-xl border bg-white shadow-sm hover:shadow-md transition">
               <Star className="mx-auto h-10 w-10 text-primary" />
               <h3 className="mt-4 font-medium">Customer Happiness</h3>
               <p className="mt-2 text-sm text-muted-foreground">
