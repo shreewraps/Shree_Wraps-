@@ -85,8 +85,9 @@ export default function Products() {
       : "All Products";
 
   return (
-    <div className="container mx-auto py-8 md:py-12 px-4">
-      <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-4 mb-6 md:mb-8">
+    <div className="w-full bg-[#FFFFF0]">
+      <div className="container mx-auto py-8 md:py-12 px-4">
+        <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-4 mb-6 md:mb-8">
         <h1 className="font-serif text-2xl md:text-3xl">{title}</h1>
         <SortDropdown value={sortOption} onChange={setSortOption} />
       </div>
@@ -179,11 +180,12 @@ export default function Products() {
         </div>
       )}
 
-      {list.length === 0 && (
-        <p className="mt-10 text-center text-muted-foreground text-sm md:text-base">
-          No products found.
-        </p>
-      )}
+        {list.length === 0 && (
+          <p className="mt-10 text-center text-muted-foreground text-sm md:text-base">
+            No products found.
+          </p>
+        )}
+      </div>
     </div>
   );
 }
