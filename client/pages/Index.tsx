@@ -36,7 +36,6 @@ export default function Index() {
       <section className="py-24" style={{ backgroundColor: "#fbf6f3" }}>
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-start lg:items-center gap-20">
-
             {/* Left - Our Achievement (25%) */}
             <div className="w-full lg:w-[25%] text-center lg:text-left">
               <h2 className="font-great text-[5.5rem] leading-[0.9] text-[#432818]">
@@ -55,7 +54,6 @@ export default function Index() {
 
               {/* Stats Cards */}
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 justify-center">
-                
                 {/* Card 1 */}
                 <div className="rounded-2xl bg-white border border-border px-10 py-10 min-h-[17rem] flex flex-col justify-center text-center transform hover:scale-105 transition-transform duration-300 shadow-sm w-full">
                   <div className="text-4xl md:text-5xl font-serif text-[#b78c52] mb-10">
@@ -92,7 +90,9 @@ export default function Index() {
                     <span className="text-4xl md:text-5xl font-serif text-[#b78c52]">
                       <CountUp end={5} />
                     </span>
-                    <span className="text-3xl font-serif text-[#b78c52]">+</span>
+                    <span className="text-3xl font-serif text-[#b78c52]">
+                      +
+                    </span>
                   </div>
                   <div className="text-lg text-muted-foreground leading-snug font-medium">
                     Cities Across India
@@ -109,7 +109,9 @@ export default function Index() {
       {/* Gift Packs CTA */}
       <section className="container mx-auto py-16">
         <div className="rounded-2xl border border-border bg-accent p-10 md:p-14 text-center shadow-sm">
-          <h3 className="font-serif text-2xl md:text-3xl">Gift Packs & Chocolate Boxes</h3>
+          <h3 className="font-serif text-2xl md:text-3xl">
+            Gift Packs & Chocolate Boxes
+          </h3>
           <p className="mt-4 text-muted-foreground max-w-2xl mx-auto text-base md:text-lg">
             Planning bulk orders for Gift Packs, Chocolate Boxes, or Festive
             Collections? We create premium packages at scale.
@@ -135,7 +137,8 @@ function Showcase() {
   const gridStyle: React.CSSProperties = {
     display: "grid",
     gridTemplateColumns: "1fr 1fr 1fr",
-    gridTemplateRows: "clamp(150px, 30vw, 240px) clamp(150px, 30vw, 240px) clamp(120px, 22vw, 180px)",
+    gridTemplateRows:
+      "clamp(150px, 30vw, 240px) clamp(150px, 30vw, 240px) clamp(120px, 22vw, 180px)",
     gap: "5px",
     gridTemplateAreas: `
       "a b c"
@@ -152,9 +155,9 @@ function Showcase() {
         Elegant Gifts for Every Celebration
       </h2>
       <p className="text-center text-muted-foreground mt-2 max-w-sm md:max-w-3xl mx-auto px-4 text-sm md:text-base leading-relaxed">
-        Explore premium gift hampers thoughtfully curated to suit every
-        occasion — with gourmet delights, elegant packaging, and a personal
-        touch that makes every gift memorable.
+        Explore premium gift hampers thoughtfully curated to suit every occasion
+        — with gourmet delights, elegant packaging, and a personal touch that
+        makes every gift memorable.
       </p>
 
       <div className="mt-8" style={gridStyle}>

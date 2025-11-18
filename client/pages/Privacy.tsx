@@ -15,19 +15,20 @@ export default function Privacy() {
 
           <h2 className="text-2xl font-semibold">2. Use of Information</h2>
           <p>
-            Data is used for processing orders, communication, and customer support only.
+            Data is used for processing orders, communication, and customer
+            support only.
           </p>
 
           <h2 className="text-2xl font-semibold">3. Data Protection</h2>
           <p>
-            We use secure servers and never share your personal data with third parties
-            without consent.
+            We use secure servers and never share your personal data with third
+            parties without consent.
           </p>
 
           <h2 className="text-2xl font-semibold">4. Cookies</h2>
           <p>
-            Our website may use cookies to improve browsing experience. You may disable
-            cookies in your browser.
+            Our website may use cookies to improve browsing experience. You may
+            disable cookies in your browser.
           </p>
         </div>
       </section>

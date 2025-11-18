@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { Instagram, Mail, MapPin } from "lucide-react";
-import { FaWhatsapp } from 'react-icons/fa';
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -21,16 +21,28 @@ export default function Footer() {
             </div>
 
             <div className="flex gap-3 mt-4">
-              <a href="https://www.instagram.com/p/DOgpAN5AFcH/?img_index=1&igsh=MW0wa2MxeTN3MnJjOA==" className="p-2 rounded-full bg-accent hover:bg-accent/70">
+              <a
+                href="https://www.instagram.com/p/DOgpAN5AFcH/?img_index=1&igsh=MW0wa2MxeTN3MnJjOA=="
+                className="p-2 rounded-full bg-accent hover:bg-accent/70"
+              >
                 <Instagram className="h-4 w-4" />
               </a>
-              <a href="https://share.google/eRGPcMhtc6EOatWYy" className="p-2 rounded-full bg-accent hover:bg-accent/70">
+              <a
+                href="https://share.google/eRGPcMhtc6EOatWYy"
+                className="p-2 rounded-full bg-accent hover:bg-accent/70"
+              >
                 <MapPin className="h-4 w-4" />
               </a>
-              <a href="https://wa.me/7292871937" className="p-2 rounded-full bg-accent hover:bg-accent/70">
+              <a
+                href="https://wa.me/7292871937"
+                className="p-2 rounded-full bg-accent hover:bg-accent/70"
+              >
                 <FaWhatsapp className="h-4 w-4" />
               </a>
-              <a href="mailto:shree.wraps@gmail.com" className="p-2 rounded-full bg-accent hover:bg-accent/70">
+              <a
+                href="mailto:shree.wraps@gmail.com"
+                className="p-2 rounded-full bg-accent hover:bg-accent/70"
+              >
                 <Mail className="h-4 w-4" />
               </a>
             </div>
@@ -42,11 +54,31 @@ export default function Footer() {
             <div className="flex-1 min-w-0">
               <h4 className="font-medium text-sm md:text-base">Quick Links</h4>
               <ul className="mt-3 space-y-2 text-xs md:text-sm">
-                <li><Link to="/products" className="hover:underline">Products</Link></li>
-                <li><Link to="/about" className="hover:underline">About Us</Link></li>
-                <li><Link to="/bulk-order" className="hover:underline">Bulk & Custom Orders</Link></li>
-                <li><Link to="/blog" className="hover:underline">Journal</Link></li>
-                <li><Link to="/contact" className="hover:underline">Contact</Link></li>
+                <li>
+                  <Link to="/products" className="hover:underline">
+                    Products
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/about" className="hover:underline">
+                    About Us
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/bulk-order" className="hover:underline">
+                    Bulk & Custom Orders
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/blog" className="hover:underline">
+                    Journal
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/contact" className="hover:underline">
+                    Contact
+                  </Link>
+                </li>
               </ul>
             </div>
 
@@ -54,10 +86,26 @@ export default function Footer() {
             <div className="flex-1 min-w-0">
               <h4 className="font-medium text-sm md:text-base">Policies</h4>
               <ul className="mt-3 space-y-2 text-xs md:text-sm">
-                <li><a href="#" className="hover:underline">Shipping</a></li>
-                <li><a href="#" className="hover:underline">Refund</a></li>
-                <li><a href="/privacy" className="hover:underline">Privacy</a></li>
-                <li><a href="/terms" className="hover:underline">Terms</a></li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Shipping
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="hover:underline">
+                    Refund
+                  </a>
+                </li>
+                <li>
+                  <a href="/privacy" className="hover:underline">
+                    Privacy
+                  </a>
+                </li>
+                <li>
+                  <a href="/terms" className="hover:underline">
+                    Terms
+                  </a>
+                </li>
               </ul>
             </div>
 

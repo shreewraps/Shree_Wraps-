@@ -28,11 +28,15 @@ export default function PromotionalGifts() {
     // Only show items that belong to the promotional-gifts category
     let result: Product[];
     if (active === "all") {
-      result = catalogProducts.filter((p) => (p.category === "promotional-gifts"));
+      result = catalogProducts.filter(
+        (p) => p.category === "promotional-gifts",
+      );
       // Shuffle when viewing all products
       return shuffleArray(result);
     }
-    return catalogProducts.filter((p) => (p.subCategory === active) && p.category === "promotional-gifts");
+    return catalogProducts.filter(
+      (p) => p.subCategory === active && p.category === "promotional-gifts",
+    );
   }, [active]);
 
   // Apply sorting based on selected option
@@ -77,68 +81,74 @@ export default function PromotionalGifts() {
   return (
     <div className="w-full bg-[#F9F5F1]">
       <div className="container mx-auto py-10 px-4">
-      <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-4 mb-6">
-        <h1 className="font-serif text-3xl">Promotional Gifts</h1>
-        <div className="flex flex-col md:flex-row items-start md:items-center gap-4 w-full md:w-auto">
-          <SortDropdown value={sortOption} onChange={setSortOption} />
-          <Link to="/contact" className="text-sm text-primary underline whitespace-nowrap">Request a quote</Link>
-        </div>
-      </div>
-
-      <div className="flex flex-wrap gap-3 mb-6">
-        {SUBCATS.map((s) => (
-          <button
-            key={s.key}
-            onClick={() => setActive(s.key)}
-            className={`px-4 py-2 rounded-md text-sm font-medium ${active === s.key ? 'bg-primary text-primary-foreground' : 'bg-accent hover:bg-accent/80'}`}
-          >
-            {s.label}
-          </button>
-        ))}
-      </div>
-
-      {filtered.length === 0 ? (
-        <div className="rounded-lg border border-dashed p-8 text-center text-muted-foreground">
-          No products found for "{SUBCATS.find((s) => s.key === active)?.label}".
-        </div>
-      ) : (
-        <>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {pageItems.map((p) => (
-              <ProductCard key={p.id} product={p} />
-            ))}
-          </div>
-
-          {/* pagination controls */}
-          <div className="mt-6 flex items-center justify-center gap-3">
-            <button
-              onClick={() => setPage(Math.max(1, page - 1))}
-              disabled={page === 1}
-              className="px-3 py-1 rounded border disabled:opacity-50"
+        <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-4 mb-6">
+          <h1 className="font-serif text-3xl">Promotional Gifts</h1>
+          <div className="flex flex-col md:flex-row items-start md:items-center gap-4 w-full md:w-auto">
+            <SortDropdown value={sortOption} onChange={setSortOption} />
+            <Link
+              to="/contact"
+              className="text-sm text-primary underline whitespace-nowrap"
             >
-              Prev
-            </button>
+              Request a quote
+            </Link>
+          </div>
+        </div>
 
-            {Array.from({ length: totalPages }).map((_, idx) => (
+        <div className="flex flex-wrap gap-3 mb-6">
+          {SUBCATS.map((s) => (
+            <button
+              key={s.key}
+              onClick={() => setActive(s.key)}
+              className={`px-4 py-2 rounded-md text-sm font-medium ${active === s.key ? "bg-primary text-primary-foreground" : "bg-accent hover:bg-accent/80"}`}
+            >
+              {s.label}
+            </button>
+          ))}
+        </div>
+
+        {filtered.length === 0 ? (
+          <div className="rounded-lg border border-dashed p-8 text-center text-muted-foreground">
+            No products found for "
+            {SUBCATS.find((s) => s.key === active)?.label}".
+          </div>
+        ) : (
+          <>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              {pageItems.map((p) => (
+                <ProductCard key={p.id} product={p} />
+              ))}
+            </div>
+
+            {/* pagination controls */}
+            <div className="mt-6 flex items-center justify-center gap-3">
               <button
-                key={idx}
-                onClick={() => setPage(idx + 1)}
-                className={`px-3 py-1 rounded ${page === idx + 1 ? 'bg-primary text-primary-foreground' : 'border'}`}
+                onClick={() => setPage(Math.max(1, page - 1))}
+                disabled={page === 1}
+                className="px-3 py-1 rounded border disabled:opacity-50"
               >
-                {idx + 1}
+                Prev
               </button>
-            ))}
 
-            <button
-              onClick={() => setPage(Math.min(totalPages, page + 1))}
-              disabled={page === totalPages}
-              className="px-3 py-1 rounded border disabled:opacity-50"
-            >
-              Next
-            </button>
-          </div>
-        </>
-      )}
+              {Array.from({ length: totalPages }).map((_, idx) => (
+                <button
+                  key={idx}
+                  onClick={() => setPage(idx + 1)}
+                  className={`px-3 py-1 rounded ${page === idx + 1 ? "bg-primary text-primary-foreground" : "border"}`}
+                >
+                  {idx + 1}
+                </button>
+              ))}
+
+              <button
+                onClick={() => setPage(Math.min(totalPages, page + 1))}
+                disabled={page === totalPages}
+                className="px-3 py-1 rounded border disabled:opacity-50"
+              >
+                Next
+              </button>
+            </div>
+          </>
+        )}
       </div>
     </div>
   );

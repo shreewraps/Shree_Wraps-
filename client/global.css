@@ -111,14 +111,19 @@
 }
 
 @layer utilities {
-  .no-scrollbar::-webkit-scrollbar { display: none; }
-  .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
 
 @layer components {
   /* Great Vibes utility for large cursive headings used in testimonials/reviews */
   .font-great {
-    font-family: 'Great Vibes', cursive;
+    font-family: "Great Vibes", cursive;
     /* keep weight/light rendering for elegant look */
     font-weight: 400;
   }
@@ -131,7 +136,9 @@
   .rounded-lg.border-dashed.border-pink-300.p-6 {
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0 10px 30px rgba(16, 24, 40, 0.06);
-    transition: transform 180ms ease, box-shadow 180ms ease;
+    transition:
+      transform 180ms ease,
+      box-shadow 180ms ease;
   }
   .rounded-lg.border-dashed.border-pink-300.p-6:hover {
     transform: translateY(-4px);
@@ -147,11 +154,18 @@
      a Great Vibes heading (modern browsers). This won't alter markup and
      is scoped to testimonial/review sections that use the `.font-great` class. */
   section:has(h2.font-great) {
-    background-image: radial-gradient(rgba(230, 57, 134, 0.03) 1px, transparent 1px),
-                      radial-gradient(rgba(99, 102, 241, 0.03) 1px, transparent 1px),
-                      radial-gradient(rgba(34, 197, 94, 0.03) 1px, transparent 1px);
-    background-size: 24px 24px, 18px 18px, 30px 30px;
-    background-position: 0 0, 8px 8px, 16px 16px;
+    background-image:
+      radial-gradient(rgba(230, 57, 134, 0.03) 1px, transparent 1px),
+      radial-gradient(rgba(99, 102, 241, 0.03) 1px, transparent 1px),
+      radial-gradient(rgba(34, 197, 94, 0.03) 1px, transparent 1px);
+    background-size:
+      24px 24px,
+      18px 18px,
+      30px 30px;
+    background-position:
+      0 0,
+      8px 8px,
+      16px 16px;
   }
 
   /* Make the large Great Vibes heading scale nicely on smaller screens */
@@ -160,9 +174,15 @@
     color: #111827; /* keep it readable on light/dark */
   }
   @media (min-width: 768px) {
-    h2.font-great { font-size: 3.5rem; line-height: 0.95; }
+    h2.font-great {
+      font-size: 3.5rem;
+      line-height: 0.95;
+    }
   }
   @media (min-width: 1024px) {
-    h2.font-great { font-size: 5.5rem; line-height: 0.9; }
+    h2.font-great {
+      font-size: 5.5rem;
+      line-height: 0.9;
+    }
   }
 }
