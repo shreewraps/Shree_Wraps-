@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-start md:items-center gap-8 md:gap-12">
           {/* Logo + Social */}
           <div className="flex flex-col text-left flex-shrink-0">
-            <div className="flex items-start -mt-[10px]">
+            <div className="flex items-center">
               <Link to="/">
                 <img
                   src="https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762774274/ChatGPT_Image_Nov_10__2025__04_41_17_PM-removebg-preview_2_jspcle.png"
