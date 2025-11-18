@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="mt-16 border-t border-border bg-white">
       <div className="max-w-7xl mx-auto pt-6 pb-12 px-4 md:px-0">
-        <div className="flex flex-col md:flex-row items-start md:items-center gap-8 md:gap-12">
+        <div className="flex flex-row items-start gap-8">
           {/* Logo + Social */}
           <div className="flex flex-col text-left flex-shrink-0">
             <div className="flex items-center">
@@ -20,30 +20,30 @@ export default function Footer() {
               </Link>
             </div>
 
-            <div className="flex gap-3 mt-3">
+            <div className="flex gap-2 mt-3">
               <a
                 href="https://www.instagram.com/p/DOgpAN5AFcH/?img_index=1&igsh=MW0wa2MxeTN3MnJjOA=="
-                className="p-2 rounded-full bg-accent hover:bg-accent/70"
+                className="p-1 rounded-full bg-accent hover:bg-accent/70"
               >
-                <Instagram className="h-4 w-4" />
+                <Instagram className="h-3 w-3" />
               </a>
               <a
                 href="https://share.google/eRGPcMhtc6EOatWYy"
-                className="p-2 rounded-full bg-accent hover:bg-accent/70"
+                className="p-1 rounded-full bg-accent hover:bg-accent/70"
               >
-                <MapPin className="h-4 w-4" />
+                <MapPin className="h-3 w-3" />
               </a>
               <a
                 href="https://wa.me/7292871937"
-                className="p-2 rounded-full bg-accent hover:bg-accent/70"
+                className="p-1 rounded-full bg-accent hover:bg-accent/70"
               >
-                <FaWhatsapp className="h-4 w-4" />
+                <FaWhatsapp className="h-3 w-3" />
               </a>
               <a
                 href="mailto:shree.wraps@gmail.com"
-                className="p-2 rounded-full bg-accent hover:bg-accent/70"
+                className="p-1 rounded-full bg-accent hover:bg-accent/70"
               >
-                <Mail className="h-4 w-4" />
+                <Mail className="h-3 w-3" />
               </a>
             </div>
           </div>
