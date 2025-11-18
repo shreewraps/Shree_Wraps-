@@ -5,8 +5,8 @@ import { FaWhatsapp } from 'react-icons/fa';
 export default function Footer() {
   return (
     <footer className="mt-16 border-t border-border bg-white">
-      <div className="max-w-6xl mx-auto grid md:grid-cols-4 gap-12 pt-4 pb-12 items-start">
-        
+      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-6 md:gap-12 pt-6 md:pt-4 pb-12 items-start px-4 md:px-0">
+
         {/* Logo + Social */}
         <div className="flex flex-col text-left">
           <div className="flex items-start -mt-[10px]">
@@ -14,7 +14,7 @@ export default function Footer() {
               <img
                 src="https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762774274/ChatGPT_Image_Nov_10__2025__04_41_17_PM-removebg-preview_2_jspcle.png"
                 alt="Shree Wraps"
-                className="h-[12rem] w-[12rem] object-contain select-none"
+                className="h-24 md:h-[12rem] w-24 md:w-[12rem] object-contain select-none"
                 loading="eager"
               />
             </Link>
@@ -60,8 +60,8 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Newsletter (moved more left) */}
-        <div className="text-left -ml-22">
+        {/* Newsletter */}
+        <div className="text-left">
           <h4 className="font-medium">Newsletter</h4>
           <p className="mt-3 text-sm text-muted-foreground">
             Get packaging tips and seasonal launches.
