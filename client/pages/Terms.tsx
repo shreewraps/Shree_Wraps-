@@ -1,7 +1,6 @@
-
 export default function TermsPage() {
   return (
-    <main className="w-full bg-gray-50 text-gray-800">
+    <main className="w-full bg-[#FFFFF0] text-gray-800">
       {/* Hero Section */}
       <section className="bg-gradient-to-r from-primary/90 to-primary text-white py-16 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold">Terms & Conditions</h1>

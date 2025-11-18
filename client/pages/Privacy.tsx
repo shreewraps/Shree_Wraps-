@@ -1,6 +1,6 @@
 export default function Privacy() {
   return (
-    <main className="w-full bg-gray-50 text-gray-800">
+    <main className="w-full bg-[#FFFFF0] text-gray-800">
       <section className="bg-gradient-to-r from-primary/90 to-primary text-white py-16 px-6 text-center">
         <h1 className="text-4xl md:text-5xl font-bold">Privacy Policy</h1>
         <p className="mt-4 max-w-2xl mx-auto text-lg opacity-90">
