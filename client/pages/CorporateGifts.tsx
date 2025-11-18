@@ -74,84 +74,87 @@ export default function CorporateGifts() {
   }, [location.search]);
 
   return (
-    <div className="container mx-auto py-10 px-4">
-      <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-4 mb-6">
-        <h1 className="font-serif text-3xl">Corporate Gifts</h1>
-        <div className="flex flex-col md:flex-row items-start md:items-center gap-4 w-full md:w-auto">
-          <SortDropdown value={sortOption} onChange={setSortOption} />
-          <Link
-            to="/contact"
-            className="text-sm text-primary underline whitespace-nowrap"
-          >
-            Request a quote
-          </Link>
-        </div>
-      </div>
-
-      {/* single-line horizontal slider for subcategory strip */}
-      <div className="mb-6">
-        <div className="overflow-x-auto no-scrollbar">
-          <div className="inline-flex gap-3 py-2 px-1">
-            {SUBCATS.map((s) => (
-              <button
-                key={s.key}
-                onClick={() => setActive(s.key)}
-                className={`flex-shrink-0 px-4 py-2 rounded-md text-sm font-medium ${
-                  active === s.key
-                    ? "bg-primary text-primary-foreground"
-                    : "bg-accent hover:bg-accent/80"
-                }`}
-              >
-                {s.label}
-              </button>
-            ))}
-          </div>
-        </div>
-      </div>
-
-      {filtered.length === 0 ? (
-        <div className="rounded-lg border border-dashed p-8 text-center text-muted-foreground">
-          No products found for "{SUBCATS.find((s) => s.key === active)?.label}
-          ".
-        </div>
-      ) : (
-        <>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {pageItems.map((p) => (
-              <ProductCard key={p.id} product={p} />
-            ))}
-          </div>
-
-          {/* pagination controls */}
-          <div className="mt-6 flex items-center justify-center gap-3">
-            <button
-              onClick={() => setPage(Math.max(1, page - 1))}
-              disabled={page === 1}
-              className="px-3 py-1 rounded border disabled:opacity-50"
+    <div className="w-full bg-[#F9F5F1]">
+      <div className="container mx-auto py-10 px-4">
+        <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-4 mb-6">
+          <h1 className="font-serif text-3xl">Corporate Gifts</h1>
+          <div className="flex flex-col md:flex-row items-start md:items-center gap-4 w-full md:w-auto">
+            <SortDropdown value={sortOption} onChange={setSortOption} />
+            <Link
+              to="/contact"
+              className="text-sm text-primary underline whitespace-nowrap"
             >
-              Prev
-            </button>
-
-            {Array.from({ length: totalPages }).map((_, idx) => (
-              <button
-                key={idx}
-                onClick={() => setPage(idx + 1)}
-                className={`px-3 py-1 rounded ${page === idx + 1 ? "bg-primary text-primary-foreground" : "border"}`}
-              >
-                {idx + 1}
-              </button>
-            ))}
-
-            <button
-              onClick={() => setPage(Math.min(totalPages, page + 1))}
-              disabled={page === totalPages}
-              className="px-3 py-1 rounded border disabled:opacity-50"
-            >
-              Next
-            </button>
+              Request a quote
+            </Link>
           </div>
-        </>
-      )}
+        </div>
+
+        {/* single-line horizontal slider for subcategory strip */}
+        <div className="mb-6">
+          <div className="overflow-x-auto no-scrollbar">
+            <div className="inline-flex gap-3 py-2 px-1">
+              {SUBCATS.map((s) => (
+                <button
+                  key={s.key}
+                  onClick={() => setActive(s.key)}
+                  className={`flex-shrink-0 px-4 py-2 rounded-md text-sm font-medium ${
+                    active === s.key
+                      ? "bg-primary text-primary-foreground"
+                      : "bg-accent hover:bg-accent/80"
+                  }`}
+                >
+                  {s.label}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+
+        {filtered.length === 0 ? (
+          <div className="rounded-lg border border-dashed p-8 text-center text-muted-foreground">
+            No products found for "
+            {SUBCATS.find((s) => s.key === active)?.label}
+            ".
+          </div>
+        ) : (
+          <>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              {pageItems.map((p) => (
+                <ProductCard key={p.id} product={p} />
+              ))}
+            </div>
+
+            {/* pagination controls */}
+            <div className="mt-6 flex items-center justify-center gap-3">
+              <button
+                onClick={() => setPage(Math.max(1, page - 1))}
+                disabled={page === 1}
+                className="px-3 py-1 rounded border disabled:opacity-50"
+              >
+                Prev
+              </button>
+
+              {Array.from({ length: totalPages }).map((_, idx) => (
+                <button
+                  key={idx}
+                  onClick={() => setPage(idx + 1)}
+                  className={`px-3 py-1 rounded ${page === idx + 1 ? "bg-primary text-primary-foreground" : "border"}`}
+                >
+                  {idx + 1}
+                </button>
+              ))}
+
+              <button
+                onClick={() => setPage(Math.min(totalPages, page + 1))}
+                disabled={page === totalPages}
+                className="px-3 py-1 rounded border disabled:opacity-50"
+              >
+                Next
+              </button>
+            </div>
+          </>
+        )}
+      </div>
     </div>
   );
 }

@@ -29,8 +29,11 @@ export default function CharityGifts() {
   }
 
   let filtered = useMemo(() => {
-    if (active === "all") return catalogProducts.filter((p) => p.category === "charity-gifts");
-    return catalogProducts.filter((p) => p.category === "charity-gifts" && p.subCategory === active);
+    if (active === "all")
+      return catalogProducts.filter((p) => p.category === "charity-gifts");
+    return catalogProducts.filter(
+      (p) => p.category === "charity-gifts" && p.subCategory === active,
+    );
   }, [active]);
 
   // Apply sorting based on selected option
@@ -70,90 +73,104 @@ export default function CharityGifts() {
   }, [location.search]);
 
   return (
-    <div className="container mx-auto py-10 px-4">
-      <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-4 mb-6">
-        <h1 className="font-serif text-3xl">Charity Gifts</h1>
-        <div className="flex flex-col md:flex-row items-start md:items-center gap-4 w-full md:w-auto">
-          <SortDropdown value={sortOption} onChange={setSortOption} />
-          <Link to="/contact" className="text-sm text-primary underline whitespace-nowrap">Request a quote</Link>
+    <div className="w-full bg-[#F9F5F1]">
+      <div className="container mx-auto py-10 px-4">
+        <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-4 mb-6">
+          <h1 className="font-serif text-3xl">Charity Gifts</h1>
+          <div className="flex flex-col md:flex-row items-start md:items-center gap-4 w-full md:w-auto">
+            <SortDropdown value={sortOption} onChange={setSortOption} />
+            <Link
+              to="/contact"
+              className="text-sm text-primary underline whitespace-nowrap"
+            >
+              Request a quote
+            </Link>
+          </div>
         </div>
-      </div>
 
-      {/* single-line horizontal slider for subcategory strip with nav buttons */}
-      <div className="mb-6 relative">
-        <div className="overflow-x-auto no-scrollbar pl-10 pr-10" ref={(el) => (scrollRef.current = el)}>
-          <div className="inline-flex gap-3 py-2 px-1">
-            {SUBCATS.map((s) => (
+        {/* single-line horizontal slider for subcategory strip with nav buttons */}
+        <div className="mb-6 relative">
+          <div
+            className="overflow-x-auto no-scrollbar pl-10 pr-10"
+            ref={(el) => (scrollRef.current = el)}
+          >
+            <div className="inline-flex gap-3 py-2 px-1">
+              {SUBCATS.map((s) => (
+                <button
+                  key={s.key}
+                  onClick={() => setActive(s.key)}
+                  className={`flex-shrink-0 px-4 py-2 rounded-md text-sm font-medium ${
+                    active === s.key
+                      ? "bg-primary text-primary-foreground"
+                      : "bg-accent hover:bg-accent/80"
+                  }`}
+                >
+                  {s.label}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* left / right controls */}
+          <button
+            aria-label="Scroll left"
+            onClick={() => scrollByOffset(-300)}
+            className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8 rounded-full bg-white border shadow flex items-center justify-center z-10"
+          >
+            ‹
+          </button>
+          <button
+            aria-label="Scroll right"
+            onClick={() => scrollByOffset(300)}
+            className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8 rounded-full bg-white border shadow flex items-center justify-center z-10"
+          >
+            ›
+          </button>
+        </div>
+
+        {filtered.length === 0 ? (
+          <div className="rounded-lg border border-dashed p-8 text-center text-muted-foreground">
+            No products found for "
+            {SUBCATS.find((s) => s.key === active)?.label}".
+          </div>
+        ) : (
+          <>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+              {pageItems.map((p) => (
+                <ProductCard key={p.id} product={p} />
+              ))}
+            </div>
+
+            <div className="mt-6 flex items-center justify-center gap-3">
               <button
-                key={s.key}
-                onClick={() => setActive(s.key)}
-                className={`flex-shrink-0 px-4 py-2 rounded-md text-sm font-medium ${
-                  active === s.key ? 'bg-primary text-primary-foreground' : 'bg-accent hover:bg-accent/80'
-                }`}
+                onClick={() => setPage(Math.max(1, page - 1))}
+                disabled={page === 1}
+                className="px-3 py-1 rounded border disabled:opacity-50"
               >
-                {s.label}
+                Prev
               </button>
-            ))}
-          </div>
-        </div>
 
-        {/* left / right controls */}
-        <button
-          aria-label="Scroll left"
-          onClick={() => scrollByOffset(-300)}
-          className="absolute left-2 top-1/2 -translate-y-1/2 h-8 w-8 rounded-full bg-white border shadow flex items-center justify-center z-10"
-        >
-          ‹
-        </button>
-        <button
-          aria-label="Scroll right"
-          onClick={() => scrollByOffset(300)}
-          className="absolute right-2 top-1/2 -translate-y-1/2 h-8 w-8 rounded-full bg-white border shadow flex items-center justify-center z-10"
-        >
-          ›
-        </button>
-      </div>
+              {Array.from({ length: totalPages }).map((_, idx) => (
+                <button
+                  key={idx}
+                  onClick={() => setPage(idx + 1)}
+                  className={`px-3 py-1 rounded ${page === idx + 1 ? "bg-primary text-primary-foreground" : "border"}`}
+                >
+                  {idx + 1}
+                </button>
+              ))}
 
-      {filtered.length === 0 ? (
-        <div className="rounded-lg border border-dashed p-8 text-center text-muted-foreground">
-          No products found for "{SUBCATS.find((s) => s.key === active)?.label}".
-        </div>
-      ) : (
-        <>
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-            {pageItems.map((p) => (
-              <ProductCard key={p.id} product={p} />
-            ))}
-          </div>
-
-          <div className="mt-6 flex items-center justify-center gap-3">
-            <button
-              onClick={() => setPage(Math.max(1, page - 1))}
-              disabled={page === 1}
-              className="px-3 py-1 rounded border disabled:opacity-50"
-            >
-              Prev
-            </button>
-
-            {Array.from({ length: totalPages }).map((_, idx) => (
               <button
-                key={idx}
-                onClick={() => setPage(idx + 1)}
-                className={`px-3 py-1 rounded ${page === idx + 1 ? 'bg-primary text-primary-foreground' : 'border'}`}>
-                {idx + 1}
+                onClick={() => setPage(Math.min(totalPages, page + 1))}
+                disabled={page === totalPages}
+                className="px-3 py-1 rounded border disabled:opacity-50"
+              >
+                Next
               </button>
-            ))}
-
-            <button
-              onClick={() => setPage(Math.min(totalPages, page + 1))}
-              disabled={page === totalPages}
-              className="px-3 py-1 rounded border disabled:opacity-50"
-            >
-              Next
-            </button>
-          </div>
-        </>
-      )}
+            </div>
+          </>
+        )}
+      </div>
     </div>
   );
 }

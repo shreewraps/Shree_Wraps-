@@ -4,7 +4,9 @@ import { useState } from "react";
 export default function ContactUs() {
   const [form, setForm] = useState({ name: "", email: "", message: "" });
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>,
+  ) => {
     const { name, value } = e.target;
     setForm((s) => ({ ...s, [name]: value }));
   };
@@ -126,7 +128,7 @@ export default function ContactUs() {
             <button
               type="submit"
               disabled={!isValid}
-              className={`w-full py-2 rounded-md transition ${isValid ? 'bg-primary text-white hover:bg-primary/90' : 'bg-gray-300 text-gray-600 cursor-not-allowed'}`}
+              className={`w-full py-2 rounded-md transition ${isValid ? "bg-primary text-white hover:bg-primary/90" : "bg-gray-300 text-gray-600 cursor-not-allowed"}`}
             >
               Send Message
             </button>
