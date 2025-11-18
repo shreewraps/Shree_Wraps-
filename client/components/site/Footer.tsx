@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="mt-16 border-t border-border bg-white">
       <div className="max-w-7xl mx-auto pt-6 pb-12 px-4 md:px-0">
-        <div className="flex flex-col md:flex-row items-start md:items-center gap-8 md:gap-12">
+        <div className="flex flex-row items-start gap-8">
           {/* Logo + Social */}
           <div className="flex flex-col text-left flex-shrink-0">
             <div className="flex items-center">
