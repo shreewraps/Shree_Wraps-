@@ -74,7 +74,8 @@ export default function CorporateGifts() {
   }, [location.search]);
 
   return (
-    <div className="container mx-auto py-10 px-4">
+    <div className="w-full bg-[#F9F5F1]">
+      <div className="container mx-auto py-10 px-4">
       <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-4 mb-6">
         <h1 className="font-serif text-3xl">Corporate Gifts</h1>
         <div className="flex flex-col md:flex-row items-start md:items-center gap-4 w-full md:w-auto">
@@ -152,6 +153,7 @@ export default function CorporateGifts() {
           </div>
         </>
       )}
+      </div>
     </div>
   );
 }
