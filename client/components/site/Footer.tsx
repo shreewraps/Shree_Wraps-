@@ -9,12 +9,12 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-start md:items-center gap-8 md:gap-12">
           {/* Logo + Social */}
           <div className="flex flex-col text-left flex-shrink-0">
-            <div className="flex items-start">
+            <div className="flex items-start -mt-[10px]">
               <Link to="/">
                 <img
                   src="https://res.cloudinary.com/dzh2zxbvw/image/upload/v1762774274/ChatGPT_Image_Nov_10__2025__04_41_17_PM-removebg-preview_2_jspcle.png"
                   alt="Shree Wraps"
-                  className="h-20 md:h-24 w-20 md:w-24 object-contain select-none"
+                  className="h-24 md:h-[12rem] w-24 md:w-[12rem] object-contain select-none"
                   loading="eager"
                 />
               </Link>
