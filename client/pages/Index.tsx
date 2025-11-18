@@ -33,7 +33,7 @@ export default function Index() {
       <Showcase />
 
       {/* Achievements Section */}
-      <section className="py-24" style={{ backgroundColor: "#FFFFF0" }}>
+      <section className="py-24" style={{ backgroundColor: "#fbf6f3" }}>
         <div className="container mx-auto px-6">
           <div className="flex flex-col lg:flex-row items-start lg:items-center gap-20">
 
@@ -162,7 +162,7 @@ function Showcase() {
           <div
             key={p.id}
             style={{ gridArea: areas[idx] }}
-            className="relative overflow-hidden bg-[#FFFFF0] shadow-sm"
+            className="relative overflow-hidden bg-gray-100 shadow-sm"
           >
             <Link to={`/product/${p.id}`} className="block w-full h-full">
               <img
