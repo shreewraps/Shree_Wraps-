@@ -98,7 +98,7 @@ export default function ProductDetail() {
   };
 
   return (
-    <div className="w-full bg-[#FFFFF0]">
+    <div className="w-full bg-[#F9F5F1]">
       <div className="container mx-auto py-12">
         <button onClick={handleBack} className="mb-6 text-sm text-primary hover:underline flex items-center gap-2">
         <ChevronLeft className="h-4 w-4" /> Back

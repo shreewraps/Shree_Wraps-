@@ -85,7 +85,7 @@ export default function Products() {
       : "All Products";
 
   return (
-    <div className="w-full bg-[#FFFFF0]">
+    <div className="w-full bg-[#F9F5F1]">
       <div className="container mx-auto py-8 md:py-12 px-4">
         <div className="flex flex-col md:flex-row items-start md:items-end justify-between gap-4 mb-6 md:mb-8">
         <h1 className="font-serif text-2xl md:text-3xl">{title}</h1>
